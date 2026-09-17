@@ -1,0 +1,26 @@
+name: Autre
+description: Ce qui n'entre dans aucune des catégories précédentes.
+title: "[Autre] "
+labels: ["type:bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ce formulaire est volontairement le dernier de la liste. Une issue rangée
+        dans la bonne catégorie avance plus vite, alors regardez d'abord si l'un
+        des cinq autres convient.
+
+  - type: textarea
+    id: sujet
+    attributes:
+      label: De quoi s'agit-il
+      description: Décrivez le plus précisément possible, et donnez une URL si une page est concernée.
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: URL concernée
+      description: Facultatif, mais une issue sans URL demande presque toujours un aller-retour.
+      placeholder: "https://blog.stephane-robert.info/..."

@@ -1,0 +1,51 @@
+name: Lien cassé
+description: Un lien interne ou externe ne répond plus.
+title: "[Lien] "
+labels: ["type:broken-link"]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page qui contient le lien
+      placeholder: "https://blog.stephane-robert.info/docs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: lien-casse
+    attributes:
+      label: Lien cassé
+      description: L'adresse telle qu'elle est écrite dans la page.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: symptome
+    attributes:
+      label: Ce que répond le lien
+      options:
+        - "404, la page n'existe pas"
+        - "Le domaine ne répond plus"
+        - "Redirection vers une page sans rapport"
+        - "Contenu déplacé, l'adresse a changé"
+        - "Autre"
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: remplacement
+    attributes:
+      label: Adresse de remplacement
+      description: Si vous avez retrouvé la page ailleurs. Facultatif, mais c'est ce qui permet de corriger sans enquêter.
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Langue de la page
+      options:
+        - fr
+        - en
+      default: 0
+    validations:
+      required: true

@@ -1,0 +1,18 @@
+# Le formulaire libre est DESACTIVE : une issue sans URL n'est pas traitable,
+# et c'est le defaut qui rend un tracker inexploitable passe quelques centaines
+# d'entrees. Le gabarit « Autre » reste disponible pour ce qui n'entre dans
+# aucune categorie, mais il demande lui aussi le minimum.
+blank_issues_enabled: false
+
+contact_links:
+  - name: Le site
+    url: https://blog.stephane-robert.info
+    about: Les guides et formations dont ce dépôt suit le pilotage.
+
+  - name: Poser une question technique
+    url: https://blog.stephane-robert.info/docs/discord/
+    about: Une question d'usage n'est pas un signalement. Le salon de discussion répond plus vite qu'une issue.
+
+  - name: Signaler un secret exposé ou un conseil dangereux
+    url: https://github.com/stephrobert/blog-roadmap/security/advisories/new
+    about: Canal privé. Ne publiez jamais une clé ou un jeton dans une issue.

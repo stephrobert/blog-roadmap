@@ -1,0 +1,85 @@
+# Pose les labels que l'URL et l'origine d'une issue permettent de DEDUIRE.
+#
+# Ce workflow ne prend aucune decision editoriale : il ne priorise pas, ne ferme
+# rien, ne reclasse aucun type. Il pose deux choses qu'un humain retaperait a
+# l'identique a chaque fois, l'origine du signalement et le domaine du site
+# concerne, et il s'arrete la. Le tri, lui, reste manuel et c'est voulu.
+name: Triage automatique
+
+on:
+  issues:
+    types: [opened, edited]
+
+# Le jeton par defaut ne peut qu'ecrire des labels sur des issues. Rien d'autre.
+permissions: {}
+
+jobs:
+  etiqueter:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Déduire l'origine et le domaine
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const corps = context.payload.issue.body || "";
+
+            // Le domaine se lit dans le chemin de l'URL, jamais dans le texte :
+            // un lecteur qui ecrit « kubernetes » dans sa phrase ne dit pas sur
+            // quelle page il etait. L'ordre compte, le premier motif qui matche
+            // gagne, et le plus specifique passe donc en premier.
+            const DOMAINES = [
+              [/\/docs\/conteneurs\/orchestrateurs\/kubernetes\//, "area:kubernetes"],
+              [/\/docs\/infra-as-code\/gestion-de-configuration\/ansible\//, "area:ansible"],
+              [/\/docs\/infra-as-code\/provisionnement\/terraform\//, "area:terraform"],
+              [/\/docs\/admin-serveurs\/linux\//, "area:linux"],
+              [/\/docs\/observabilite\//, "area:observability"],
+              [/\/docs\/securiser\//, "area:devsecops"],
+              [/\/docs\/(ia|mlops)\//, "area:ai"],
+              [/\/docs\/cloud\//, "area:cloud"],
+              [/\/docs\/conteneurs\//, "area:containers"],
+            ];
+
+            const labels = new Set();
+
+            // Un marqueur pose par le bouton du site, et lui seul. Se fier au
+            // referer ou au user-agent n'a pas de sens ici : GitHub cree
+            // l'issue, pas le site.
+            if (corps.includes("Issue créée depuis blog.stephane-robert.info")) {
+              labels.add("source:reader");
+            }
+
+            const url = (corps.match(/https:\/\/blog\.stephane-robert\.info\/\S*/) || [])[0] || "";
+            if (url) {
+              for (const [motif, label] of DOMAINES) {
+                if (motif.test(url)) { labels.add(label); break; }
+              }
+              // Une URL hors /docs/ vise le site lui-meme, pas un contenu.
+              if (![...labels].some((l) => l.startsWith("area:")) && !url.includes("/docs/")) {
+                labels.add("area:site");
+              }
+            }
+
+            if (labels.size === 0) {
+              core.info("Rien a deduire : ni marqueur d'origine, ni URL exploitable.");
+              return;
+            }
+
+            // Ne jamais RETIRER un label : un humain a pu corriger une deduction
+            // fausse, et la reposer a chaque edition de l'issue annulerait son
+            // travail. On ajoute, on ne reecrit pas.
+            const deja = new Set(context.payload.issue.labels.map((l) => l.name));
+            const aPoser = [...labels].filter((l) => !deja.has(l));
+            if (aPoser.length === 0) {
+              core.info("Les labels deduits sont deja poses.");
+              return;
+            }
+
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              labels: aPoser,
+            });
+            core.info(`Poses : ${aPoser.join(", ")}`);

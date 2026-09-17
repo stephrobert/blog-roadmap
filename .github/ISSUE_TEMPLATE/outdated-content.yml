@@ -1,0 +1,76 @@
+name: Contenu obsolète
+description: La page décrit une version dépassée, ou un comportement qui a changé.
+title: "[Obsolète] "
+labels: ["type:outdated"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ce formulaire demande une **source**. C'est ce qui sépare un signalement
+        traitable d'une recherche à refaire entièrement avant de pouvoir agir.
+
+  - type: input
+    id: page-title
+    attributes:
+      label: Page concernée
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: URL
+      placeholder: "https://blog.stephane-robert.info/docs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: technologie
+    attributes:
+      label: Technologie concernée
+      placeholder: "Kubernetes, Terraform, Ansible, Trivy..."
+    validations:
+      required: true
+
+  - type: input
+    id: version-page
+    attributes:
+      label: Version présentée par la page
+      placeholder: "1.31"
+
+  - type: input
+    id: version-actuelle
+    attributes:
+      label: Version actuelle
+      placeholder: "1.37"
+
+  - type: textarea
+    id: obsolete
+    attributes:
+      label: Ce qui est devenu faux
+      description: |
+        Le point précis, pas « la page est vieille ». Une option retirée, un champ
+        renommé, une commande qui ne répond plus la même chose, une pratique qui
+        n'est plus recommandée.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Changelog, note de version, documentation officielle, annonce de dépréciation.
+      placeholder: "https://kubernetes.io/blog/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Langue de la page
+      options:
+        - fr
+        - en
+      default: 0
+    validations:
+      required: true

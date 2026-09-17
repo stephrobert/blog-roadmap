@@ -1,0 +1,74 @@
+name: Demande de contenu
+description: Un sujet manque, une formation ou un TP mériterait d'exister.
+title: "[Contenu] "
+labels: ["type:content-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Une demande formulée comme un **besoin** se traite bien mieux qu'une
+        demande formulée comme un titre. Dites à qui le contenu servirait et ce
+        que le lecteur saurait faire après l'avoir lu.
+
+  - type: input
+    id: sujet
+    attributes:
+      label: Sujet
+      placeholder: "Sauvegarder et restaurer un cluster avec Velero"
+    validations:
+      required: true
+
+  - type: input
+    id: technologie
+    attributes:
+      label: Technologie
+      placeholder: "Kubernetes, Ansible, Scaleway..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: pourquoi
+    attributes:
+      label: Pourquoi ce contenu serait utile
+      description: |
+        Le problème que le lecteur cherche à résoudre, et ce qu'il ne trouve pas
+        ailleurs. Une demande motivée par un besoin réel passe avant une demande
+        motivée par la complétude d'un sommaire.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: niveau
+    attributes:
+      label: Niveau attendu
+      options:
+        - débutant
+        - intermédiaire
+        - avancé
+      default: 1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format souhaité
+      options:
+        - guide
+        - formation
+        - TP
+        - challenge
+        - quiz
+        - article
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: existant
+    attributes:
+      label: Ce qui existe déjà
+      description: |
+        Les pages du site qui approchent le sujet, si vous en connaissez. Cela
+        évite d'ouvrir un doublon, et cela dit souvent où le contenu manquant
+        devrait se rattacher.

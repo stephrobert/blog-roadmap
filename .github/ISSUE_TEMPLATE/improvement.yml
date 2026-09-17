@@ -1,0 +1,49 @@
+name: Amélioration
+description: Le contenu est juste, mais la forme, la structure ou le parcours peuvent être meilleurs.
+title: "[Amélioration] "
+labels: ["type:enhancement"]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page concernée
+      description: Laissez vide si la proposition porte sur le site entier et non sur une page.
+      placeholder: "https://blog.stephane-robert.info/docs/..."
+
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Ce qui gêne aujourd'hui
+      description: |
+        Le point de friction, vécu de préférence. Une progression qui saute une
+        étape, un exemple trop abstrait pour être repris, une navigation qui perd,
+        un temps de lecture annoncé qui ne correspond pas.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Amélioration proposée
+    validations:
+      required: true
+
+  - type: textarea
+    id: valeur
+    attributes:
+      label: Ce que cela apporterait
+      description: À qui, et sur quoi. Une amélioration qui ne sert qu'à uniformiser passe après une amélioration qui débloque un lecteur.
+
+  - type: dropdown
+    id: nature
+    attributes:
+      label: Nature de l'amélioration
+      description: Sert au classement, pas à la décision.
+      options:
+        - Pédagogie et structure du contenu
+        - Navigation et lisibilité
+        - Référencement
+        - Fonctionnalité du site
+      default: 0
+    validations:
+      required: true
