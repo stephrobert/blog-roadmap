@@ -150,10 +150,15 @@ forms, and renaming an identifier silently breaks the pre-filling.
 | `title` | the issue title |
 | `page-title` | Page |
 | `page-url` | URL |
+| `page-id` | Page id, the Starlight identifier |
 | `locale` | Page language |
 
-The four forms reachable from a page all carry these three identifiers, which is
-what lets the site send them the same context. GitHub's chooser page,
+The four forms reachable from a page all carry these four identifiers, which is
+what lets the site send them the same context. `page-id` matters because a URL
+changes: a section rework moves dozens of pages, and historical issues would stop
+being attachable to the content they targeted. The
+`contrat-formulaires.yml` workflow checks this half of the contract on every
+change to a form. GitHub's chooser page,
 `/issues/new/choose`, **does not forward query parameters**: that is why each
 kind of problem targets its own form directly.
 

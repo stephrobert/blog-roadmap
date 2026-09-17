@@ -153,7 +153,15 @@ d'identifiant côté formulaire casse silencieusement le pré-remplissage côté
 | `title` | le titre de l'issue |
 | `page-title` | Page concernée |
 | `page-url` | URL |
+| `page-id` | Identifiant de page, celui de Starlight |
 | `locale` | Langue de la page |
+
+Les quatre gabarits atteignables depuis une page portent ces quatre
+identifiants. `page-id` compte parce qu'une URL change : une refonte de section
+déplace des dizaines de pages, et les issues historiques cesseraient d'être
+rattachables au contenu qu'elles visaient. Le workflow
+`contrat-formulaires.yml` vérifie cette moitié du contrat à chaque modification
+d'un gabarit.
 
 Le corps de l'issue se termine par la ligne
 `Issue créée depuis blog.stephane-robert.info`, qui est le marqueur lu par le
