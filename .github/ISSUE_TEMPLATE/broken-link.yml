@@ -57,3 +57,9 @@ body:
       default: 0
     validations:
       required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Identifiant de page / Page id
+      description: Rempli automatiquement, à ne pas modifier. Il survit à un changement d'URL. Filled in automatically, do not edit.

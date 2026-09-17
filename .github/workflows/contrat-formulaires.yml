@@ -1,0 +1,89 @@
+# Verifie que les gabarits atteignables depuis une page du site portent TOUJOURS
+# les identifiants de champ que le composant `ReportIssue.astro` pre-remplit.
+#
+# POURQUOI CE CONTROLE EXISTE
+#
+# GitHub IGNORE SILENCIEUSEMENT un parametre de requete inconnu. Renommer
+# `page-url` en `url` ne produit aucune erreur : le formulaire s'ouvre, le champ
+# est simplement vide, et personne ne s'en apercoit avant d'avoir lu plusieurs
+# issues sans URL. C'est exactement le type de regression qui reste invisible
+# des semaines, et c'est la raison d'etre de ce workflow.
+#
+# Le contrat est verifie ICI parce que ce depot possede les gabarits. Le site,
+# lui, possede le composant : les deux moities ne peuvent pas etre testees
+# ensemble sans coupler les depots, ce que ce projet refuse. Le prix de ce choix
+# est qu'un renommage COTE SITE reste invisible d'ici ; le commentaire du
+# composant et la skill de pilotage portent l'autre moitie de l'avertissement.
+name: Contrat des formulaires
+
+on:
+  push:
+    paths:
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/workflows/contrat-formulaires.yml'
+  pull_request:
+    paths:
+      - '.github/ISSUE_TEMPLATE/**'
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Les quatre gabarits portent les champs pre-remplis
+        run: |
+          python3 - <<'PY'
+          import sys
+          import yaml
+          from pathlib import Path
+
+          # Le contrat, cote depot de backlog. Toute modification ici doit etre
+          # faite EN MEME TEMPS que celle du composant du site.
+          ATTENDUS = {"page-title", "page-url", "locale", "page-id"}
+          GABARITS = {
+              "page-error.yml": "[Page]",
+              "outdated-content.yml": "[Obsolète]",
+              "broken-link.yml": "[Lien]",
+              "improvement.yml": "[Amélioration]",
+          }
+
+          racine = Path(".github/ISSUE_TEMPLATE")
+          ecarts = []
+
+          for nom, prefixe in GABARITS.items():
+              f = racine / nom
+              if not f.is_file():
+                  ecarts.append(f"{nom} : gabarit absent, le bouton du site pointe dans le vide")
+                  continue
+              d = yaml.safe_load(f.read_text(encoding="utf-8"))
+              ids = {c.get("id") for c in d.get("body", []) if isinstance(c, dict)}
+              manque = ATTENDUS - ids
+              if manque:
+                  ecarts.append(f"{nom} : champ(s) manquant(s) {sorted(manque)}")
+              # Le prefixe de titre est celui que le composant envoie : s'ils
+              # divergent, l'issue porte deux prefixes ou aucun.
+              titre = str(d.get("title", ""))
+              if not titre.startswith(prefixe):
+                  ecarts.append(f"{nom} : title vaut {titre!r}, le site envoie {prefixe!r}")
+
+          # Tous les gabarits doivent rester lisibles par le moteur de GitHub.
+          for f in sorted(racine.glob("*.yml")):
+              try:
+                  yaml.safe_load(f.read_text(encoding="utf-8"))
+              except yaml.YAMLError as e:
+                  ecarts.append(f"{f.name} : YAML invalide, {str(e).splitlines()[0]}")
+
+          if ecarts:
+              print("Contrat rompu :")
+              for e in ecarts:
+                  print(f"  {e}")
+              sys.exit(1)
+
+          print(f"Contrat tenu : {len(GABARITS)} gabarits portent {sorted(ATTENDUS)}")
+          PY

@@ -86,6 +86,13 @@ These are **deduced from the URL** by the triage workflow, and the last one,
 `area:site`, covers what concerns no content: navigation, search, theme,
 performance.
 
+**What `area` means, and what it does not.** `area` names the **content
+affected**, never the nature of the problem, which is what `type` is for. A
+navigation defect observed on a Kubernetes page is therefore
+`type:ux` + `area:kubernetes`, not `area:site`. `area:site` is reserved for what
+concerns no content at all: the home page, search, the theme, global
+performance.
+
 ### Source
 
 `source:reader`, `source:author`, `source:automated`.

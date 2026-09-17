@@ -62,10 +62,8 @@ body:
     id: source
     attributes:
       label: Source
-      description: Changelog, note de version, documentation officielle. Changelog, release note or official documentation.
+      description: "Changelog, note de version, documentation officielle. Fortement recommandée, car sans elle la vérification est à refaire entièrement. Strongly recommended."
       placeholder: "https://kubernetes.io/blog/..."
-    validations:
-      required: true
 
   - type: dropdown
     id: locale
@@ -77,3 +75,9 @@ body:
       default: 0
     validations:
       required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Identifiant de page / Page id
+      description: Rempli automatiquement, à ne pas modifier. Il survit à un changement d'URL. Filled in automatically, do not edit.

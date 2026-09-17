@@ -87,6 +87,13 @@ Ces labels sont **déduits de l'URL** par le workflow de triage, et le dernier,
 `area:site`, désigne ce qui ne concerne aucun contenu : navigation, recherche,
 thème, performance.
 
+**Ce que `area` désigne, et ce qu'il ne désigne pas.** `area` nomme le
+**contenu concerné**, jamais la nature du problème, qui est le rôle de `type`.
+Un défaut de navigation constaté sur une page Kubernetes est donc
+`type:ux` + `area:kubernetes`, et non `area:site`. Ce dernier est réservé à ce
+qui ne concerne aucun contenu : l'accueil, la recherche, le thème, la
+performance globale.
+
 ### Origine
 
 `source:reader`, `source:author`, `source:automated`.
