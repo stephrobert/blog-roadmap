@@ -21,15 +21,18 @@ on:
     paths:
       - '.github/ISSUE_TEMPLATE/**'
       - '.github/workflows/contrat-formulaires.yml'
+  # SANS FILTRE DE CHEMIN, volontairement, contrairement au declencheur `push`.
+  # Ce job est exigé par la règle de branche : un contrôle requis qui ne se
+  # déclenche que sur certains chemins laisse en attente eternelle toute PR qui
+  # ne les touche pas. Le contrôle est rapide, il tourne donc sur toutes.
   pull_request:
-    paths:
-      - '.github/ISSUE_TEMPLATE/**'
   workflow_dispatch:
 
 permissions: {}
 
 jobs:
   verifier:
+    name: Les gabarits portent les champs attendus
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
