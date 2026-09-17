@@ -30,6 +30,31 @@ Conséquence pratique : **une issue ouverte ici ne se corrige pas ici**. Elle
 décrit un problème ou une idée, elle est triée, puis la correction est faite
 dans le dépôt du site et l'issue est fermée en référence.
 
+## Issues, Discussions ou Discord
+
+Trois endroits, une règle pour les distinguer.
+
+| Vous voulez | Allez vers |
+|---|---|
+| Signaler un défaut précis : erreur, contenu obsolète, lien cassé | **Issue** |
+| Proposer ou discuter une idée qui n'est pas encore une tâche | **Discussion** |
+| Parler d'une formation, de son enchaînement, de son niveau, de ce qui manque | **Discussion** |
+| Raconter ce qui s'est passé quand vous avez suivi un guide | **Discussion** |
+| Poser une question sur le contenu d'une page | **Discussion** |
+| Être aidé sur votre propre problème technique | **Discord** |
+
+La règle derrière ce tableau : **une issue est quelque chose qui a été décidé et
+qui doit être fait**. Une discussion est tout ce qui précède cette décision.
+
+« Une formation eBPF complète aurait-elle un intérêt ? » est une discussion.
+« Créer une formation eBPF couvrant bpftrace, Cilium et l'observabilité » est une
+issue. La seconde peut naître de la première, et c'est précisément ainsi que cela
+doit fonctionner.
+
+Rien n'est dupliqué entre les deux : quand une discussion débouche sur une
+action, une issue est ouverte et la discussion renvoie vers elle au lieu de
+répéter son contenu.
+
 ## Signaler une erreur dans une page
 
 Le plus simple est de partir de la page concernée : chaque page du site porte un

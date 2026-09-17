@@ -40,6 +40,56 @@ ISSUE FERMÉE  en référence au commit
 Le point important est la **frontière** : ce dépôt porte la décision, le dépôt du
 site porte la correction. Aucune modification de contenu ne se fait ici.
 
+## Les Discussions, et la frontière avec les issues
+
+```text
+                       blog.stephane-robert.info
+                                  │
+               ┌──────────────────┴──────────────────┐
+               │                                     │
+        un défaut concret                      un échange
+               │                                     │
+               ▼                                     ▼
+            ISSUES                              DISCUSSIONS
+               │                                     │
+        quelque chose à faire            idée, question, retour
+               │                                     │
+               │                          décision éditoriale
+               │                                     │
+               │                        si une action en sort
+               │                                     │
+               └──────────────────┬──────────────────┘
+                                  ▼
+                            GITHUB PROJECT
+                                  │
+               Inbox → Backlog → Planned → Done
+```
+
+Cinq catégories, pas une de plus. La tentation est d'en créer une par
+technologie, `Kubernetes`, `Linux`, `Ansible` ; avec un corpus de cette taille,
+cela deviendrait ingérable en quelques mois. **Le domaine appartient aux labels
+des issues, pas à la structure communautaire.**
+
+| Catégorie | Format | Usage |
+|---|---|---|
+| Idées et suggestions | ouvert | Proposer une idée avant qu'elle devienne une issue |
+| Formations et pédagogie | ouvert | Enchaînement, niveau, TP, quiz, sujets manquants |
+| Questions | Q&A | Questions sur le contenu d'une page |
+| Retours d'expérience | ouvert | « J'ai suivi ce guide avec Kubernetes 1.37 et… » |
+| Annonces | annonce | Nouvelles formations, refontes, roadmap |
+
+### Promouvoir une discussion en issue
+
+Une discussion devient une issue quand **trois choses sont vraies**, pas avant :
+
+1. le résultat attendu est identifié ;
+2. l'action est réalisable ;
+3. son périmètre est assez précis pour être refermé un jour.
+
+D'ici là elle reste une discussion. Cette discipline est ce qui garde un backlog
+fait de choses à faire plutôt que de bonnes intentions, et c'est la seule chose
+qui décide si un tracker survit à ses premières centaines d'entrées.
+
 ## Labels
 
 La taxonomie est volontairement **courte**. Un tracker meurt de trop de labels

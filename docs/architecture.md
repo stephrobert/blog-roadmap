@@ -40,6 +40,56 @@ ISSUE CLOSED  referencing the commit
 The important part is the **boundary**: this repository carries the decision, the
 site repository carries the fix. No content is ever modified here.
 
+## Discussions and the boundary with issues
+
+```text
+                       blog.stephane-robert.info
+                                  │
+               ┌──────────────────┴──────────────────┐
+               │                                     │
+        a concrete defect                      a conversation
+               │                                     │
+               ▼                                     ▼
+            ISSUES                              DISCUSSIONS
+               │                                     │
+       something to do                    idea, question, report
+               │                                     │
+               │                            editorial decision
+               │                                     │
+               │                          if an action comes out
+               │                                     │
+               └──────────────────┬──────────────────┘
+                                  ▼
+                            GITHUB PROJECT
+                                  │
+               Inbox → Backlog → Planned → Done
+```
+
+Five categories, and no more. The temptation is to create one per technology,
+`Kubernetes`, `Linux`, `Ansible`; with a corpus this size it would become
+unmanageable within months. **The domain belongs to labels on issues, not to the
+community structure.**
+
+| Category | Format | Use |
+|---|---|---|
+| Ideas and suggestions | open | Propose an idea before it becomes an issue |
+| Training and pedagogy | open | Sequencing, level, exercises, quizzes, missing subjects |
+| Questions | Q&A | Questions about the content of a page |
+| Experience reports | open | "I followed this guide with Kubernetes 1.37 and…" |
+| Announcements | announcement | New courses, large reworks, roadmap |
+
+### Promoting a discussion to an issue
+
+A discussion becomes an issue when **three things are true**, not before:
+
+1. the expected result is identified;
+2. the action is doable;
+3. its scope is precise enough to be closed one day.
+
+Until then it stays a discussion. That discipline is what keeps the backlog
+made of actionable items rather than of good intentions, which is the single
+thing that decides whether a tracker survives its first few hundred entries.
+
 ## Labels
 
 The taxonomy is deliberately **short**. A tracker dies of too many labels long

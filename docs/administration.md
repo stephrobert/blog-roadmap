@@ -93,3 +93,28 @@ are cheaper than one silent regression.
 Priority, effort, acceptance, refusal, and closing for inactivity. No `stale`
 workflow is installed, and that is a decision, not an omission: an editorial idea
 that sleeps for eighteen months is still a good idea.
+
+## Discussion categories: why they are set by hand
+
+Same limitation as project workflows, and verified rather than assumed:
+GraphQL exposes **no mutation touching a discussion category**, and the REST API
+has no endpoint at all, returning 404 even on a read. GitHub's API creates
+discussions, not the categories that file them.
+
+The six default categories already exist, so the target five are reached by
+**renaming** rather than creating, which is faster:
+
+| Default category | Becomes | Format |
+|---|---|---|
+| 💡 Ideas | **Idées et suggestions / Ideas and suggestions** | open |
+| 💬 General | **Formations et pédagogie / Training and pedagogy** | open |
+| 🙏 Q&A | **Questions** | keep Q&A |
+| 🙌 Show and tell | **Retours d'expérience / Experience reports** | open |
+| 📣 Announcements | **Annonces / Announcements** | keep announcement |
+| 🗳 Polls | to delete | |
+
+Renaming keeps the category identifier, so the two discussions already published
+in Announcements stay where they are.
+
+Pinning is manual too: there is no `pinDiscussion` mutation. Pin
+**"Bienvenue : comment participer à l'évolution du site"**.

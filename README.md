@@ -35,6 +35,29 @@ The practical consequence: **an issue opened here is not fixed here**. It
 describes a problem or an idea, it gets triaged, then the fix happens in the
 site repository and the issue is closed with a reference to the commit.
 
+## Issues, Discussions or Discord
+
+Three places, one rule to tell them apart.
+
+| You want to | Go to |
+|---|---|
+| Report a precise defect: error, outdated content, broken link | **Issue** |
+| Propose or debate an idea that is not yet a task | **Discussion** |
+| Talk about a course, its sequencing, its level, what it lacks | **Discussion** |
+| Share what happened when you followed a guide | **Discussion** |
+| Ask about the content of a page | **Discussion** |
+| Get help with your own technical problem | **Discord** |
+
+The rule behind the table: **an issue is something that has been decided and
+has to be done**. A discussion is everything that comes before that decision.
+
+"Would a full eBPF course be worth it?" is a discussion. "Create an eBPF course
+covering bpftrace, Cilium and observability" is an issue. The second one can
+come out of the first, and that is exactly how it should work.
+
+Nothing is duplicated between the two: when a discussion produces an action, an
+issue is opened and the discussion links to it instead of repeating it.
+
 ## Reporting an error on a page
 
 The easiest way starts from the page itself: every page carries a **report

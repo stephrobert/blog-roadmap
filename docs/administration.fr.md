@@ -95,3 +95,28 @@ avertissement coûtent moins cher qu'une régression silencieuse.
 La priorité, l'effort, l'acceptation, le refus, et la fermeture pour inactivité.
 Aucun workflow `stale` n'est installé, et c'est une décision, pas un oubli : une
 idée éditoriale qui dort dix-huit mois reste une bonne idée.
+
+## Catégories de discussion : pourquoi elles se posent à la main
+
+Même limite que les workflows de projet, et vérifiée plutôt que supposée :
+GraphQL n'expose **aucune mutation touchant une catégorie de discussion**, et
+l'API REST n'a aucun endpoint, rendant 404 même en lecture. L'API de GitHub crée
+des discussions, pas les catégories qui les rangent.
+
+Les six catégories par défaut existent déjà, donc les cinq visées s'obtiennent
+par **renommage** plutôt que par création, ce qui va plus vite :
+
+| Catégorie par défaut | Devient | Format |
+|---|---|---|
+| 💡 Ideas | **Idées et suggestions / Ideas and suggestions** | ouvert |
+| 💬 General | **Formations et pédagogie / Training and pedagogy** | ouvert |
+| 🙏 Q&A | **Questions** | garder Q&A |
+| 🙌 Show and tell | **Retours d'expérience / Experience reports** | ouvert |
+| 📣 Announcements | **Annonces / Announcements** | garder annonce |
+| 🗳 Polls | à supprimer | |
+
+Le renommage conserve l'identifiant de la catégorie : les deux discussions déjà
+publiées dans Announcements ne bougent pas.
+
+L'épinglage est manuel lui aussi, il n'existe pas de mutation `pinDiscussion`.
+Épingler **« Bienvenue : comment participer à l'évolution du site »**.

@@ -4,15 +4,28 @@
 # aucune categorie, mais il demande lui aussi le minimum.
 blank_issues_enabled: false
 
+# Les trois renvois ci-dessous separent ce qui, sinon, arrive en issue et ne
+# devrait pas : une idee pas encore actionnable, une question sur le contenu,
+# et une demande d'aide personnelle. La frontiere est documentee dans
+# docs/architecture.md : une issue est quelque chose qui a ete DECIDE et doit
+# etre fait ; tout ce qui precede cette decision est une discussion.
 contact_links:
-  - name: Le site
+  - name: Proposer ou discuter une idée / Propose or discuss an idea
+    url: https://github.com/stephrobert/blog-roadmap/discussions
+    about: Une idée qui n'est pas encore une tâche, un avis sur une formation, un retour après avoir suivi un guide. An idea that is not a task yet.
+
+  - name: Question sur le contenu d'une page / Question about a page
+    url: https://github.com/stephrobert/blog-roadmap/discussions
+    about: Un passage qui n'est pas clair, une notion qui manque de contexte. Catégorie Questions. A passage that is not clear.
+
+  - name: Besoin d'aide sur votre propre problème / Need help with your own problem
+    url: https://blog.stephane-robert.info/docs/discord/
+    about: Le salon de discussion répond plus vite qu'une issue, et ce n'est pas le rôle de la roadmap. The chat answers faster.
+
+  - name: Le site / The site
     url: https://blog.stephane-robert.info
     about: Les guides et formations dont ce dépôt suit le pilotage.
 
-  - name: Poser une question technique
-    url: https://blog.stephane-robert.info/docs/discord/
-    about: Une question d'usage n'est pas un signalement. Le salon de discussion répond plus vite qu'une issue.
-
-  - name: Signaler un secret exposé ou un conseil dangereux
+  - name: Signaler un secret exposé ou un conseil dangereux / Report an exposed secret
     url: https://github.com/stephrobert/blog-roadmap/security/advisories/new
-    about: Canal privé. Ne publiez jamais une clé ou un jeton dans une issue.
+    about: Canal privé. Ne publiez jamais une clé ou un jeton dans une issue. Private channel.
