@@ -80,7 +80,8 @@ Inbox  →  Triage  →  Backlog  →  Planned  →  In progress  →  Review  �
 ```
 
 Le détail du triage, des labels et des automatisations vit dans
-[docs/architecture.fr.md](docs/architecture.fr.md).
+[docs/architecture.fr.md](docs/architecture.fr.md), et l'exploitation au
+quotidien dans [docs/administration.fr.md](docs/administration.fr.md).
 
 ## Licence
 

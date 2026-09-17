@@ -84,7 +84,8 @@ Inbox  →  Triage  →  Backlog  →  Planned  →  In progress  →  Review  �
 ```
 
 Triage rules, labels and automations live in
-[docs/architecture.md](docs/architecture.md).
+[docs/architecture.md](docs/architecture.md), and day-to-day operation in
+[docs/administration.md](docs/administration.md).
 
 ## Licence
 
