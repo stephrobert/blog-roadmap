@@ -1,70 +1,71 @@
-# Contribuer au backlog
+# Contributing to the backlog
 
-Ce dépôt reçoit les signalements et les demandes qui concernent
-[blog.stephane-robert.info](https://blog.stephane-robert.info). Il ne reçoit
-**pas de code** : le dépôt du site est séparé, et une correction s'y fait après
-le triage de l'issue.
+**Read this in another language:** [Français](./CONTRIBUTING.fr.md)
 
-## Avant d'ouvrir une issue
+This repository collects reports and requests about
+[blog.stephane-robert.info](https://blog.stephane-robert.info). It takes **no
+code**: the site repository is separate, and a fix happens there once the issue
+has been triaged.
 
-Quatre réflexes, dans cet ordre.
+You can write in **English or French**.
 
-**1. Vérifier qu'elle n'existe pas déjà.** Une recherche sur l'URL de la page
-suffit le plus souvent : `is:issue "votre-url"`. Commenter une issue existante
-vaut mieux qu'en ouvrir une seconde, parce que deux fils sur le même sujet se
-répondent rarement l'un à l'autre.
+## Before opening an issue
 
-**2. Donner l'URL exacte.** C'est la seule information sans laquelle une issue
-ne peut pas être traitée. Une page nommée de mémoire, « le guide sur les
-NetworkPolicy », désigne souvent trois pages différentes. Le bouton **« Signaler
-un problème »** en bas de chaque page remplit ce champ pour vous.
+Four habits, in this order.
 
-**3. Décrire ce que vous avez constaté**, pas seulement ce qui vous a gêné. Une
-commande qui échoue avec son message d'erreur, une valeur qui ne correspond pas
-à ce que rend l'outil, une étape qui manque : ce sont des faits vérifiables. « La
-page n'est pas claire » ne l'est pas, et l'issue restera sans suite faute de
-savoir quoi corriger.
+**1. Check it does not already exist.** Searching on the page URL is usually
+enough: `is:issue "your-url"`. Commenting on an existing issue beats opening a
+second one, because two threads on the same subject rarely answer each other.
 
-**4. Fournir une source quand vous annoncez un contenu obsolète.** Un lien vers
-le changelog, la note de version ou la documentation officielle. Sans elle, il
-faut refaire la recherche avant de pouvoir agir, et l'issue attend.
+**2. Give the exact URL.** It is the one piece of information without which an
+issue cannot be handled. A page named from memory, "the NetworkPolicy guide",
+often points at three different pages. The **report block at the bottom of every
+page** fills that field for you.
 
-## Ce à quoi vous pouvez vous attendre
+**3. Describe what you observed**, not only what bothered you. A command that
+fails with its error message, a value that does not match what the tool returns,
+a missing step: those are verifiable facts. "The page is unclear" is not, and the
+issue will stall for lack of anything to fix.
 
-Les propositions sont **bienvenues**, y compris celles qui remettent en cause un
-choix éditorial. Elles sont lues.
+**4. Provide a source when you report outdated content.** A link to the
+changelog, the release note or the official documentation. Without it, the whole
+check has to be redone before anything can happen, and the issue waits.
 
-En revanche, **l'ouverture d'une issue ne garantit pas son intégration**. Le site
-suit une ligne, il refuse de grossir pour grossir, et certaines demandes seront
-différées ou refusées. Quand c'est le cas, la raison est écrite dans l'issue
-avant sa fermeture : un refus sans motif est un refus qui reviendra.
+## What to expect
 
-Les délais varient. Une erreur factuelle ou un lien cassé se corrigent vite. Une
-demande de formation entière se mesure en semaines, et parfois en refus.
+Proposals are **welcome**, including those that challenge an editorial choice.
+They are read.
 
-## Ton des échanges
+However, **opening an issue does not guarantee integration**. The site follows a
+line, it refuses to grow for the sake of growing, and some requests will be
+postponed or declined. When that happens, the reason is written in the issue
+before it is closed: a refusal without a reason is a refusal that comes back.
 
-Les discussions restent **techniques et factuelles**. On y parle de ce qu'une
-page dit, de ce qu'un outil fait, et de l'écart entre les deux. Un désaccord se
-tranche par une source, pas par une insistance.
+Delays vary. A factual error or a broken link gets fixed quickly. A request for a
+whole course is measured in weeks, and sometimes in a refusal.
 
-Les procès d'intention, les commentaires sur les personnes et les relances
-répétées sur une issue déjà arbitrée sont hors sujet, et le fil est verrouillé le
-cas échéant.
+## Tone
 
-## Une issue, une action
+Discussions stay **technical and factual**. They are about what a page says, what
+a tool does, and the gap between the two. A disagreement is settled by a source,
+not by insistence.
 
-Le tracker doit rester exploitable avec plusieurs centaines d'issues ouvertes.
-Cela demande une discipline simple : **une issue décrit une chose à faire**.
+Statements about intent, comments about people, and repeated pushes on an issue
+that has already been decided are off topic, and the thread is locked when
+needed.
 
-Une issue qui regroupe six remarques sur six pages ne se planifie pas, ne se
-priorise pas et ne se ferme jamais entièrement. Six issues courtes avancent,
-là où une longue stagne. Si vous relisez une formation entière, ouvrez une issue
-par page.
+## One issue, one action
 
-## Ce qui se passe ensuite
+The tracker has to stay usable with several hundred open issues. That calls for
+one simple discipline: **an issue describes one thing to do**.
 
-Toute nouvelle issue arrive dans la colonne **Inbox** du projet, sans tri. Elle
-reçoit ensuite un **type**, une **priorité** et un **domaine**, puis rejoint le
-backlog ou est refusée. Le détail de ce circuit vit dans
+An issue bundling six remarks about six pages cannot be planned, cannot be
+prioritised and never closes entirely. Six short issues move forward where one
+long issue stalls. If you review a whole course, open one issue per page.
+
+## What happens next
+
+Every new issue lands in the **Inbox** column of the project, untriaged. It then
+receives a **type**, a **priority** and an **area**, and joins the backlog or is
+declined. That circuit is detailed in
 [docs/architecture.md](docs/architecture.md).

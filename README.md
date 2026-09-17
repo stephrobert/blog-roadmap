@@ -1,87 +1,81 @@
 # blog-roadmap
 
-**Ce dépôt est le backlog public de [blog.stephane-robert.info](https://blog.stephane-robert.info).**
+**Read this in another language:** [Français](./README.fr.md)
 
-Il sert à signaler une erreur, proposer une amélioration, demander un contenu et
-suivre ce qui est prévu. Tout passe par les **issues**, et chaque issue est
-rattachée à un **projet** qui donne l'état d'avancement.
+**This repository is the public backlog of
+[blog.stephane-robert.info](https://blog.stephane-robert.info).**
+
+Use it to report an error, propose an improvement, request content and follow
+what is planned. Everything goes through **issues**, and every issue sits in a
+**project** that shows where it stands.
 
 | | |
 |---|---|
-| Le site | https://blog.stephane-robert.info |
-| Signaler quelque chose | [Ouvrir une issue](https://github.com/stephrobert/blog-roadmap/issues/new/choose) |
-| Ce qui est en cours | [Roadmap](https://github.com/users/stephrobert/projects/3) |
-| Ce qui existe déjà | [Issues ouvertes](https://github.com/stephrobert/blog-roadmap/issues) |
+| The site | https://blog.stephane-robert.info |
+| Report something | [Open an issue](https://github.com/stephrobert/blog-roadmap/issues/new/choose) |
+| What is planned | [Roadmap](https://github.com/users/stephrobert/projects/3) |
+| What already exists | [Open issues](https://github.com/stephrobert/blog-roadmap/issues) |
 
-## In English
+The site is written in French, and so is most of this tracker. **You can write
+your issues in English**: every form accepts it, and the four forms reachable
+from a page carry bilingual labels.
 
-This repository is the **public backlog** of
-[blog.stephane-robert.info](https://blog.stephane-robert.info): bug reports,
-content requests and roadmap. It holds **no site code**.
+## This repository holds no site code
 
-The site is written in French and so is this tracker, but **you can write your
-issues in English**. Every form accepts it, and the four forms reachable from a
-page carry bilingual labels. The quickest way in is the **report button at the
-bottom of any page**: it opens an issue already filled with the page title, its
-URL and its language.
-
-## Ce dépôt ne contient pas le code du site
-
-Le site est un projet Astro Starlight qui vit **ailleurs**, dans un dépôt
-séparé. Vous ne trouverez ici **ni page, ni composant, ni configuration de
-build**, et rien de ce dépôt n'est nécessaire pour construire ou déployer le
+The site is an Astro Starlight project that lives **elsewhere**, in a separate
+repository. You will find here **no page, no component, no build
+configuration**, and nothing in this repository is needed to build or deploy the
 site.
 
-Ce choix est délibéré. Un backlog public doit pouvoir être lu, commenté et trié
-par n'importe qui, sans donner accès au dépôt qui produit la publication, et
-sans mélanger une discussion éditoriale avec une revue de code.
+That separation is deliberate. A public backlog has to be readable, commentable
+and sortable by anyone, without granting access to the repository that produces
+the publication, and without mixing an editorial discussion with a code review.
 
-Conséquence pratique : **une issue ouverte ici ne se corrige pas ici**. Elle
-décrit un problème ou une idée, elle est triée, puis la correction est faite
-dans le dépôt du site et l'issue est fermée en référence.
+The practical consequence: **an issue opened here is not fixed here**. It
+describes a problem or an idea, it gets triaged, then the fix happens in the
+site repository and the issue is closed with a reference to the commit.
 
-## Signaler une erreur dans une page
+## Reporting an error on a page
 
-Le plus simple est de partir de la page concernée : chaque page du site porte un
-lien **« Signaler un problème »** en bas de contenu. Il ouvre une issue déjà
-remplie avec le **titre de la page**, son **URL**, son **chemin** et sa
-**langue**. Vous n'avez plus qu'à décrire ce que vous avez constaté.
+The easiest way starts from the page itself: every page carries a **report
+block** at the end of its content, with one link per kind of problem. Each link
+opens an issue already filled with the **page title**, its **URL** and its
+**language**. You only have to describe what you found.
 
-Depuis GitHub, cinq formulaires existent :
+From GitHub, five forms exist:
 
-| Formulaire | Quand l'utiliser |
+| Form | When to use it |
 |---|---|
-| **Erreur dans une page** | Une commande fausse, une explication inexacte, une capture qui ne correspond plus |
-| **Contenu obsolète** | La page décrit une version dépassée, l'outil a changé de comportement |
-| **Lien cassé** | Un lien interne ou externe ne répond plus |
-| **Demande de contenu** | Un sujet manque, une formation mériterait d'exister |
-| **Amélioration** | Le contenu est juste mais la forme, la structure ou le parcours peuvent être meilleurs |
+| **Page error** | A wrong command, an inaccurate explanation, a screenshot that no longer matches |
+| **Outdated content** | The page describes an old version, or the tool changed its behaviour |
+| **Broken link** | An internal or external link no longer answers |
+| **Content request** | A subject is missing, a course would deserve to exist |
+| **Improvement** | The content is right, but the form, structure or path could be better |
 
-Un sixième, **Autre**, existe pour ce qui n'entre dans aucune case. Il est
-volontairement le dernier : une issue bien rangée est une issue qui avance plus
-vite.
+A sixth one, **Other**, covers what fits nowhere. It comes last on purpose: a
+well-filed issue moves faster.
 
-## Proposer une amélioration ou un contenu
+## Proposing an improvement or some content
 
-Les propositions sont bienvenues, et elles n'ont pas besoin d'être détaillées
-pour être utiles. Deux choses aident vraiment : dire **à qui** le contenu
-servirait, et **ce que le lecteur saurait faire** après l'avoir lu. Une demande
-formulée comme un besoin se traite mieux qu'une demande formulée comme un titre.
+Proposals are welcome, and they do not need to be detailed to be useful. Two
+things help: say **who** the content would serve, and **what the reader would
+know how to do** after reading it. A request phrased as a need is handled far
+better than a request phrased as a title.
 
-L'ouverture d'une issue **ne garantit pas** son intégration. Le site suit une
-ligne éditoriale, et certaines demandes seront refusées ou différées. Quand
-c'est le cas, la raison est écrite dans l'issue avant sa fermeture.
+Opening an issue **does not guarantee** it will be integrated. The site follows
+an editorial line, and some requests will be declined or postponed. When that
+happens, the reason is written in the issue before it is closed.
 
-## Suivre les évolutions
+## Following what changes
 
-Le projet **blog.stephane-robert.info — Roadmap** porte toutes les issues, avec
-leur statut, leur priorité et leur domaine. Les vues **Roadmap** et **Done**
-donnent respectivement ce qui est planifié et ce qui vient d'être livré.
+The **blog.stephane-robert.info — Roadmap** project carries every issue with its
+status, priority and area. The **Roadmap** and **Done** views show respectively
+what is planned and what has just shipped.
 
-Pour être averti d'un changement précis, abonnez-vous à l'issue plutôt qu'au
-dépôt entier : le volume attendu est élevé.
+To be notified about something precise, subscribe to the issue rather than to
+the whole repository: the expected volume is high.
 
-## Comment une issue avance
+## How an issue moves
 
 ```text
 Inbox  →  Triage  →  Backlog  →  Planned  →  In progress  →  Review  →  Done
@@ -89,10 +83,10 @@ Inbox  →  Triage  →  Backlog  →  Planned  →  In progress  →  Review  �
                     Won't do
 ```
 
-Le détail du triage, des labels et des automatisations vit dans
+Triage rules, labels and automations live in
 [docs/architecture.md](docs/architecture.md).
 
 ## Licence
 
-Les issues et discussions de ce dépôt sont publiques. Le contenu du site, lui,
-reste soumis à la licence annoncée sur le site.
+Issues and discussions in this repository are public. The site content itself
+remains under the licence stated on the site.
