@@ -63,6 +63,42 @@ into an issue. `source:reader` means "issue carrying the site marker", not
 "proof it came from the button". That is enough for its purpose, measuring the
 share of reader-originated fixes, and it is not worth complicating.
 
+## The `main` branch is protected
+
+A repository ruleset, modelled on the one used by `feint`, applies to the
+default branch. Four constraints, active for everyone:
+
+| Rule | Effect |
+|---|---|
+| `deletion` | the branch cannot be deleted |
+| `non_fast_forward` | no history rewrite, so no `push --force` |
+| `pull_request` | every change goes through a pull request, **zero approvals required** |
+| `required_status_checks` | the PR waits for "Les gabarits portent les champs attendus", branch must be up to date |
+
+Zero approvals is not a soft protection: on a repository held by a single
+person, requiring a reviewer would make the rule either bypassable or blocking,
+which amounts to the same thing. What the rule buys here is that no change lands
+without going through a PR, hence without the form contract being checked, and
+that history stays linear and intact.
+
+The administrator role is listed in `bypass_actors`, but in `pull_request` mode:
+it bypasses checks **inside** a PR, never by pushing straight to `main`.
+Verified on the repository, a `git push origin main` is rejected.
+
+What this changes day to day:
+
+```bash
+git switch -c <branch>
+# ... changes, commit ...
+git push -u origin <branch>
+gh pr create --fill
+gh pr merge --squash --delete-branch
+```
+
+The form contract check runs **without a path filter** on pull requests, unlike
+its `push` trigger. This is deliberate: a required check filtered by path leaves
+any PR that does not touch those files waiting forever.
+
 ## Opening an issue from a workstation
 
 ```bash
