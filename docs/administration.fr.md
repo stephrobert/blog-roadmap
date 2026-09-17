@@ -64,6 +64,43 @@ non « preuve qu'elle vient du bouton ». C'est suffisant pour ce qu'on en fait,
 mesurer la part des corrections venues des lecteurs, et cela ne vaut pas la peine
 d'être compliqué.
 
+## La branche `main` est protégée
+
+Une règle de dépôt calquée sur celle de `feint` s'applique à la branche par
+défaut. Quatre contraintes, actives pour tout le monde :
+
+| Règle | Effet |
+|---|---|
+| `deletion` | la branche ne peut pas être supprimée |
+| `non_fast_forward` | pas de réécriture d'historique, donc pas de `push --force` |
+| `pull_request` | toute modification passe par une pull request, **zéro approbation requise** |
+| `required_status_checks` | la PR attend « Les gabarits portent les champs attendus », branche à jour exigée |
+
+Zéro approbation n'est pas une protection molle : sur un dépôt tenu par une
+seule personne, exiger un relecteur rendrait la règle contournable ou bloquante,
+ce qui revient au même. Ce que la règle achète ici, c'est qu'aucune modification
+n'atterrisse sans être passée par une PR, donc sans que le contrat des
+formulaires ait été vérifié, et que l'historique reste linéaire et intact.
+
+Le rôle administrateur figure en `bypass_actors`, mais en mode `pull_request` :
+il contourne les contrôles **dans** une PR, jamais en poussant directement sur
+`main`. Vérifié sur le dépôt, un `git push origin main` est refusé.
+
+Conséquence sur la manière de travailler :
+
+```bash
+git switch -c <branche>
+# ... modifications, commit ...
+git push -u origin <branche>
+gh pr create --fill
+gh pr merge --squash --delete-branch
+```
+
+Le contrôle du contrat des formulaires se déclenche **sans filtre de chemin**
+côté pull request, contrairement au déclencheur `push`. C'est délibéré : un
+contrôle requis filtré par chemin laisse en attente éternelle toute PR qui ne
+touche pas ces fichiers.
+
 ## Ouvrir une issue depuis un poste
 
 ```bash
