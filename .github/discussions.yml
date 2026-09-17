@@ -1,39 +1,51 @@
 # Les categories de Discussions, declarees.
 #
-# CE FICHIER NE CREE RIEN. Aucune mutation GraphQL publique ne touche une
-# categorie de discussion, et l'API REST n'a pas d'endpoint : verifie en
-# interrogeant le schema et en recevant un 404 meme en lecture. La creation se
-# fait une fois dans l'interface, `Discussions` puis `Categories`.
+# CE FICHIER NE CREE RIEN. Aucune mutation GraphQL publique ne cree, ne renomme
+# ni ne supprime une categorie de discussion, et l'API REST n'a pas d'endpoint :
+# verifie en interrogeant le schema, et en recevant un 404 meme en lecture. La
+# seule mutation qui mentionne une categorie est `updateDiscussion`, dont le
+# `categoryId` DEPLACE une discussion d'une categorie a l'autre sans toucher a
+# la categorie elle-meme. La creation se fait une fois dans l'interface,
+# `Discussions` puis `Categories`.
 #
 # Ce fichier est la SOURCE DE VERITE, et `categories-discussions.yml` compare ce
 # qu'il declare a ce que le depot porte reellement. Une categorie renommee,
 # supprimee ou passee en Q&A par erreur ressort donc en ecart, au lieu de se
 # decouvrir six mois plus tard sur une discussion mal rangee.
 #
-# LE SLUG N'EST PAS DEVINE. GitHub le fabrique : minuscules, `&` et espaces
-# remplaces par `-`, separateurs consecutifs fusionnes. Releve sur les
-# categories par defaut, ou `Q&A` donne `q-a` et `Show and tell` donne
-# `show-and-tell`. Le traitement des ACCENTS, lui, n'a pas de precedent
-# observable ici : les slugs ci-dessous sont une hypothese, et le controle
-# affiche le slug REEL des que les categories existent. C'est lui qui tranche,
-# pas ce fichier, et les gabarits de `DISCUSSION_TEMPLATE/` sont renommes en
-# consequence.
+# LE SLUG NE SE DEVINE PAS, IL SE MESURE. Fabrique relevee sur les cinq
+# categories reelles le 2026-09-17 : minuscules, espaces / `&` / apostrophe
+# remplaces par `-`, separateurs consecutifs fusionnes, et surtout les ACCENTS
+# CONSERVES. `Idées & suggestions` donne `idées-suggestions`, et
+# `Retours d'expérience` donne `retours-d-expérience`.
+#
+# La premiere version de ce fichier pariait sur une translitteration, et le
+# controle a rendu les trois ecarts au premier passage. C'est exactement ce
+# qu'il est la pour faire : le depot tranche, pas ce fichier.
+#
+# L'enjeu n'est pas cosmetique. GitHub apparie le gabarit de
+# `DISCUSSION_TEMPLATE/` a sa categorie PAR LE NOM DU FICHIER : sur un slug
+# faux, aucune erreur n'est levee, le formulaire n'est simplement jamais
+# propose. Renommer une categorie impose donc de renommer son gabarit.
+#
+# `emoji` porte le shortcode rendu par l'API, pas le caractere : c'est sous
+# cette forme que la comparaison se fait.
 
 schema_version: 1
 
 categories:
-  - slug: idees-suggestions
+  - slug: idées-suggestions
     name: "Idées & suggestions"
-    emoji: "💡"
+    emoji: ":bulb:"
     type: open-ended
     raison: >-
       Proposer une idee avant qu'elle devienne une issue. C'est la categorie qui
       protege le backlog : « une formation eBPF aurait-elle un interet » n'est
       pas une tache.
 
-  - slug: formations-pedagogie
+  - slug: formations-pédagogie
     name: "Formations & pédagogie"
-    emoji: "🎓"
+    emoji: ":student:"
     type: open-ended
     raison: >-
       Enchainement, niveau, TP, quiz, sujets manquants. Ce qui se discute sur la
@@ -41,16 +53,16 @@ categories:
 
   - slug: questions
     name: "Questions"
-    emoji: "❓"
+    emoji: ":question:"
     type: question
     raison: >-
       Questions sur le CONTENU d'une page. Une demande d'aide sur son propre
       probleme technique part sur Discord, sans quoi cette categorie devient un
       Stack Overflow personnel.
 
-  - slug: retours-experience
+  - slug: retours-d-expérience
     name: "Retours d'expérience"
-    emoji: "🧪"
+    emoji: ":microscope:"
     type: open-ended
     raison: >-
       « J'ai suivi ce guide avec Kubernetes 1.37 et… ». Ce signal vaut beaucoup
@@ -59,7 +71,7 @@ categories:
 
   - slug: annonces
     name: "Annonces"
-    emoji: "📣"
+    emoji: ":mega:"
     type: announcement
     raison: >-
       Nouvelles formations, refontes, roadmap. Ecriture reservee, commentaires

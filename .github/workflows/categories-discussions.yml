@@ -3,7 +3,9 @@
 # POURQUOI CE CONTROLE EXISTE
 #
 # Les categories ne se creent pas par API : verifie, GraphQL n'expose aucune
-# mutation les touchant et l'API REST rend 404 meme en lecture. Elles sont donc
+# mutation qui en cree, en renomme ou en supprime une, et l'API REST rend 404
+# meme en lecture. Le seul `categoryId` mutable est celui d'`updateDiscussion`,
+# qui deplace une discussion sans toucher a la categorie. Elles sont donc
 # posees a la main une fois, et tout ce qui est pose a la main derive. Une
 # categorie renommee, supprimee, ou passee en Q&A par erreur ne produit aucun
 # signal : elle se decouvre des mois plus tard, sur une discussion mal rangee.
@@ -97,6 +99,9 @@ jobs:
                   continue
               if vue["name"] != nom:
                   ecarts.append(f"{slug} : nom {vue['name']!r}, declare {nom!r}")
+              # L'API rend le shortcode (« :bulb: »), jamais le caractere.
+              if vue["emoji"] != c["emoji"]:
+                  ecarts.append(f"{slug} : emoji {vue['emoji']}, declare {c['emoji']}")
               if attendu == "question" and not vue["isAnswerable"]:
                   ecarts.append(f"{slug} : declaree en Q&A, ne l'est pas")
               if attendu != "question" and vue["isAnswerable"]:

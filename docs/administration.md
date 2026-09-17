@@ -96,25 +96,37 @@ that sleeps for eighteen months is still a good idea.
 
 ## Discussion categories: why they are set by hand
 
-Same limitation as project workflows, and verified rather than assumed:
-GraphQL exposes **no mutation touching a discussion category**, and the REST API
-has no endpoint at all, returning 404 even on a read. GitHub's API creates
-discussions, not the categories that file them.
+Same limitation as project workflows, and verified rather than assumed: GraphQL
+exposes **no mutation that creates, renames or deletes a discussion category**,
+and the REST API has no endpoint at all, returning 404 even on a read. The only
+mutable `categoryId` is the one on `updateDiscussion`, which **moves** a
+discussion without touching the category. GitHub's API files discussions, it
+does not build the drawers.
 
-The six default categories already exist, so the target five are reached by
-**renaming** rather than creating, which is faster:
+The six default categories were therefore **renamed** rather than created, which
+keeps their identifier and leaves already published discussions in place. Here
+is the state recorded on 2026-09-17, slugs included:
 
-| Default category | Becomes | Format |
-|---|---|---|
-| 💡 Ideas | **Idées et suggestions / Ideas and suggestions** | open |
-| 💬 General | **Formations et pédagogie / Training and pedagogy** | open |
-| 🙏 Q&A | **Questions** | keep Q&A |
-| 🙌 Show and tell | **Retours d'expérience / Experience reports** | open |
-| 📣 Announcements | **Annonces / Announcements** | keep announcement |
-| 🗳 Polls | to delete | |
+| Category | Actual slug | Format | Template |
+|---|---|---|---|
+| 💡 Idées & suggestions | `idées-suggestions` | open | yes |
+| 🎓 Formations & pédagogie | `formations-pédagogie` | open | yes |
+| ❓ Questions | `questions` | Q&A | yes |
+| 🔬 Retours d'expérience | `retours-d-expérience` | open | yes |
+| 📣 Annonces | `annonces` | announcement | no, write-restricted |
+| 🗳 Polls | deleted | | |
 
-Renaming keeps the category identifier, so the two discussions already published
-in Announcements stay where they are.
+**The slug is not guessed, it is measured.** GitHub lowercases, replaces spaces,
+`&` and apostrophes with a dash, collapses consecutive separators, and **keeps
+accents**. The first version of `.github/discussions.yml` bet on
+transliteration; the drift check reported all three mismatches on its very first
+run, and the repository settled it.
 
-Pinning is manual too: there is no `pinDiscussion` mutation. Pin
+This is not cosmetic: GitHub pairs a `DISCUSSION_TEMPLATE/` form with its
+category **by file name**. With a wrong slug, nothing errors out, the form
+simply never shows up. Renaming a category means renaming its template in the
+same move.
+
+Pinning is manual too: the schema carries `pinIssue` and `unpinIssue`, but no
+equivalent for a discussion, verified on 2026-09-17. Still to pin:
 **"Bienvenue : comment participer à l'évolution du site"**.

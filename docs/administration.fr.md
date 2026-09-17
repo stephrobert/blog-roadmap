@@ -99,24 +99,36 @@ idée éditoriale qui dort dix-huit mois reste une bonne idée.
 ## Catégories de discussion : pourquoi elles se posent à la main
 
 Même limite que les workflows de projet, et vérifiée plutôt que supposée :
-GraphQL n'expose **aucune mutation touchant une catégorie de discussion**, et
-l'API REST n'a aucun endpoint, rendant 404 même en lecture. L'API de GitHub crée
-des discussions, pas les catégories qui les rangent.
+GraphQL n'expose **aucune mutation qui crée, renomme ou supprime une catégorie
+de discussion**, et l'API REST n'a aucun endpoint, rendant 404 même en lecture.
+Le seul `categoryId` mutable est celui d'`updateDiscussion`, qui **déplace** une
+discussion sans toucher à la catégorie. L'API de GitHub range des discussions,
+elle ne fabrique pas les casiers.
 
-Les six catégories par défaut existent déjà, donc les cinq visées s'obtiennent
-par **renommage** plutôt que par création, ce qui va plus vite :
+Les six catégories par défaut ont donc été **renommées** plutôt que créées, ce
+qui conserve leur identifiant et laisse en place les discussions déjà publiées.
+Voici l'état relevé le 2026-09-17, slugs compris :
 
-| Catégorie par défaut | Devient | Format |
-|---|---|---|
-| 💡 Ideas | **Idées et suggestions / Ideas and suggestions** | ouvert |
-| 💬 General | **Formations et pédagogie / Training and pedagogy** | ouvert |
-| 🙏 Q&A | **Questions** | garder Q&A |
-| 🙌 Show and tell | **Retours d'expérience / Experience reports** | ouvert |
-| 📣 Announcements | **Annonces / Announcements** | garder annonce |
-| 🗳 Polls | à supprimer | |
+| Catégorie | Slug réel | Format | Gabarit |
+|---|---|---|---|
+| 💡 Idées & suggestions | `idées-suggestions` | ouvert | oui |
+| 🎓 Formations & pédagogie | `formations-pédagogie` | ouvert | oui |
+| ❓ Questions | `questions` | Q&A | oui |
+| 🔬 Retours d'expérience | `retours-d-expérience` | ouvert | oui |
+| 📣 Annonces | `annonces` | annonce | non, écriture réservée |
+| 🗳 Polls | supprimée | | |
 
-Le renommage conserve l'identifiant de la catégorie : les deux discussions déjà
-publiées dans Announcements ne bougent pas.
+**Le slug ne se devine pas, il se mesure.** GitHub met en minuscules, remplace
+espaces, `&` et apostrophe par un tiret, fusionne les séparateurs consécutifs,
+et **conserve les accents**. La première version de `.github/discussions.yml`
+pariait sur une translittération ; le contrôle de dérive a rendu les trois
+écarts dès son premier passage, et le dépôt a tranché.
 
-L'épinglage est manuel lui aussi, il n'existe pas de mutation `pinDiscussion`.
-Épingler **« Bienvenue : comment participer à l'évolution du site »**.
+Ce n'est pas cosmétique : GitHub apparie un gabarit de `DISCUSSION_TEMPLATE/` à
+sa catégorie **par le nom du fichier**. Sur un slug faux, aucune erreur n'est
+levée, le formulaire n'apparaît simplement jamais. Renommer une catégorie impose
+de renommer son gabarit dans la foulée.
+
+L'épinglage est manuel lui aussi : le schéma porte `pinIssue` et `unpinIssue`,
+mais aucun équivalent pour une discussion, vérifié le 2026-09-17. Reste à
+épingler **« Bienvenue : comment participer à l'évolution du site »**.
