@@ -1,0 +1,76 @@
+# Les categories de Discussions, declarees.
+#
+# CE FICHIER NE CREE RIEN. Aucune mutation GraphQL publique ne touche une
+# categorie de discussion, et l'API REST n'a pas d'endpoint : verifie en
+# interrogeant le schema et en recevant un 404 meme en lecture. La creation se
+# fait une fois dans l'interface, `Discussions` puis `Categories`.
+#
+# Ce fichier est la SOURCE DE VERITE, et `categories-discussions.yml` compare ce
+# qu'il declare a ce que le depot porte reellement. Une categorie renommee,
+# supprimee ou passee en Q&A par erreur ressort donc en ecart, au lieu de se
+# decouvrir six mois plus tard sur une discussion mal rangee.
+#
+# LE SLUG N'EST PAS DEVINE. GitHub le fabrique : minuscules, `&` et espaces
+# remplaces par `-`, separateurs consecutifs fusionnes. Releve sur les
+# categories par defaut, ou `Q&A` donne `q-a` et `Show and tell` donne
+# `show-and-tell`. Le traitement des ACCENTS, lui, n'a pas de precedent
+# observable ici : les slugs ci-dessous sont une hypothese, et le controle
+# affiche le slug REEL des que les categories existent. C'est lui qui tranche,
+# pas ce fichier, et les gabarits de `DISCUSSION_TEMPLATE/` sont renommes en
+# consequence.
+
+schema_version: 1
+
+categories:
+  - slug: idees-suggestions
+    name: "Idées & suggestions"
+    emoji: "💡"
+    type: open-ended
+    raison: >-
+      Proposer une idee avant qu'elle devienne une issue. C'est la categorie qui
+      protege le backlog : « une formation eBPF aurait-elle un interet » n'est
+      pas une tache.
+
+  - slug: formations-pedagogie
+    name: "Formations & pédagogie"
+    emoji: "🎓"
+    type: open-ended
+    raison: >-
+      Enchainement, niveau, TP, quiz, sujets manquants. Ce qui se discute sur la
+      forme d'une formation plutot que sur un defaut de page.
+
+  - slug: questions
+    name: "Questions"
+    emoji: "❓"
+    type: question
+    raison: >-
+      Questions sur le CONTENU d'une page. Une demande d'aide sur son propre
+      probleme technique part sur Discord, sans quoi cette categorie devient un
+      Stack Overflow personnel.
+
+  - slug: retours-experience
+    name: "Retours d'expérience"
+    emoji: "🧪"
+    type: open-ended
+    raison: >-
+      « J'ai suivi ce guide avec Kubernetes 1.37 et… ». Ce signal vaut beaucoup
+      plus qu'un pouce en haut ou en bas, et c'est le seul qui dise ce qui a
+      manque a quelqu'un qui est alle au bout.
+
+  - slug: annonces
+    name: "Annonces"
+    emoji: "📣"
+    type: announcement
+    raison: >-
+      Nouvelles formations, refontes, roadmap. Ecriture reservee, commentaires
+      ouverts.
+
+# Volontairement ABSENT : une categorie par technologie. Kubernetes, Linux,
+# Ansible et les autres deviendraient ingerables en quelques mois avec un corpus
+# de cette taille. Le domaine appartient aux labels des issues, pas a la
+# structure communautaire.
+#
+# Absent aussi : les sections de categories, que GitHub propose desormais. A
+# cinq categories, regrouper n'aide personne.
+supprimer:
+  - polls

@@ -1,0 +1,35 @@
+title: "[Formation] "
+body:
+  - type: input
+    id: formation
+    attributes:
+      label: Formation ou page concernée / Course or page
+      placeholder: "Kubernetes, Linux, Ansible, Terraform..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte / Context
+      description: Ce que vous cherchiez à apprendre ou à réaliser.
+    validations:
+      required: true
+
+  - type: textarea
+    id: retour
+    attributes:
+      label: Votre retour / Your feedback
+      description: Ce qui fonctionne, ce qui accroche, ce qui manque. Un enchaînement qui saute une étape, un exemple trop abstrait, une notion supposée acquise.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: niveau
+    attributes:
+      label: Votre niveau sur ce sujet / Your level
+      options:
+        - Débutant
+        - Intermédiaire
+        - Avancé
+      default: 1

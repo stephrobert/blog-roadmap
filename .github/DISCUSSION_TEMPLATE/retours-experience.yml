@@ -1,0 +1,37 @@
+title: "[Retour] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Le retour le plus utile est celui de quelqu'un qui est allé au bout :
+        ce qui a marché, ce qui a résisté, et ce qui a manqué.
+
+        *The most useful report comes from someone who went all the way.*
+
+  - type: input
+    id: parcours
+    attributes:
+      label: Ce que vous avez suivi / What you followed
+      placeholder: "Formation Kubernetes, des fondamentaux à la sécurité"
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions utilisées / Versions used
+      description: Celles des outils, si elles diffèrent de celles du site.
+      placeholder: "Kubernetes 1.37, kubectl 1.36"
+
+  - type: textarea
+    id: deroule
+    attributes:
+      label: Comment ça s'est passé / How it went
+    validations:
+      required: true
+
+  - type: textarea
+    id: manque
+    attributes:
+      label: Ce qui vous a manqué / What was missing
+      description: La question la plus précieuse de ce formulaire.

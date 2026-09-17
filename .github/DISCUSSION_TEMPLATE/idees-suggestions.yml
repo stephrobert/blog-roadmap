@@ -1,0 +1,31 @@
+title: "[Idée] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Une idée n'a pas besoin d'être aboutie pour être utile. Si elle se
+        précise ici, elle deviendra une issue.
+
+        *An idea does not need to be finished to be useful.*
+
+  - type: textarea
+    id: idee
+    attributes:
+      label: L'idée / The idea
+      description: Ce que vous proposez, en quelques lignes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: besoin
+    attributes:
+      label: À quel besoin elle répond / What need it answers
+      description: Qui en profiterait, et pour faire quoi. Une idée motivée par un besoin réel passe avant une idée qui complète un sommaire.
+    validations:
+      required: true
+
+  - type: textarea
+    id: existant
+    attributes:
+      label: Ce qui existe déjà / What already exists
+      description: Les pages du site qui approchent le sujet, si vous en connaissez.

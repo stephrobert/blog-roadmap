@@ -1,0 +1,28 @@
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cette catégorie porte sur le **contenu d'une page**. Pour être aidé sur
+        votre propre problème technique, le
+        [Discord](https://blog.stephane-robert.info/docs/discord/) répond plus
+        vite.
+
+        *This category is about page content. For help with your own problem,
+        use Discord.*
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page concernée / Page
+      placeholder: "https://blog.stephane-robert.info/docs/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Votre question / Your question
+      description: Le passage qui n'est pas clair, et ce que vous en comprenez aujourd'hui. Dire où vous butez aide plus que citer le paragraphe entier.
+    validations:
+      required: true
