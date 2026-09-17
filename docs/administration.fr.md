@@ -121,8 +121,12 @@ Voici l'état relevé le 2026-09-17, slugs compris :
 **Le slug ne se devine pas, il se mesure.** GitHub met en minuscules, remplace
 espaces, `&` et apostrophe par un tiret, fusionne les séparateurs consécutifs,
 et **conserve les accents**. La première version de `.github/discussions.yml`
-pariait sur une translittération ; le contrôle de dérive a rendu les trois
-écarts dès son premier passage, et le dépôt a tranché.
+pariait sur une translittération, et interroger le dépôt a rendu les trois
+écarts d'un coup.
+
+Cette vérification n'est pas automatisée : une catégorie renommée ou supprimée
+ne produit donc **aucun signal**. Elle se refait à la main quand les catégories
+bougent, la requête est en tête de `.github/discussions.yml`.
 
 Ce n'est pas cosmétique : GitHub apparie un gabarit de `DISCUSSION_TEMPLATE/` à
 sa catégorie **par le nom du fichier**. Sur un slug faux, aucune erreur n'est

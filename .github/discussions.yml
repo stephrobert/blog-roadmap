@@ -8,10 +8,15 @@
 # la categorie elle-meme. La creation se fait une fois dans l'interface,
 # `Discussions` puis `Categories`.
 #
-# Ce fichier est la SOURCE DE VERITE, et `categories-discussions.yml` compare ce
-# qu'il declare a ce que le depot porte reellement. Une categorie renommee,
-# supprimee ou passee en Q&A par erreur ressort donc en ecart, au lieu de se
-# decouvrir six mois plus tard sur une discussion mal rangee.
+# Ce fichier documente l'etat vise. Il a existe un controle de derive qui le
+# comparait au depot a chaque semaine ; il a ete retire, ce qui veut dire qu'une
+# categorie renommee ou supprimee ne produit plus aucun signal. La verification
+# se refait a la demande, en une requete :
+#
+#   gh api graphql -f query='
+#     query { repository(owner: "stephrobert", name: "blog-roadmap") {
+#       discussionCategories(first: 50) { nodes { name slug emoji isAnswerable } } } }' \
+#     --jq '.data.repository.discussionCategories.nodes[] | "\(.slug)\t\(.name)"'
 #
 # LE SLUG NE SE DEVINE PAS, IL SE MESURE. Fabrique relevee sur les cinq
 # categories reelles le 2026-09-17 : minuscules, espaces / `&` / apostrophe

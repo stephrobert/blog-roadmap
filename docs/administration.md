@@ -119,8 +119,12 @@ is the state recorded on 2026-09-17, slugs included:
 **The slug is not guessed, it is measured.** GitHub lowercases, replaces spaces,
 `&` and apostrophes with a dash, collapses consecutive separators, and **keeps
 accents**. The first version of `.github/discussions.yml` bet on
-transliteration; the drift check reported all three mismatches on its very first
-run, and the repository settled it.
+transliteration, and querying the repository returned all three mismatches at
+once.
+
+This check is not automated: a renamed or deleted category produces **no
+signal**. Redo it by hand whenever categories move, the query sits at the top of
+`.github/discussions.yml`.
 
 This is not cosmetic: GitHub pairs a `DISCUSSION_TEMPLATE/` form with its
 category **by file name**. With a wrong slug, nothing errors out, the form
