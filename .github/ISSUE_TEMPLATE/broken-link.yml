@@ -1,12 +1,20 @@
-name: Lien cassé
-description: Un lien interne ou externe ne répond plus.
+name: Lien cassé / Broken link
+description: "Un lien interne ou externe ne répond plus / An internal or external link no longer answers."
 title: "[Lien] "
 labels: ["type:broken-link"]
 body:
   - type: input
+    id: page-title
+    attributes:
+      label: Page concernée / Page
+      description: Rempli automatiquement depuis le site. Filled in automatically from the site.
+    validations:
+      required: true
+
+  - type: input
     id: page-url
     attributes:
-      label: Page qui contient le lien
+      label: Page qui contient le lien / Page URL
       placeholder: "https://blog.stephane-robert.info/docs/..."
     validations:
       required: true
@@ -14,15 +22,15 @@ body:
   - type: input
     id: lien-casse
     attributes:
-      label: Lien cassé
-      description: L'adresse telle qu'elle est écrite dans la page.
+      label: Lien cassé / Broken link
+      description: L'adresse telle qu'elle est écrite dans la page. The address as written in the page.
     validations:
       required: true
 
   - type: dropdown
     id: symptome
     attributes:
-      label: Ce que répond le lien
+      label: Ce que répond le lien / What the link answers
       options:
         - "404, la page n'existe pas"
         - "Le domaine ne répond plus"
@@ -36,13 +44,13 @@ body:
   - type: input
     id: remplacement
     attributes:
-      label: Adresse de remplacement
+      label: Adresse de remplacement / Replacement address
       description: Si vous avez retrouvé la page ailleurs. Facultatif, mais c'est ce qui permet de corriger sans enquêter.
 
   - type: dropdown
     id: locale
     attributes:
-      label: Langue de la page
+      label: Langue de la page / Page language
       options:
         - fr
         - en

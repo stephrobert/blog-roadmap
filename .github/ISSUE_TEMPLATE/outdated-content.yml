@@ -1,5 +1,5 @@
-name: Contenu obsolète
-description: La page décrit une version dépassée, ou un comportement qui a changé.
+name: Contenu obsolète / Outdated content
+description: "Une version dépassée, un comportement qui a changé / An outdated version or changed behaviour."
 title: "[Obsolète] "
 labels: ["type:outdated"]
 body:
@@ -9,10 +9,13 @@ body:
         Ce formulaire demande une **source**. C'est ce qui sépare un signalement
         traitable d'une recherche à refaire entièrement avant de pouvoir agir.
 
+        *This form asks for a **source**. Without it, the whole check has to be
+        redone before anything can be fixed. Answer in English if you prefer.*
+
   - type: input
     id: page-title
     attributes:
-      label: Page concernée
+      label: Page concernée / Page
     validations:
       required: true
 
@@ -27,7 +30,7 @@ body:
   - type: input
     id: technologie
     attributes:
-      label: Technologie concernée
+      label: Technologie concernée / Technology
       placeholder: "Kubernetes, Terraform, Ansible, Trivy..."
     validations:
       required: true
@@ -35,19 +38,19 @@ body:
   - type: input
     id: version-page
     attributes:
-      label: Version présentée par la page
+      label: Version présentée par la page / Version shown
       placeholder: "1.31"
 
   - type: input
     id: version-actuelle
     attributes:
-      label: Version actuelle
+      label: Version actuelle / Current version
       placeholder: "1.37"
 
   - type: textarea
     id: obsolete
     attributes:
-      label: Ce qui est devenu faux
+      label: Ce qui est devenu faux / What is now wrong
       description: |
         Le point précis, pas « la page est vieille ». Une option retirée, un champ
         renommé, une commande qui ne répond plus la même chose, une pratique qui
@@ -59,7 +62,7 @@ body:
     id: source
     attributes:
       label: Source
-      description: Changelog, note de version, documentation officielle, annonce de dépréciation.
+      description: Changelog, note de version, documentation officielle. Changelog, release note or official documentation.
       placeholder: "https://kubernetes.io/blog/..."
     validations:
       required: true
@@ -67,7 +70,7 @@ body:
   - type: dropdown
     id: locale
     attributes:
-      label: Langue de la page
+      label: Langue de la page / Page language
       options:
         - fr
         - en

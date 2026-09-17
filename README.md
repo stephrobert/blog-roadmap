@@ -10,8 +10,20 @@ rattachée à un **projet** qui donne l'état d'avancement.
 |---|---|
 | Le site | https://blog.stephane-robert.info |
 | Signaler quelque chose | [Ouvrir une issue](https://github.com/stephrobert/blog-roadmap/issues/new/choose) |
-| Ce qui est en cours | [Roadmap](https://github.com/users/stephrobert/projects) |
+| Ce qui est en cours | [Roadmap](https://github.com/users/stephrobert/projects/3) |
 | Ce qui existe déjà | [Issues ouvertes](https://github.com/stephrobert/blog-roadmap/issues) |
+
+## In English
+
+This repository is the **public backlog** of
+[blog.stephane-robert.info](https://blog.stephane-robert.info): bug reports,
+content requests and roadmap. It holds **no site code**.
+
+The site is written in French and so is this tracker, but **you can write your
+issues in English**. Every form accepts it, and the four forms reachable from a
+page carry bilingual labels. The quickest way in is the **report button at the
+bottom of any page**: it opens an issue already filled with the page title, its
+URL and its language.
 
 ## Ce dépôt ne contient pas le code du site
 

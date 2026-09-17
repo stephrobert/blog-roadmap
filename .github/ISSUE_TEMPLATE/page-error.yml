@@ -1,5 +1,5 @@
-name: Erreur dans une page
-description: Une commande fausse, une explication inexacte, une sortie qui ne correspond pas.
+name: Erreur dans une page / Page error
+description: "Une commande fausse, une explication inexacte / A wrong command or an inaccurate explanation."
 title: "[Page] "
 labels: ["type:content-error"]
 body:
@@ -9,11 +9,14 @@ body:
         Les deux premiers champs sont remplis automatiquement si vous arrivez
         depuis le bouton **« Signaler un problème »** d'une page du site.
 
+        *The first two fields are filled in automatically when you come from the
+        report button of a page. Answer in English if you prefer.*
+
   - type: input
     id: page-title
     attributes:
-      label: Page concernée
-      description: Le titre de la page, tel qu'il s'affiche.
+      label: Page concernée / Page
+      description: Le titre de la page, tel qu'il s'affiche. The page title as displayed.
       placeholder: "Kubernetes : Network Policies"
     validations:
       required: true
@@ -22,7 +25,7 @@ body:
     id: page-url
     attributes:
       label: URL
-      description: L'adresse complète de la page. C'est la seule information sans laquelle l'issue ne peut pas être traitée.
+      description: L'adresse complète de la page, seule information sans laquelle l'issue ne peut pas être traitée. The full page address.
       placeholder: "https://blog.stephane-robert.info/docs/..."
     validations:
       required: true
@@ -31,13 +34,13 @@ body:
     id: section
     attributes:
       label: Section
-      description: Le titre du chapitre concerné, ou l'ancre. Facultatif, mais il fait gagner une relecture entière sur un guide long.
+      description: Le titre du chapitre concerné, ou l'ancre. Facultatif. The heading or anchor concerned. Optional.
       placeholder: "Isoler un namespace"
 
   - type: textarea
     id: probleme
     attributes:
-      label: Ce que vous avez constaté
+      label: Ce que vous avez constaté / What you found
       description: |
         Le fait, pas l'impression. Une commande et son message d'erreur, une valeur
         qui ne correspond pas à ce que rend l'outil, une étape qui manque.
@@ -51,19 +54,19 @@ body:
   - type: textarea
     id: attendu
     attributes:
-      label: Ce que vous attendiez
-      description: Ce que la page aurait dû dire, ou ce que l'outil rend réellement chez vous.
+      label: Ce que vous attendiez / What you expected
+      description: Ce que la page aurait dû dire, ou ce que l'outil rend chez vous. What the page should have said.
 
   - type: textarea
     id: complement
     attributes:
-      label: Informations complémentaires
-      description: Version de l'outil, système, contexte. Tout ce qui permet de reproduire.
+      label: Informations complémentaires / Anything else
+      description: Version de l'outil, système, contexte. Tout ce qui permet de reproduire. Anything that helps reproduce.
 
   - type: dropdown
     id: locale
     attributes:
-      label: Langue de la page
+      label: Langue de la page / Page language
       options:
         - fr
         - en

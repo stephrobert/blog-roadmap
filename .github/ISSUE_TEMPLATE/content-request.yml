@@ -1,4 +1,4 @@
-name: Demande de contenu
+name: Demande de contenu / Content request
 description: Un sujet manque, une formation ou un TP mériterait d'exister.
 title: "[Contenu] "
 labels: ["type:content-request"]

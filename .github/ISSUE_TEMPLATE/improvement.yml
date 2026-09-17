@@ -1,19 +1,30 @@
-name: Amélioration
-description: Le contenu est juste, mais la forme, la structure ou le parcours peuvent être meilleurs.
+name: Amélioration / Improvement
+description: "La forme, la structure ou le parcours peuvent être meilleurs / The form or structure could be better."
 title: "[Amélioration] "
 labels: ["type:enhancement"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        *Answer in English if you prefer.*
+
+  - type: input
+    id: page-title
+    attributes:
+      label: Titre de la page / Page
+      description: Rempli automatiquement depuis le site. Filled in automatically from the site.
+
   - type: input
     id: page-url
     attributes:
-      label: Page concernée
-      description: Laissez vide si la proposition porte sur le site entier et non sur une page.
+      label: URL de la page / Page URL
+      description: Laissez vide si la proposition porte sur le site entier. Leave empty if it is not about one page.
       placeholder: "https://blog.stephane-robert.info/docs/..."
 
   - type: textarea
     id: probleme
     attributes:
-      label: Ce qui gêne aujourd'hui
+      label: Ce qui gêne aujourd'hui / What gets in the way
       description: |
         Le point de friction, vécu de préférence. Une progression qui saute une
         étape, un exemple trop abstrait pour être repris, une navigation qui perd,
@@ -24,26 +35,37 @@ body:
   - type: textarea
     id: proposition
     attributes:
-      label: Amélioration proposée
+      label: Amélioration proposée / Proposed improvement
     validations:
       required: true
 
   - type: textarea
     id: valeur
     attributes:
-      label: Ce que cela apporterait
+      label: Ce que cela apporterait / What it would bring
       description: À qui, et sur quoi. Une amélioration qui ne sert qu'à uniformiser passe après une amélioration qui débloque un lecteur.
 
   - type: dropdown
     id: nature
     attributes:
-      label: Nature de l'amélioration
+      label: Nature de l'amélioration / Kind of improvement
       description: Sert au classement, pas à la décision.
       options:
         - Pédagogie et structure du contenu
         - Navigation et lisibilité
         - Référencement
         - Fonctionnalité du site
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Langue de la page / Page language
+      options:
+        - fr
+        - en
       default: 0
     validations:
       required: true
