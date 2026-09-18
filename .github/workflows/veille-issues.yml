@@ -1,0 +1,176 @@
+# Publie le backlog sous forme de flux Atom, toutes les six heures.
+#
+# POURQUOI CE WORKFLOW EXISTE. GitHub notifie la CREATION d'une issue, jamais
+# son OUBLI. Un signalement de lien casse laisse trois semaines est un lecteur
+# perdu trois semaines, et aucune notification ne le rappelle. Ce flux porte
+# donc les issues ouvertes avec leur age, et remonte une entree de rappel des
+# qu'une issue depasse le seuil.
+#
+# POURQUOI UN FLUX ET PAS UN COURRIEL. Le courriel ferait doublon avec la
+# notification GitHub native, qui part deja sur l'adresse du compte. Le flux,
+# lui, arrive dans le lecteur RSS deja utilise pour la veille, a cote du reste.
+#
+# POURQUOI PAS GITHUB PAGES. Le fichier est servi par raw.githubusercontent.com :
+# pas de site a activer, pas d'action de deploiement, donc pas de dependance
+# supplementaire dans la chaine.
+#
+# POURQUOI UNE BRANCHE DEDIEE. `main` porte un ruleset qui exige une pull
+# request, et le jeton du workflow ne le contourne pas : une ecriture directe y
+# serait refusee. Le ruleset ne vise que `~DEFAULT_BRANCH`, donc la branche
+# `feed` est libre. Elle ne se merge jamais dans main, elle ne porte que ce
+# fichier, et l'historique du backlog reste propre.
+#
+#   https://raw.githubusercontent.com/stephrobert/blog-roadmap/feed/issues.xml
+name: Veille du backlog
+
+on:
+  schedule:
+    # Toutes les six heures. Le planificateur de GitHub n'est pas ponctuel, mais
+    # ici cela n'a aucune importance : le flux decrit un etat, il ne signale pas
+    # un evenement, donc rien ne peut tomber entre deux passages.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+      contents: write
+    steps:
+      - name: Générer le flux et le publier s'il a changé
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const CHEMIN = "issues.xml";
+            const BRANCHE = "feed";
+            const JOURS_VIEILLE = 7;
+            const depot = `${context.repo.owner}/${context.repo.repo}`;
+            const base = `https://github.com/${depot}`;
+
+            const toutes = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100,
+            });
+            // Une pull request est une issue pour l'API. On ne veille que sur
+            // les signalements.
+            const issues = toutes.filter((i) => !i.pull_request);
+
+            const esc = (s) =>
+              String(s).replace(/[&<>"']/g, (c) =>
+                ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&apos;" }[c])
+              );
+            const jours = (d) => Math.floor((Date.now() - new Date(d)) / 86400000);
+
+            const entree = (id, titre, lien, date, corps) =>
+              `  <entry>\n`
+              + `    <id>${esc(id)}</id>\n`
+              + `    <title>${esc(titre)}</title>\n`
+              + `    <link rel="alternate" type="text/html" href="${esc(lien)}"/>\n`
+              + `    <updated>${new Date(date).toISOString()}</updated>\n`
+              + `    <content type="html">${esc(corps)}</content>\n`
+              + `  </entry>`;
+
+            const entrees = issues.map((i) => {
+              const age = jours(i.created_at);
+              const labels = i.labels.map((l) => l.name || l).join(", ") || "sans label";
+              const corps = `<p><strong>${esc(labels)}</strong> &middot; ouverte depuis `
+                + `${age} j &middot; ${i.comments} commentaire(s)</p>`
+                + `<p>${esc((i.body || "").slice(0, 600))}</p>`;
+              return entree(i.html_url, `#${i.number} ${i.title}`, i.html_url, i.updated_at, corps);
+            });
+
+            // L'entree de rappel est la raison d'etre du flux. Son identifiant
+            // porte la DATE DU JOUR : elle reapparait donc une fois par jour
+            // tant que des issues trainent, et disparait des qu'il n'y en a
+            // plus. Sans cela, une issue oubliee resterait une entree lue.
+            const vieilles = issues.filter((i) => jours(i.created_at) >= JOURS_VIEILLE);
+            if (vieilles.length) {
+              const jour = new Date().toISOString().slice(0, 10);
+              const liste = vieilles
+                .map((i) => `<li><a href="${esc(i.html_url)}">#${i.number} ${esc(i.title)}</a>`
+                  + ` (${jours(i.created_at)} j)</li>`)
+                .join("");
+              entrees.unshift(entree(
+                `${base}/issues?rappel=${jour}`,
+                `${vieilles.length} issue(s) ouverte(s) depuis plus de ${JOURS_VIEILLE} jours`,
+                `${base}/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc`,
+                new Date().toISOString(),
+                `<ul>${liste}</ul>`
+              ));
+            }
+
+            // `updated` du flux : la date la plus recente des entrees, JAMAIS
+            // l'heure courante. Sinon le fichier changerait a chaque passage et
+            // produirait un commit toutes les six heures pour rien.
+            const dates = entrees.length
+              ? issues.map((i) => new Date(i.updated_at).getTime())
+              : [0];
+            const recent = vieilles.length
+              ? new Date().toISOString().slice(0, 10) + "T00:00:00.000Z"
+              : new Date(Math.max(...dates, 0)).toISOString();
+
+            const flux = `<?xml version="1.0" encoding="utf-8"?>\n`
+              + `<feed xmlns="http://www.w3.org/2005/Atom">\n`
+              + `  <title>Backlog ${esc(depot)}</title>\n`
+              + `  <subtitle>Signalements des lecteurs et demandes de contenu, `
+              + `issues ouvertes et rappel de celles qui trainent.</subtitle>\n`
+              + `  <id>${base}/issues</id>\n`
+              + `  <link rel="alternate" type="text/html" href="${base}/issues"/>\n`
+              + `  <updated>${recent}</updated>\n`
+              + entrees.join("\n") + `\n</feed>\n`;
+
+            // La branche dediee peut ne pas exister au premier passage. On la
+            // cree depuis la branche par defaut plutot que de faire echouer le
+            // workflow sur une reference absente.
+            try {
+              await github.rest.repos.getBranch({
+                owner: context.repo.owner, repo: context.repo.repo, branch: BRANCHE,
+              });
+            } catch (e) {
+              if (e.status !== 404) throw e;
+              const defaut = await github.rest.repos.get({
+                owner: context.repo.owner, repo: context.repo.repo,
+              });
+              const tete = await github.rest.git.getRef({
+                owner: context.repo.owner, repo: context.repo.repo,
+                ref: `heads/${defaut.data.default_branch}`,
+              });
+              await github.rest.git.createRef({
+                owner: context.repo.owner, repo: context.repo.repo,
+                ref: `refs/heads/${BRANCHE}`, sha: tete.data.object.sha,
+              });
+              core.info(`Branche ${BRANCHE} creee.`);
+            }
+
+            // On ne reecrit que si le contenu differe, pour ne pas polluer
+            // l'historique de quatre commits par jour.
+            let sha;
+            try {
+              const actuel = await github.rest.repos.getContent({
+                owner: context.repo.owner, repo: context.repo.repo,
+                path: CHEMIN, ref: BRANCHE,
+              });
+              sha = actuel.data.sha;
+              if (Buffer.from(actuel.data.content, "base64").toString("utf8") === flux) {
+                core.info(`Flux inchange, ${issues.length} issue(s) ouverte(s).`);
+                return;
+              }
+            } catch (e) {
+              if (e.status !== 404) throw e;
+            }
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: CHEMIN,
+              branch: BRANCHE,
+              message: `Flux du backlog : ${issues.length} issue(s) ouverte(s)`,
+              content: Buffer.from(flux, "utf8").toString("base64"),
+              sha,
+            });
+            core.info(`Flux publie : ${issues.length} issue(s), ${vieilles.length} ancienne(s).`);
