@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Backlog stephrobert/blog-roadmap</title>
+  <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
+  <id>https://github.com/stephrobert/blog-roadmap/issues</id>
+  <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
+  <updated>1970-01-01T00:00:00.000Z</updated>
+
+</feed>
