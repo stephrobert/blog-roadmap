@@ -4,6 +4,40 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>1970-01-01T00:00:00.000Z</updated>
+  <updated>2026-09-18T21:32:18.000Z</updated>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/12</id>
+    <title>#12 [Obsolète] Installer KVM/libvirt sur Linux</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/12"/>
+    <updated>2026-09-18T21:32:18.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
+Installer KVM/libvirt sur Linux
+
+### URL
+
+https://blog.stephane-robert.info/docs/virtualiser/type1/kvm/installation/
+
+### Technologie concernée / Technology
+
+qemu-kvm
+
+### Version présentée par la page / Version shown
+
+_No response_
+
+### Version actuelle / Current version
+
+_No response_
+
+### Ce qui est devenu faux / What is now wrong
+
+Bonjour Grand Maître Stéphane, 🙏🙇🙏🙇🙏🙇
+
+Apparemment le meta package n&amp;apos;est plus installable, en tous les cas pour ubuntu 26.04
+
+```
+Package qemu-kvm is a virtual package provided by:
+  qemu-system-x86-hwe 1:10.2.1+ds-1ubuntu4.3 (= 1&lt;/p&gt;</content>
+  </entry>
 </feed>
