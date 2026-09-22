@@ -4,61 +4,6 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-09-21T13:27:41.000Z</updated>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/15</id>
-    <title>#15 [Page] Utiliser NFS sur Linux</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/15"/>
-    <updated>2026-09-21T13:27:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+  <updated>1970-01-01T00:00:00.000Z</updated>
 
-Utiliser NFS sur Linux
-
-### URL
-
-https://blog.stephane-robert.info/docs/services/stockage/nfs/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Installation : nfs-kernel-server (serveur) et nfs-common (client)
-
-
-### Ce que vous attendiez / What you expected
-
-packages inexistants, remplacés par nfs-utils
-
-dnf info nfs-kernel-server
-AlmaLinux 9 - AppStream                                                                          7.9 kB/s | 4.2 kB     00:00
-AlmaLinux 9 - AppStream                                                                &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/14</id>
-    <title>#14 [Page] Contrôler capacité et quotas disque</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/14"/>
-    <updated>2026-09-21T13:18:43.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Contrôler capacité et quotas disque
-
-### URL
-
-https://blog.stephane-robert.info/docs/admin-serveurs/linux/stockage/espace-disque/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Q4. lsof +L1 montre qu&amp;apos;nginx garde ouvert un access.log supprimé de 8 Go. Quelle est l&amp;apos;action recommandée ?
-Votre réponse
-Supprimer à la main le descripteur ouvert dans /proc/&amp;lt;pid&amp;gt;/fd
-Réponse correcte
-Redémarrer proprement le service avec systemctl restart
-La solution propre est de redémarrer le service : un systemctl restart referme les descripteurs, le noyau lib&lt;/p&gt;</content>
-  </entry>
 </feed>
