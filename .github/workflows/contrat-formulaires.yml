@@ -49,6 +49,7 @@ jobs:
           # Le contrat, cote depot de backlog. Toute modification ici doit etre
           # faite EN MEME TEMPS que celle du composant du site.
           ATTENDUS = {"page-title", "page-url", "locale", "page-id"}
+          LIBELLE_PAGE_ID = "Identifiant de page / Page id"
           GABARITS = {
               "page-error.yml": "[Page]",
               "outdated-content.yml": "[Obsolète]",
@@ -71,6 +72,14 @@ jobs:
                   ecarts.append(f"{nom} : champ(s) manquant(s) {sorted(manque)}")
               # Le prefixe de titre est celui que le composant envoie : s'ils
               # divergent, l'issue porte deux prefixes ou aucun.
+              # issue-triage.yml reconnait une issue venue du site au titre de
+              # ce champ dans le corps : un libelle renomme, et plus aucune
+              # issue ne recoit source:reader, sans erreur nulle part.
+              for c in d.get("body", []):
+                  if isinstance(c, dict) and c.get("id") == "page-id":
+                      libelle = c.get("attributes", {}).get("label")
+                      if libelle != LIBELLE_PAGE_ID:
+                          ecarts.append(f"{nom} : page-id a pour libelle {libelle!r}, issue-triage.yml cherche {LIBELLE_PAGE_ID!r}")
               titre = str(d.get("title", ""))
               if not titre.startswith(prefixe):
                   ecarts.append(f"{nom} : title vaut {titre!r}, le site envoie {prefixe!r}")
