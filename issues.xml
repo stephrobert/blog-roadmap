@@ -4,13 +4,100 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-09-28T17:30:03.000Z</updated>
+  <updated>2026-09-29T14:13:09.000Z</updated>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/22</id>
+    <title>#22 [Page] Enregistrer des modifications avec Git : add, commit, status</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/22"/>
+    <updated>2026-09-29T14:13:09.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Enregistrer des modifications avec Git : add, commit, status
+
+### URL
+
+https://blog.stephane-robert.info/docs/developper/version/git/enregistrer-modifications/
+
+### Section
+
+#contrôle-de-connaissances
+
+### Ce que vous avez constaté / What you found
+
+J&amp;apos;ai donné la bonne réponse `git rm --cached` , mais elle est comptée comme mauvaise.
+&amp;lt;img width=&amp;quot;962&amp;quot; height=&amp;quot;243&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/419f4b13-c849-46f5-8095-a38071bba4fd&amp;quot; /&amp;gt;
+
+### Ce que vous attendiez / What you expected
+
+Réponse correcte : `git rm --cached`
+
+### Informations com&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/21</id>
+    <title>#21 [Préprod] [Amélioration] Quiz Linux : Débutant</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/21"/>
+    <updated>2026-09-29T13:01:20.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:site, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+Quiz Linux : Débutant
+
+### URL de la page / Page URL
+
+https://blog.stephane-robert.info/examen/linux/debutant/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+La question ne me paraît pas pertinente pour le quizz linux
+
+&amp;lt;img width=&amp;quot;767&amp;quot; height=&amp;quot;92&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/3596a929-8f27-46b3-9773-ba7426d83bf0&amp;quot; /&amp;gt;
+
+### Amélioration proposée / Proposed improvement
+
+évaluer la pertinence de conserver cette question dans le quizz
+
+### Ce que cela apporterait / What it would bring
+
+_No response_
+
+### Nature de l&amp;apos;amélioration / Kin&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/20</id>
+    <title>#20 [Préprod] [Page] Mon Apprentissage</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/20"/>
+    <updated>2026-09-29T12:28:27.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Mon Apprentissage
+
+### URL
+
+https://dev.stephane-robert.info/mon-apprentissage/
+
+### Section
+
+_No response_
+
+### Ce que vous avez constaté / What you found
+
+
+- Pas d&amp;apos;encart &amp;quot;Signaler un problème&amp;quot;
+- Import d&amp;apos;un parcours du site de prod actuel en erreur (peut être normal pour le moment)
+
+&amp;lt;img width=&amp;quot;753&amp;quot; height=&amp;quot;255&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/6bf7dc8d-19af-4ab3-b1c5-7f68dfe9863b&amp;quot; /&amp;gt;
+
+### Ce que vous attendiez / What you expected
+
+Le message &amp;quot;Fichier illisible : rien n’a été modifié.&amp;quot; reste affiché
+Si on refait un import, que ça plante &lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/19</id>
     <title>#19 [Page] Module1 : Les bases absolues du réseau</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/19"/>
     <updated>2026-09-28T17:30:03.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Module1 : Les bases absolues du réseau
 
@@ -33,7 +120,7 @@ Une question ne peut pas être répondue dans le QCM.
     <title>#18 [Amélioration] Lab 04, Artifacts et cache</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/18"/>
     <updated>2026-09-28T14:57:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 04, Artifacts et cache
 
