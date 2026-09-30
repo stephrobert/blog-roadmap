@@ -4,30 +4,7 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-09-29T23:08:20.000Z</updated>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/32</id>
-    <title>#32 [Amélioration] Concepts Docker : images, conteneurs, layers, cycle de vie et architecture</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/32"/>
-    <updated>2026-09-29T22:54:29.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:containers, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Concepts Docker : images, conteneurs, layers, cycle de vie et architecture
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/concepts/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Le lien sur le *mode rootless* qui amène au début de la page &amp;quot;sécuriser docker au lieu directeent sur la partie *mode rootless*
-
-&amp;lt;img width=&amp;quot;970&amp;quot; height=&amp;quot;117&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/6b5f5c6d-9c48-41be-a7bc-c42f9dfa2992&amp;quot; /&amp;gt;
-
-### Amélioration proposée / Proposed improvement
-
-Si possible, a&lt;/p&gt;</content>
-  </entry>
+  <updated>2026-09-30T05:24:52.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/31</id>
     <title>#31 [Amélioration] Découvrir Linux : par où commencer ?</title>
@@ -56,36 +33,11 @@ Avoir un side bar que l&amp;apos;on peut plier et déplier
 Une meilleure expérience que pour écrans&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/30</id>
-    <title>#30 [Amélioration] Goroutines et channels en Go</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/30"/>
-    <updated>2026-09-29T21:16:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Goroutines et channels en Go
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/developper/programmation/golang/goroutines/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-dans la section un pool de workers il me semble utile d&amp;apos;ajouter que pour fonctionner il faut importer le package sync
-
-### Amélioration proposée / Proposed improvement
-
-dans la section un pool de workers il me semble utile d&amp;apos;ajouter que pour fonctionner il faut importer le package sync
-
-### Ce que cela apporterait / What it would bring
-
-éviterait une erreur à corriger soi&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/29</id>
     <title>#29 [Amélioration] Découvrir Linux : par où commencer ?</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/29"/>
-    <updated>2026-09-29T23:08:20.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <updated>2026-09-30T05:24:52.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Découvrir Linux : par où commencer ?
 
@@ -104,85 +56,6 @@ Avant de passer à la suite, cochez mentalement chaque ligne :
  J&amp;apos;ai exécuté pwd, whoami et hostname avec succès.
  J&amp;apos;ai décortiqué une commande du type ls -la /etc/passwd (commande + options + argument).
  &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/28</id>
-    <title>#28 [Amélioration] Notions fondamentales Linux</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/28"/>
-    <updated>2026-09-29T19:49:59.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Notions fondamentales Linux
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/notions/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Au moment du lab pratique, il est proposé de faire avec ou sans lab. J’ai choisi de faire avec le Lab. 
-
-Problème, le titre c’est « première fois ? Comment l’installer »
-
-Et la section avant de commence indique qu’il faut DSXOlab d’installer. C’est contradictoire. 
-
-### Amélioration proposée / Proposed improvement
-
-Le texte en bas de section de « Première fo&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/27</id>
-    <title>#27 [Préprod] [Amélioration] Cards des domaines</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/27"/>
-    <updated>2026-09-29T19:30:04.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-https://dev.stephane-robert.info/docs/
-
-### URL de la page / Page URL
-
-https://dev.stephane-robert.info/docs/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Remarques cosmétiques : 
-
-- Les cards sont assez disproportionnées et créent un manque d&amp;apos;homogénéité visuelle
-- quand il y a bcp de notions &amp;quot;+2 autres formations&amp;quot; force à ouvrir la page dédié pour savoir de quoi il s&amp;apos;agit
-- sur une formation donnée, les leçons sont affichées en haut, puis les labs associés en bas, ainsi que les certifs
-
-&amp;lt;img width=&amp;quot;1151&amp;quot; height=&amp;quot;820&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/us&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/26</id>
-    <title>#26 [Obsolète] Concepts Docker : images, conteneurs, layers, cycle de vie et architecture</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/26"/>
-    <updated>2026-09-29T19:11:09.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, area:containers, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Concepts Docker : images, conteneurs, layers, cycle de vie et architecture
-
-### URL
-
-https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/concepts/
-
-### Technologie concernée / Technology
-
-Docker
-
-### Version présentée par la page / Version shown
-
-_No response_
-
-### Version actuelle / Current version
-
-_No response_
-
-### Ce qui est devenu faux / What is now wrong
-
-Preprod: image déphasé du schéma (pas d&amp;apos;état exited, removed sur le schéma, les transistions réversibles entre running -&amp;gt; stopped, created -&amp;gt; removed)
-
-&amp;lt;img width=&amp;quot;1067&amp;quot; height=&amp;quot;725&amp;quot; a&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/25</id>
@@ -234,145 +107,6 @@ Préprod : Dans le plan de préparation pour KCSA , il manque les liens pour cha
 ### Ce que vous attendiez / What you expected
 
 Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/23</id>
-    <title>#23 [Préprod] [Page] Certification Terraform : Associate ou Professional ?</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/23"/>
-    <updated>2026-09-29T18:41:30.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Certification Terraform : Associate ou Professional ?
-
-### URL
-
-https://blog.stephane-robert.info/docs/infra-as-code/provisionnement/terraform/certifications/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Le registry pointe vers https://dev.stephane-robert.info/docs/conteneurs/registres/ alors qu&amp;apos;on parle du Terraform Registry 
-
-&amp;lt;img width=&amp;quot;951&amp;quot; height=&amp;quot;287&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/6d36fcc1-47d1-466e-98a3-7ce83ffcec4f&amp;quot; /&amp;gt;
-
-### Ce que vous attendiez / What you expected
-
-_No response_
-
-### Informations &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/22</id>
-    <title>#22 [Page] Enregistrer des modifications avec Git : add, commit, status</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/22"/>
-    <updated>2026-09-29T14:13:09.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Enregistrer des modifications avec Git : add, commit, status
-
-### URL
-
-https://blog.stephane-robert.info/docs/developper/version/git/enregistrer-modifications/
-
-### Section
-
-#contrôle-de-connaissances
-
-### Ce que vous avez constaté / What you found
-
-J&amp;apos;ai donné la bonne réponse `git rm --cached` , mais elle est comptée comme mauvaise.
-&amp;lt;img width=&amp;quot;962&amp;quot; height=&amp;quot;243&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/419f4b13-c849-46f5-8095-a38071bba4fd&amp;quot; /&amp;gt;
-
-### Ce que vous attendiez / What you expected
-
-Réponse correcte : `git rm --cached`
-
-### Informations com&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/21</id>
-    <title>#21 [Préprod] [Amélioration] Quiz Linux : Débutant</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/21"/>
-    <updated>2026-09-29T13:01:20.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:site, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Quiz Linux : Débutant
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/examen/linux/debutant/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-La question ne me paraît pas pertinente pour le quizz linux
-
-&amp;lt;img width=&amp;quot;767&amp;quot; height=&amp;quot;92&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/3596a929-8f27-46b3-9773-ba7426d83bf0&amp;quot; /&amp;gt;
-
-### Amélioration proposée / Proposed improvement
-
-évaluer la pertinence de conserver cette question dans le quizz
-
-### Ce que cela apporterait / What it would bring
-
-_No response_
-
-### Nature de l&amp;apos;amélioration / Kin&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/20</id>
-    <title>#20 [Préprod] [Page] Mon Apprentissage</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/20"/>
-    <updated>2026-09-29T12:28:27.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Mon Apprentissage
-
-### URL
-
-https://dev.stephane-robert.info/mon-apprentissage/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-
-- Pas d&amp;apos;encart &amp;quot;Signaler un problème&amp;quot;
-- Import d&amp;apos;un parcours du site de prod actuel en erreur (peut être normal pour le moment)
-
-&amp;lt;img width=&amp;quot;753&amp;quot; height=&amp;quot;255&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/6bf7dc8d-19af-4ab3-b1c5-7f68dfe9863b&amp;quot; /&amp;gt;
-
-### Ce que vous attendiez / What you expected
-
-Le message &amp;quot;Fichier illisible : rien n’a été modifié.&amp;quot; reste affiché
-Si on refait un import, que ça plante &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/19</id>
-    <title>#19 [Page] Module1 : Les bases absolues du réseau</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/19"/>
-    <updated>2026-09-28T17:30:03.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Module1 : Les bases absolues du réseau
-
-### URL
-
-https://blog.stephane-robert.info/docs/reseaux/fondamentaux/bases-absolues/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Une question ne peut pas être répondue dans le QCM. 
-- La question qui est toujours problématique est `Quelle commande Linux affiche les adresses IP configurées sur les interfaces réseau ?`.
-- Le bouton `Suivant` depuis la question précédente ne permet pas d&amp;apos;afficher la question. En répétant une seconde fois l&amp;apos;appui sur `Suivant`, on passe non pas à la question qui ne &lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/18</id>
