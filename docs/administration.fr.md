@@ -127,9 +127,33 @@ invisible d'ici : le composant porte le même avertissement dans son en-tête, e
 la skill `pilotage-backlog` le porte une troisième fois. Trois copies d'un
 avertissement coûtent moins cher qu'une régression silencieuse.
 
+## Qualifier une contribution, à la fermeture
+
+Un seul geste, au moment de fermer une issue traitée : dans le Project, choisir
+la valeur du champ **`Contribution`**, puis fermer avec la raison `completed`
+et un commentaire qui renvoie au commit du site. Un refus se ferme en
+`not planned`, un doublon en `duplicate` : ils ne rapportent rien, quelle que
+soit la valeur posée.
+
+```bash
+gh issue close <n> --repo stephrobert/blog-roadmap --reason completed
+```
+
+Le champ a été créé le 2026-09-30 par l'API GraphQL (`createProjectV2Field`),
+ce qui a fonctionné, contrairement aux workflows du projet. Les sept issues
+fermées avant l'ajout automatique au Project y ont été rattachées le même jour
+pour recevoir leur valeur.
+
+**Le classement se regénère sur le poste**, jamais en CI : le `GITHUB_TOKEN`
+d'un workflow ne lit pas un Project personnel, et un jeton durable à portée
+projet a été écarté plus haut. Un timer systemd utilisateur,
+`blog-contributors.timer`, lance chaque jour à 7 h 05 `npm run contributors`
+dans le dépôt du site, qui réécrit `src/data/contributors.json` ; la page est à
+jour à la publication suivante.
+
 ## Ce qu'il ne faut pas automatiser
 
-La priorité, l'effort, l'acceptation, le refus, et la fermeture pour inactivité.
+La priorité, l'effort, l'acceptation, le refus, la valeur d'une contribution et la fermeture pour inactivité.
 Aucun workflow `stale` n'est installé, et c'est une décision, pas un oubli : une
 idée éditoriale qui dort dix-huit mois reste une bonne idée.
 

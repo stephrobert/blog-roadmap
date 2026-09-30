@@ -169,6 +169,47 @@ Three frequent refusals, always motivated in writing:
 - **not reproducible**: the report does not allow finding the defect again, and a
   follow-up went unanswered.
 
+## Contribution value and ranking
+
+The site publishes a **contributors ranking**
+([/en/contributors/](https://blog.stephane-robert.info/en/contributors/)). It
+does not reward the number of issues but the **value actually brought to the
+site**, and that value is a **human editorial decision**, never computed.
+
+It lives in a single Project field, **`Contribution`**, and nowhere else: no
+label, no inference from type, priority or comments.
+
+| Value | Points | What earns it |
+|---|---:|---|
+| `Non retenue` (not kept) | 0 | duplicate, false positive, question, preference without a demonstrated improvement |
+| `Mineure · 1` (minor) | 1 | a real but limited fix |
+| `Utile · 3` (useful) | 3 | several readers benefit |
+| `Importante · 5` (important) | 5 | real technical error, important outdated content, broken path, blocked feature |
+| `Majeure · 10` (major) | 10 | the report exposes a defect in a **shared mechanism**: component, generator, site-wide rule |
+
+Rules, in the order they apply:
+
+- **The value is set at closing**, when the impact is known and the fix
+  published. An open issue does not count, even when qualified.
+- **Only a `COMPLETED` closing counts.** `NOT_PLANNED` and `DUPLICATE` earn
+  nothing, even if a value was set by mistake.
+- **Who counts**: the issue author, except the repository owner, a `Bot`
+  account or a `source:automated` issue. `source:reader` is **not** used:
+  measured on 2026-09-30, the owner's tests carry it and two reader issues do
+  not.
+- **The problem found is rated**, not the proposed solution, and so is the
+  impact actually triggered: a dead link that reveals a wrong rule on hundreds of
+  pages is worth more than a dead link.
+- **The systematic review is not credited**: every issue triggers a full review
+  of its page; what that review finds on top is not credited to the reporter.
+- **Duplicates**: the first useful report gets the value, the next ones 0.
+  **Splitting**: ten issues on the same defect are rated as one. **Issue split
+  by triage**: the value goes on the original issue.
+- **Collaboration**: only the issue author is credited, an accepted limit.
+
+The computation and its calibration on real issues are documented in the site
+repository (`scripts/lib/contributeurs.mjs`, `todo/contributors-scoring-v1.md`).
+
 ## Automations
 
 What is automated is what a human would retype **identically** every time. The
@@ -181,7 +222,7 @@ rest is not, by choice.
 | Source and area | `.github/workflows/issue-triage.yml` | Adds `source:reader` and `area:*` from the URL |
 
 **What is not automated, and will not be**: priority, effort, acceptance,
-refusal, and closing for inactivity. An editorial backlog is not a bug queue: an
+refusal, the value of a contribution, and closing for inactivity. An editorial backlog is not a bug queue: an
 idea that sleeps for eighteen months is still a good idea, and a bot closing it
 after sixty days destroys exactly what this repository exists to preserve. That
 is why **no `stale` workflow is installed**.
