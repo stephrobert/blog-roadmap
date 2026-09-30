@@ -32,11 +32,11 @@ body:
     attributes:
       label: Ce que répond le lien / What the link answers
       options:
-        - "404, la page n'existe pas"
-        - "Le domaine ne répond plus"
-        - "Redirection vers une page sans rapport"
-        - "Contenu déplacé, l'adresse a changé"
-        - "Autre"
+        - "404, la page n'existe pas / 404, the page does not exist"
+        - "Le domaine ne répond plus / The domain no longer answers"
+        - "Redirection vers une page sans rapport / Redirects to an unrelated page"
+        - "Contenu déplacé, l'adresse a changé / Content moved, the address changed"
+        - "Autre / Other"
       default: 0
     validations:
       required: true
@@ -45,7 +45,7 @@ body:
     id: remplacement
     attributes:
       label: Adresse de remplacement / Replacement address
-      description: Si vous avez retrouvé la page ailleurs. Facultatif, mais c'est ce qui permet de corriger sans enquêter.
+      description: Si vous avez retrouvé la page ailleurs. Facultatif, mais c'est ce qui permet de corriger sans enquêter. If you found the page elsewhere. Optional.
 
   - type: dropdown
     id: locale

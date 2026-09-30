@@ -1,5 +1,5 @@
 name: Demande de contenu / Content request
-description: Un sujet manque, une formation ou un TP mériterait d'exister.
+description: "Un sujet manque, une formation ou un TP mériterait d'exister / A topic, a course or a lab is missing."
 title: "[Contenu] "
 labels: ["type:content-request"]
 body:
@@ -10,10 +10,14 @@ body:
         demande formulée comme un titre. Dites à qui le contenu servirait et ce
         que le lecteur saurait faire après l'avoir lu.
 
+        *A request written as a **need** is handled far better than one written
+        as a title. Say who the content would serve and what the reader could do
+        after reading it. Answer in English if you prefer.*
+
   - type: input
     id: sujet
     attributes:
-      label: Sujet
+      label: Sujet / Topic
       placeholder: "Sauvegarder et restaurer un cluster avec Velero"
     validations:
       required: true
@@ -21,7 +25,7 @@ body:
   - type: input
     id: technologie
     attributes:
-      label: Technologie
+      label: Technologie / Technology
       placeholder: "Kubernetes, Ansible, Scaleway..."
     validations:
       required: true
@@ -29,22 +33,23 @@ body:
   - type: textarea
     id: pourquoi
     attributes:
-      label: Pourquoi ce contenu serait utile
+      label: Pourquoi ce contenu serait utile / Why this content would help
       description: |
         Le problème que le lecteur cherche à résoudre, et ce qu'il ne trouve pas
         ailleurs. Une demande motivée par un besoin réel passe avant une demande
         motivée par la complétude d'un sommaire.
+        The problem the reader wants to solve, and what they cannot find elsewhere.
     validations:
       required: true
 
   - type: dropdown
     id: niveau
     attributes:
-      label: Niveau attendu
+      label: Niveau attendu / Expected level
       options:
-        - débutant
-        - intermédiaire
-        - avancé
+        - débutant / beginner
+        - intermédiaire / intermediate
+        - avancé / advanced
       default: 1
     validations:
       required: true
@@ -52,11 +57,11 @@ body:
   - type: dropdown
     id: format
     attributes:
-      label: Format souhaité
+      label: Format souhaité / Preferred format
       options:
         - guide
-        - formation
-        - TP
+        - formation / course
+        - TP / lab
         - challenge
         - quiz
         - article
@@ -67,8 +72,9 @@ body:
   - type: textarea
     id: existant
     attributes:
-      label: Ce qui existe déjà
+      label: Ce qui existe déjà / What already exists
       description: |
         Les pages du site qui approchent le sujet, si vous en connaissez. Cela
         évite d'ouvrir un doublon, et cela dit souvent où le contenu manquant
         devrait se rattacher.
+        Pages of the site close to the topic, if you know any: it avoids a duplicate.
