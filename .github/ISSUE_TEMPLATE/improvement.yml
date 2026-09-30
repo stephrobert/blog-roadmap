@@ -29,6 +29,8 @@ body:
         Le point de friction, vécu de préférence. Une progression qui saute une
         étape, un exemple trop abstrait pour être repris, une navigation qui perd,
         un temps de lecture annoncé qui ne correspond pas.
+        The friction point, ideally one you ran into: a skipped step, an example
+        too abstract to reuse, a navigation that loses you.
     validations:
       required: true
 
@@ -43,18 +45,18 @@ body:
     id: valeur
     attributes:
       label: Ce que cela apporterait / What it would bring
-      description: À qui, et sur quoi. Une amélioration qui ne sert qu'à uniformiser passe après une amélioration qui débloque un lecteur.
+      description: À qui, et sur quoi. Une amélioration qui ne sert qu'à uniformiser passe après une amélioration qui débloque un lecteur. Who it helps, and with what.
 
   - type: dropdown
     id: nature
     attributes:
       label: Nature de l'amélioration / Kind of improvement
-      description: Sert au classement, pas à la décision.
+      description: Sert au classement, pas à la décision. Used for sorting, not for the decision.
       options:
-        - Pédagogie et structure du contenu
-        - Navigation et lisibilité
-        - Référencement
-        - Fonctionnalité du site
+        - Pédagogie et structure du contenu / Teaching and content structure
+        - Navigation et lisibilité / Navigation and readability
+        - Référencement / Search visibility
+        - Fonctionnalité du site / Site feature
       default: 0
     validations:
       required: true

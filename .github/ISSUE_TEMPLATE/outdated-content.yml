@@ -55,6 +55,8 @@ body:
         Le point précis, pas « la page est vieille ». Une option retirée, un champ
         renommé, une commande qui ne répond plus la même chose, une pratique qui
         n'est plus recommandée.
+        The precise point, not "the page is old": a removed option, a renamed field,
+        a command that now answers differently.
     validations:
       required: true
 

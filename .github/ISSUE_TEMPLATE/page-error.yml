@@ -44,6 +44,8 @@ body:
       description: |
         Le fait, pas l'impression. Une commande et son message d'erreur, une valeur
         qui ne correspond pas à ce que rend l'outil, une étape qui manque.
+        The fact, not the impression: a command and its error message, a value that
+        differs from what the tool returns, a missing step.
       placeholder: |
         La commande `kubectl ...` de la section « ... » répond :
 

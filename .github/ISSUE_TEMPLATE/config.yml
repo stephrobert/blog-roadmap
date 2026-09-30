@@ -24,7 +24,7 @@ contact_links:
 
   - name: Le site / The site
     url: https://blog.stephane-robert.info
-    about: Les guides et formations dont ce dépôt suit le pilotage.
+    about: Les guides et formations dont ce dépôt suit le pilotage. The guides and courses this repository tracks.
 
   - name: Signaler un secret exposé ou un conseil dangereux / Report an exposed secret
     url: https://github.com/stephrobert/blog-roadmap/security/advisories/new
