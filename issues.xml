@@ -66,33 +66,6 @@ _No response_
 Bonjour, il semble que l&amp;apos;image MinIO ne soit plus disponible même sur les dépôts alternatifs (VMware, AWS, etc.). Sur quyy il y a un autre dépot  minio/aistor/minio mais je ne sais pas s&amp;apos;il s&amp;apos;agit de la &lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/31</id>
-    <title>#31 [Amélioration] Découvrir Linux : par où commencer ?</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/31"/>
-    <updated>2026-09-29T22:35:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Découvrir Linux : par où commencer ?
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-une side bar bar toujours présente
-
-&amp;lt;img width=&amp;quot;601&amp;quot; height=&amp;quot;999&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/d2548d8b-6702-452d-9faa-58ae00451fdb&amp;quot; /&amp;gt;
-
-### Amélioration proposée / Proposed improvement
-
-Avoir un side bar que l&amp;apos;on peut plier et déplier
-
-### Ce que cela apporterait / What it would bring
-
-Une meilleure expérience que pour écrans&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/29</id>
     <title>#29 [Amélioration] Découvrir Linux : par où commencer ?</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/29"/>
@@ -173,7 +146,7 @@ Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</
     <title>#18 [Amélioration] Lab 04, Artifacts et cache</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/18"/>
     <updated>2026-09-28T14:57:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 04, Artifacts et cache
 
