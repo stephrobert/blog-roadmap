@@ -1,0 +1,65 @@
+name: Broken link (English pages)
+description: "An internal or external link that no longer answers, on an English page of the site."
+title: "[Link] "
+labels: ["type:broken-link"]
+body:
+  - type: input
+    id: page-title
+    attributes:
+      label: Page
+      description: Filled in automatically from the site.
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page that contains the link
+      placeholder: "https://blog.stephane-robert.info/en/docs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: lien-casse
+    attributes:
+      label: Broken link
+      description: The address as written in the page.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: symptome
+    attributes:
+      label: What the link answers
+      options:
+        - "404, the page does not exist"
+        - "The domain no longer answers"
+        - "Redirects to an unrelated page"
+        - "Content moved, the address changed"
+        - "Other"
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: remplacement
+    attributes:
+      label: Replacement address
+      description: If you found the page elsewhere. Optional, but it is what allows a fix without an investigation.
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Page language
+      options:
+        - en
+        - fr
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Page id
+      description: Filled in automatically, do not edit. It survives a change of URL.

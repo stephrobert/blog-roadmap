@@ -208,7 +208,16 @@ what lets the site send them the same context. `page-id` matters because a URL
 changes: a section rework moves dozens of pages, and historical issues would stop
 being attachable to the content they targeted. The
 `contrat-formulaires.yml` workflow checks this half of the contract on every
-change to a form. GitHub's chooser page,
+change to a form.
+
+**English pages target English forms.** The four forms exist twice: the French
+ones (`page-error.yml`, `outdated-content.yml`, `broken-link.yml`,
+`improvement.yml`) and their English counterparts, suffixed `-en.yml`, written
+entirely in English with the title prefixes `[Page]`, `[Outdated]`, `[Link]` and
+`[Improvement]`. Until 2026-09-30, a single bilingual form opened in French for
+English readers. The `Page id` field keeps a label per language,
+and `issue-triage.yml` recognises both (`Identifiant de page / Page id` and
+`Page id`) to set `source:reader`. GitHub's chooser page,
 `/issues/new/choose`, **does not forward query parameters**: that is why each
 kind of problem targets its own form directly.
 
