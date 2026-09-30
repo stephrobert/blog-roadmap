@@ -170,6 +170,51 @@ Trois refus fréquents, et ils se motivent toujours par écrit :
 - **non reproductible** : le signalement ne permet pas de retrouver le défaut, et
   une relance est restée sans réponse.
 
+## Valeur des contributions et classement
+
+Le site publie un **classement des contributeurs**
+([/contributeurs/](https://blog.stephane-robert.info/contributeurs/)). Il ne
+récompense pas le nombre d'issues, mais la **valeur réellement apportée au
+site**, et cette valeur est une **décision éditoriale humaine**, jamais
+calculée.
+
+Elle vit dans un seul champ du Project, **`Contribution`**, et nulle part
+ailleurs : ni label, ni déduction depuis le type, la priorité ou les
+commentaires.
+
+| Valeur | Points | Ce qui la mérite |
+|---|---:|---|
+| `Non retenue` | 0 | doublon, faux positif, question, préférence sans amélioration démontrée |
+| `Mineure · 1` | 1 | correction réelle mais limitée |
+| `Utile · 3` | 3 | plusieurs lecteurs en profitent |
+| `Importante · 5` | 5 | erreur technique réelle, obsolescence importante, parcours cassé, fonctionnalité bloquée |
+| `Majeure · 10` | 10 | le signalement révèle un défaut d'un **mécanisme partagé** : composant, générateur, règle du site entier |
+
+Règles, dans l'ordre où elles s'appliquent :
+
+- **La valeur se pose à la fermeture**, quand l'impact est connu et la
+  correction publiée. Une issue ouverte ne compte pas, même qualifiée.
+- **Seule une fermeture `COMPLETED` compte.** `NOT_PLANNED` et `DUPLICATE` ne
+  rapportent rien, même si une valeur a été posée par erreur.
+- **Qui compte** : l'auteur de l'issue, sauf le propriétaire du dépôt, un
+  compte `Bot` ou une issue `source:automated`. `source:reader` n'est **pas**
+  utilisé : mesuré le 2026-09-30, les tests du propriétaire le portent et deux
+  issues de lecteur ne l'ont pas.
+- **On note le problème découvert**, pas la solution proposée, et l'impact
+  réellement déclenché : un lien mort qui révèle une règle fausse sur des
+  centaines de pages vaut plus qu'un lien mort.
+- **On ne crédite pas la relecture systématique** : chaque issue déclenche la
+  relecture complète de sa page ; ce qu'elle trouve en plus n'est pas porté au
+  crédit du signaleur.
+- **Doublons** : le premier signalement utile reçoit la valeur, les suivants 0.
+  **Découpage** : dix issues sur un même défaut se notent comme une seule.
+  **Issue scindée par le triage** : la valeur se pose sur l'issue d'origine.
+- **Collaboration** : l'auteur de l'issue seul est crédité, limite assumée.
+
+Le calcul et sa calibration sur les issues réelles sont documentés dans le
+dépôt du site (`scripts/lib/contributeurs.mjs`,
+`todo/contributors-scoring-v1.md`).
+
 ## Automatisations
 
 Ce qui est automatisé est ce qu'un humain retaperait **à l'identique** à chaque
@@ -182,7 +227,7 @@ fois. Le reste ne l'est pas, par choix.
 | Origine et domaine | `.github/workflows/issue-triage.yml` | Pose `source:reader` et `area:*` depuis l'URL |
 
 **Ce qui n'est pas automatisé, et ne le sera pas** : la priorité, l'effort,
-l'acceptation, le refus, et la fermeture pour inactivité. Un backlog éditorial
+l'acceptation, le refus, la valeur d'une contribution et la fermeture pour inactivité. Un backlog éditorial
 n'est pas une file de bugs : une idée qui dort dix-huit mois reste une bonne
 idée, et un robot qui la ferme au bout de soixante jours détruit précisément ce
 que ce dépôt existe pour conserver. C'est la raison pour laquelle **aucun

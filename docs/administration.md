@@ -124,9 +124,32 @@ invisible from here: the component carries the same warning in its header, and
 the `pilotage-backlog` skill carries it a third time. Three copies of a warning
 are cheaper than one silent regression.
 
+## Qualifying a contribution, at closing
+
+One single gesture when closing a fixed issue: in the Project, pick the value of
+the **`Contribution`** field, then close with the `completed` reason and a
+comment that points to the site commit. A refusal is closed as `not planned`, a
+duplicate as `duplicate`: they earn nothing, whatever value was set.
+
+```bash
+gh issue close <n> --repo stephrobert/blog-roadmap --reason completed
+```
+
+The field was created on 2026-09-30 through the GraphQL API
+(`createProjectV2Field`), which worked, unlike the project workflows. The seven
+issues closed before auto-adding to the Project were attached to it the same
+day to receive their value.
+
+**The ranking is regenerated on the workstation**, never in CI: the
+`GITHUB_TOKEN` of a workflow cannot read a personal Project, and a long-lived
+project-scoped token was ruled out above. A systemd user timer,
+`blog-contributors.timer`, runs `npm run contributors` in the site repository
+every day at 7:05, which rewrites `src/data/contributors.json`; the page is up
+to date at the next publication.
+
 ## What must not be automated
 
-Priority, effort, acceptance, refusal, and closing for inactivity. No `stale`
+Priority, effort, acceptance, refusal, the value of a contribution, and closing for inactivity. No `stale`
 workflow is installed, and that is a decision, not an omission: an editorial idea
 that sleeps for eighteen months is still a good idea.
 
