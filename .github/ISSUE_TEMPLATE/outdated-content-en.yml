@@ -1,0 +1,80 @@
+name: Outdated content (English pages)
+description: "An outdated version or a behaviour that changed, on an English page of the site."
+title: "[Outdated] "
+labels: ["type:outdated"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form asks for a **source**. Without it, the whole check has to be
+        redone before anything can be fixed.
+
+  - type: input
+    id: page-title
+    attributes:
+      label: Page
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: URL
+      placeholder: "https://blog.stephane-robert.info/en/docs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: technologie
+    attributes:
+      label: Technology
+      placeholder: "Kubernetes, Terraform, Ansible, Trivy..."
+    validations:
+      required: true
+
+  - type: input
+    id: version-page
+    attributes:
+      label: Version shown by the page
+      placeholder: "1.31"
+
+  - type: input
+    id: version-actuelle
+    attributes:
+      label: Current version
+      placeholder: "1.37"
+
+  - type: textarea
+    id: obsolete
+    attributes:
+      label: What is now wrong
+      description: |
+        The precise point, not "the page is old": a removed option, a renamed
+        field, a command that now answers differently, a practice that is no
+        longer recommended.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: "Changelog, release note, official documentation. Strongly recommended: without it, the check has to be redone entirely."
+      placeholder: "https://kubernetes.io/blog/..."
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Page language
+      options:
+        - en
+        - fr
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Page id
+      description: Filled in automatically, do not edit. It survives a change of URL.

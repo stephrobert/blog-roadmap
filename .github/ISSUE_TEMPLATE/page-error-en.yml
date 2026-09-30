@@ -1,0 +1,78 @@
+name: Page error (English pages)
+description: "A wrong command or an inaccurate explanation on an English page of the site."
+title: "[Page] "
+labels: ["type:content-error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The first two fields are filled in automatically when you come from the
+        **"Report an issue"** button of a page on the site.
+
+  - type: input
+    id: page-title
+    attributes:
+      label: Page
+      description: The page title, as displayed.
+      placeholder: "Kubernetes: Network Policies"
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: URL
+      description: The full address of the page, the one thing without which the issue cannot be handled.
+      placeholder: "https://blog.stephane-robert.info/en/docs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: The heading or anchor concerned. Optional.
+      placeholder: "Isolate a namespace"
+
+  - type: textarea
+    id: probleme
+    attributes:
+      label: What you found
+      description: |
+        The fact, not the impression: a command and its error message, a value
+        that differs from what the tool returns, a missing step.
+      placeholder: |
+        The `kubectl ...` command of the "..." section answers:
+
+            Error: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: attendu
+    attributes:
+      label: What you expected
+      description: What the page should have said, or what the tool returns on your side.
+
+  - type: textarea
+    id: complement
+    attributes:
+      label: Anything else
+      description: Tool version, system, context. Anything that helps reproduce.
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Page language
+      options:
+        - en
+        - fr
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Page id
+      description: Filled in automatically, do not edit. It survives a change of URL.

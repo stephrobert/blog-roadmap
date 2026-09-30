@@ -193,8 +193,8 @@ corrigée à la main reste corrigée, même si l'issue est éditée ensuite.
 
 ## Le pré-remplissage depuis le site
 
-Le bouton de chaque page construit une URL vers le formulaire
-`page-error.yml` et passe les champs par la chaîne de requête. Les noms des
+Le bloc de signalement de chaque page construit une URL par formulaire et
+passe les champs par la chaîne de requête. Les noms des
 paramètres sont les **identifiants** des champs du formulaire, et un changement
 d'identifiant côté formulaire casse silencieusement le pré-remplissage côté site.
 
@@ -213,10 +213,20 @@ rattachables au contenu qu'elles visaient. Le workflow
 `contrat-formulaires.yml` vérifie cette moitié du contrat à chaque modification
 d'un gabarit.
 
-Le corps de l'issue se termine par la ligne
-`Issue créée depuis blog.stephane-robert.info`, qui est le marqueur lu par le
-workflow pour poser `source:reader`. **Ne pas la modifier sans modifier le
-workflow.**
+**Les pages anglaises visent des formulaires anglais.** Les quatre
+formulaires existent en double : les français (`page-error.yml`,
+`outdated-content.yml`, `broken-link.yml`, `improvement.yml`) et leurs
+équivalents anglais, suffixés `-en.yml`, entièrement en anglais, avec les
+préfixes de titre `[Page]`, `[Outdated]`, `[Link]` et `[Improvement]`. Jusqu'au
+2026-09-30, un formulaire bilingue unique s'ouvrait en français pour les lecteurs
+anglais.
+
+L'origine se lit dans le champ **`page-id`**, que seul le bouton du site
+remplit : GitHub recopie chaque champ sous un titre `### <libellé>`, et
+`issue-triage.yml` pose `source:reader` quand ce champ est rempli. Il reconnaît
+les deux libellés, `Identifiant de page / Page id` pour les gabarits français et
+`Page id` pour les anglais. **Ne pas renommer ces libellés sans modifier le
+workflow** : `contrat-formulaires.yml` les fige pour cette raison.
 
 ## Ce que ce dépôt ne fait pas
 

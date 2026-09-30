@@ -53,8 +53,10 @@ jobs:
             // et le site n'envoie que des champs. Resultat mesure le
             // 2026-09-25 : sept issues venues du site (#9 a #15), aucune
             // etiquetee. GitHub ecrit chaque champ sous un titre `### <label>`,
-            // le libelle ci-dessous est donc fige par contrat-formulaires.yml.
-            const pageId = (corps.match(/^### Identifiant de page \/ Page id\s*\n+([^\n]+)/m) || [])[1] || "";
+            // les libelles ci-dessous sont donc figes par contrat-formulaires.yml :
+            // « Identifiant de page / Page id » pour les gabarits francais,
+            // « Page id » pour les gabarits anglais (*-en.yml).
+            const pageId = (corps.match(/^### (?:Identifiant de page \/ )?Page id\s*\n+([^\n]+)/m) || [])[1] || "";
             if (pageId.trim() && pageId.trim() !== "_No response_") {
               labels.add("source:reader");
             }

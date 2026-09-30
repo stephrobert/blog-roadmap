@@ -1,0 +1,72 @@
+name: Improvement (English pages)
+description: "The content is right, the form, the structure or the path could be better, on an English page of the site."
+title: "[Improvement] "
+labels: ["type:enhancement"]
+body:
+  - type: input
+    id: page-title
+    attributes:
+      label: Page
+      description: Filled in automatically from the site.
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: Leave empty if the proposal is about the whole site.
+      placeholder: "https://blog.stephane-robert.info/en/docs/..."
+
+  - type: textarea
+    id: probleme
+    attributes:
+      label: What gets in the way
+      description: |
+        The friction point, ideally one you ran into: a path that skips a step,
+        an example too abstract to reuse, a navigation that loses you, an
+        announced reading time that does not match.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: valeur
+    attributes:
+      label: What it would bring
+      description: Who it helps, and with what. An improvement that only makes things uniform comes after one that unblocks a reader.
+
+  - type: dropdown
+    id: nature
+    attributes:
+      label: Kind of improvement
+      description: Used for sorting, not for the decision.
+      options:
+        - Teaching and content structure
+        - Navigation and readability
+        - Search visibility
+        - Site feature
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Page language
+      options:
+        - en
+        - fr
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Page id
+      description: Filled in automatically, do not edit. It survives a change of URL.

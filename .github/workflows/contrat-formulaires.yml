@@ -39,7 +39,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Les quatre gabarits portent les champs pre-remplis
+      - name: Les gabarits du bouton portent les champs pre-remplis
         run: |
           python3 - <<'PY'
           import sys
@@ -49,18 +49,26 @@ jobs:
           # Le contrat, cote depot de backlog. Toute modification ici doit etre
           # faite EN MEME TEMPS que celle du composant du site.
           ATTENDUS = {"page-title", "page-url", "locale", "page-id"}
-          LIBELLE_PAGE_ID = "Identifiant de page / Page id"
+          # Les pages anglaises visent leurs propres gabarits, entierement en
+          # anglais : un lecteur anglais tombait sinon sur un formulaire
+          # ouvert en francais. Chaque gabarit porte son prefixe de titre et
+          # le libelle de page-id que issue-triage.yml sait reconnaitre.
+          FR, EN = "Identifiant de page / Page id", "Page id"
           GABARITS = {
-              "page-error.yml": "[Page]",
-              "outdated-content.yml": "[Obsolète]",
-              "broken-link.yml": "[Lien]",
-              "improvement.yml": "[Amélioration]",
+              "page-error.yml": ("[Page]", FR),
+              "outdated-content.yml": ("[Obsolète]", FR),
+              "broken-link.yml": ("[Lien]", FR),
+              "improvement.yml": ("[Amélioration]", FR),
+              "page-error-en.yml": ("[Page]", EN),
+              "outdated-content-en.yml": ("[Outdated]", EN),
+              "broken-link-en.yml": ("[Link]", EN),
+              "improvement-en.yml": ("[Improvement]", EN),
           }
 
           racine = Path(".github/ISSUE_TEMPLATE")
           ecarts = []
 
-          for nom, prefixe in GABARITS.items():
+          for nom, (prefixe, libelle_page_id) in GABARITS.items():
               f = racine / nom
               if not f.is_file():
                   ecarts.append(f"{nom} : gabarit absent, le bouton du site pointe dans le vide")
@@ -78,8 +86,8 @@ jobs:
               for c in d.get("body", []):
                   if isinstance(c, dict) and c.get("id") == "page-id":
                       libelle = c.get("attributes", {}).get("label")
-                      if libelle != LIBELLE_PAGE_ID:
-                          ecarts.append(f"{nom} : page-id a pour libelle {libelle!r}, issue-triage.yml cherche {LIBELLE_PAGE_ID!r}")
+                      if libelle != libelle_page_id:
+                          ecarts.append(f"{nom} : page-id a pour libelle {libelle!r}, issue-triage.yml cherche {libelle_page_id!r}")
               titre = str(d.get("title", ""))
               if not titre.startswith(prefixe):
                   ecarts.append(f"{nom} : title vaut {titre!r}, le site envoie {prefixe!r}")
