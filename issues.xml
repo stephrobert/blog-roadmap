@@ -4,7 +4,266 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-09-29T14:13:09.000Z</updated>
+  <updated>2026-09-29T23:08:20.000Z</updated>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/32</id>
+    <title>#32 [Amélioration] Concepts Docker : images, conteneurs, layers, cycle de vie et architecture</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/32"/>
+    <updated>2026-09-29T22:54:29.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:containers, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+Concepts Docker : images, conteneurs, layers, cycle de vie et architecture
+
+### URL de la page / Page URL
+
+https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/concepts/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+Le lien sur le *mode rootless* qui amène au début de la page &amp;quot;sécuriser docker au lieu directeent sur la partie *mode rootless*
+
+&amp;lt;img width=&amp;quot;970&amp;quot; height=&amp;quot;117&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/6b5f5c6d-9c48-41be-a7bc-c42f9dfa2992&amp;quot; /&amp;gt;
+
+### Amélioration proposée / Proposed improvement
+
+Si possible, a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/31</id>
+    <title>#31 [Amélioration] Découvrir Linux : par où commencer ?</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/31"/>
+    <updated>2026-09-29T22:35:49.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+Découvrir Linux : par où commencer ?
+
+### URL de la page / Page URL
+
+https://blog.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+une side bar bar toujours présente
+
+&amp;lt;img width=&amp;quot;601&amp;quot; height=&amp;quot;999&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/d2548d8b-6702-452d-9faa-58ae00451fdb&amp;quot; /&amp;gt;
+
+### Amélioration proposée / Proposed improvement
+
+Avoir un side bar que l&amp;apos;on peut plier et déplier
+
+### Ce que cela apporterait / What it would bring
+
+Une meilleure expérience que pour écrans&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/30</id>
+    <title>#30 [Amélioration] Goroutines et channels en Go</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/30"/>
+    <updated>2026-09-29T21:16:54.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+Goroutines et channels en Go
+
+### URL de la page / Page URL
+
+https://blog.stephane-robert.info/docs/developper/programmation/golang/goroutines/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+dans la section un pool de workers il me semble utile d&amp;apos;ajouter que pour fonctionner il faut importer le package sync
+
+### Amélioration proposée / Proposed improvement
+
+dans la section un pool de workers il me semble utile d&amp;apos;ajouter que pour fonctionner il faut importer le package sync
+
+### Ce que cela apporterait / What it would bring
+
+éviterait une erreur à corriger soi&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/29</id>
+    <title>#29 [Amélioration] Découvrir Linux : par où commencer ?</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/29"/>
+    <updated>2026-09-29T23:08:20.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+Découvrir Linux : par où commencer ?
+
+### URL de la page / Page URL
+
+https://blog.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+## Context
+
+Avant de passer à la suite, cochez mentalement chaque ligne :
+
+ J&amp;apos;ai choisi une distribution et installé une VM fonctionnelle.
+ J&amp;apos;ai ouvert un terminal et lu mon prompt (utilisateur, machine, répertoire).
+ J&amp;apos;ai exécuté pwd, whoami et hostname avec succès.
+ J&amp;apos;ai décortiqué une commande du type ls -la /etc/passwd (commande + options + argument).
+ &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/28</id>
+    <title>#28 [Amélioration] Notions fondamentales Linux</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/28"/>
+    <updated>2026-09-29T19:49:59.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+Notions fondamentales Linux
+
+### URL de la page / Page URL
+
+https://blog.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/notions/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+Au moment du lab pratique, il est proposé de faire avec ou sans lab. J’ai choisi de faire avec le Lab. 
+
+Problème, le titre c’est « première fois ? Comment l’installer »
+
+Et la section avant de commence indique qu’il faut DSXOlab d’installer. C’est contradictoire. 
+
+### Amélioration proposée / Proposed improvement
+
+Le texte en bas de section de « Première fo&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/27</id>
+    <title>#27 [Préprod] [Amélioration] Cards des domaines</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/27"/>
+    <updated>2026-09-29T19:30:04.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+https://dev.stephane-robert.info/docs/
+
+### URL de la page / Page URL
+
+https://dev.stephane-robert.info/docs/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+Remarques cosmétiques : 
+
+- Les cards sont assez disproportionnées et créent un manque d&amp;apos;homogénéité visuelle
+- quand il y a bcp de notions &amp;quot;+2 autres formations&amp;quot; force à ouvrir la page dédié pour savoir de quoi il s&amp;apos;agit
+- sur une formation donnée, les leçons sont affichées en haut, puis les labs associés en bas, ainsi que les certifs
+
+&amp;lt;img width=&amp;quot;1151&amp;quot; height=&amp;quot;820&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/us&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/26</id>
+    <title>#26 [Obsolète] Concepts Docker : images, conteneurs, layers, cycle de vie et architecture</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/26"/>
+    <updated>2026-09-29T19:11:09.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, area:containers, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Concepts Docker : images, conteneurs, layers, cycle de vie et architecture
+
+### URL
+
+https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/concepts/
+
+### Technologie concernée / Technology
+
+Docker
+
+### Version présentée par la page / Version shown
+
+_No response_
+
+### Version actuelle / Current version
+
+_No response_
+
+### Ce qui est devenu faux / What is now wrong
+
+Preprod: image déphasé du schéma (pas d&amp;apos;état exited, removed sur le schéma, les transistions réversibles entre running -&amp;gt; stopped, created -&amp;gt; removed)
+
+&amp;lt;img width=&amp;quot;1067&amp;quot; height=&amp;quot;725&amp;quot; a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/25</id>
+    <title>#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/25"/>
+    <updated>2026-09-29T20:29:16.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Parcours Formation Kubernetes, Programme et suivi de progression
+
+### URL
+
+https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/parcours/
+
+### Section
+
+Programme du cours KCNA
+
+### Ce que vous avez constaté / What you found
+
+Préprod : Le programme du cours de KCNA n&amp;apos;est pas  que celui qui est écrit en parcours manquant la section S3 : Delivery + Architecture et quelques sections S2 : Orchestration
+&amp;lt;img width=&amp;quot;679&amp;quot; height=&amp;quot;1028&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/480da606-60b2-4e9e-b2fd-89d912148fb1&amp;quot; /&amp;gt;
+
+&amp;lt;img width=&amp;quot;838&amp;quot;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/24</id>
+    <title>#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/24"/>
+    <updated>2026-09-29T20:28:12.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Parcours Formation Kubernetes, Programme et suivi de progression
+
+### URL
+
+https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/parcours/
+
+### Section
+
+_No response_
+
+### Ce que vous avez constaté / What you found
+
+Préprod : Dans le plan de préparation pour KCSA , il manque les liens pour chaque blog 
+
+&amp;lt;img width=&amp;quot;946&amp;quot; height=&amp;quot;731&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/b6d9218a-45e4-4a78-85b6-b5bdadb2265e&amp;quot; /&amp;gt;
+
+### Ce que vous attendiez / What you expected
+
+Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/23</id>
+    <title>#23 [Préprod] [Page] Certification Terraform : Associate ou Professional ?</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/23"/>
+    <updated>2026-09-29T18:41:30.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Certification Terraform : Associate ou Professional ?
+
+### URL
+
+https://blog.stephane-robert.info/docs/infra-as-code/provisionnement/terraform/certifications/
+
+### Section
+
+_No response_
+
+### Ce que vous avez constaté / What you found
+
+Le registry pointe vers https://dev.stephane-robert.info/docs/conteneurs/registres/ alors qu&amp;apos;on parle du Terraform Registry 
+
+&amp;lt;img width=&amp;quot;951&amp;quot; height=&amp;quot;287&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/6d36fcc1-47d1-466e-98a3-7ce83ffcec4f&amp;quot; /&amp;gt;
+
+### Ce que vous attendiez / What you expected
+
+_No response_
+
+### Informations &lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/22</id>
     <title>#22 [Page] Enregistrer des modifications avec Git : add, commit, status</title>
