@@ -4,7 +4,33 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-09-30T10:44:48.000Z</updated>
+  <updated>2026-10-02T15:05:38.000Z</updated>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/42</id>
+    <title>#42 [Page] Tags Ansible : cibler ou ignorer un sous-ensemble de tâches</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/42"/>
+    <updated>2026-10-02T15:05:38.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Tags Ansible : cibler ou ignorer un sous-ensemble de tâches
+
+### URL
+
+https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/ecrire-code/playbooks/tags/
+
+### Section
+
+_No response_
+
+### Ce que vous avez constaté / What you found
+
+bonjour, 
+dans l&amp;apos;exercice 4 du lab ecrire-code-tags ( dsoxlab course ecrire-code-tags )
+ansible-playbook labs/ecrire-code/tags/playbook.yml --tags configuration
+en observation vous indiquez que le play recp doit renvoyer skipped=2 or le PLAY RECAP renvoie skipped=0 
+
+### Ce que vous attendiez / What you expecte&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/39</id>
     <title>#39 [Amélioration] Modèle C4 : clarifiez vos architectures</title>
@@ -146,7 +172,7 @@ Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</
     <title>#18 [Amélioration] Lab 04, Artifacts et cache</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/18"/>
     <updated>2026-09-28T14:57:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 04, Artifacts et cache
 
