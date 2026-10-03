@@ -4,32 +4,32 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-10-02T15:05:38.000Z</updated>
+  <updated>2026-10-02T23:04:49.000Z</updated>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/42</id>
-    <title>#42 [Page] Tags Ansible : cibler ou ignorer un sous-ensemble de tâches</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/42"/>
-    <updated>2026-10-02T15:05:38.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <id>https://github.com/stephrobert/blog-roadmap/issues/45</id>
+    <title>#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/45"/>
+    <updated>2026-10-02T23:04:49.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
-Tags Ansible : cibler ou ignorer un sous-ensemble de tâches
+Parcours Formation Linux, Programme et suivi de progression
 
-### URL
+### URL de la page / Page URL
 
-https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/ecrire-code/playbooks/tags/
+https://blog.stephane-robert.info/docs/admin-serveurs/linux/parcours/
 
-### Section
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
 
-_No response_
+L&amp;apos;idée des pistes parcours est vraiment intéressante
+Je me demande si on peut la pousser plus loin
 
-### Ce que vous avez constaté / What you found
+&amp;lt;img width=&amp;quot;1458&amp;quot; height=&amp;quot;862&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/02424b1e-0e40-4a23-8d8a-5cc7e0d22712&amp;quot; /&amp;gt;
 
-bonjour, 
-dans l&amp;apos;exercice 4 du lab ecrire-code-tags ( dsoxlab course ecrire-code-tags )
-ansible-playbook labs/ecrire-code/tags/playbook.yml --tags configuration
-en observation vous indiquez que le play recp doit renvoyer skipped=2 or le PLAY RECAP renvoie skipped=0 
 
-### Ce que vous attendiez / What you expecte&lt;/p&gt;</content>
+### Amélioration proposée / Proposed improvement
+
+- avoir un selecteur de parcours dans le menu de gauche
+- adapter filtre&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/39</id>
@@ -92,36 +92,11 @@ _No response_
 Bonjour, il semble que l&amp;apos;image MinIO ne soit plus disponible même sur les dépôts alternatifs (VMware, AWS, etc.). Sur quyy il y a un autre dépot  minio/aistor/minio mais je ne sais pas s&amp;apos;il s&amp;apos;agit de la &lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/29</id>
-    <title>#29 [Amélioration] Découvrir Linux : par où commencer ?</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/29"/>
-    <updated>2026-09-30T05:24:52.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Découvrir Linux : par où commencer ?
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-## Context
-
-Avant de passer à la suite, cochez mentalement chaque ligne :
-
- J&amp;apos;ai choisi une distribution et installé une VM fonctionnelle.
- J&amp;apos;ai ouvert un terminal et lu mon prompt (utilisateur, machine, répertoire).
- J&amp;apos;ai exécuté pwd, whoami et hostname avec succès.
- J&amp;apos;ai décortiqué une commande du type ls -la /etc/passwd (commande + options + argument).
- &lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/25</id>
     <title>#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/25"/>
     <updated>2026-09-29T20:29:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
@@ -145,7 +120,7 @@ Préprod : Le programme du cours de KCNA n&amp;apos;est pas  que celui qui est �
     <title>#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/24"/>
     <updated>2026-09-29T20:28:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
