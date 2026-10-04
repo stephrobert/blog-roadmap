@@ -4,13 +4,39 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-10-03T17:13:16.000Z</updated>
+  <updated>2026-10-04T15:22:13.000Z</updated>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/47</id>
+    <title>#47 [Amélioration] L&apos;appliance dsoxlab : une machine virtuelle prête à jouer</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/47"/>
+    <updated>2026-10-04T15:22:13.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+L&amp;apos;appliance dsoxlab : une machine virtuelle prête à jouer
+
+### URL de la page / Page URL
+
+https://blog.stephane-robert.info/docs/dsoxlab/appliance/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+Juste préciser que par défaut la machine virtuelle est avec un clavier en qwerty quand on veut s&amp;apos;authentifier et apres sur le bureau xfce
+Bravo Stéphane pour tout ce travail formidable
+
+### Amélioration proposée / Proposed improvement
+
+Expliquer comment passer en clavier azerty
+
+### Ce que cela apporterait / What it would bring
+
+eviter de chercher trop longtemps pourq&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/46</id>
     <title>#46 Suite a un update de Firefox j&apos;ai perdu l&apos;historique</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/46"/>
     <updated>2026-10-03T17:13:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Notions fondamentales Linux
 
@@ -122,7 +148,7 @@ Bonjour, il semble que l&amp;apos;image MinIO ne soit plus disponible même sur 
     <title>#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/25"/>
     <updated>2026-09-29T20:29:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
@@ -146,7 +172,7 @@ Préprod : Le programme du cours de KCNA n&amp;apos;est pas  que celui qui est �
     <title>#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/24"/>
     <updated>2026-09-29T20:28:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
@@ -173,7 +199,7 @@ Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</
     <title>#18 [Amélioration] Lab 04, Artifacts et cache</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/18"/>
     <updated>2026-09-28T14:57:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 04, Artifacts et cache
 
