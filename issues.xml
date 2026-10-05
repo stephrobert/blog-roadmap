@@ -4,7 +4,22 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-10-04T15:22:13.000Z</updated>
+  <updated>2026-10-04T20:12:48.000Z</updated>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/48</id>
+    <title>#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/48"/>
+    <updated>2026-10-04T20:12:48.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;sans label&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;Dependency track ont sorti la version 5 et ça change les configurations. Avec des nouveautés comme KEV. 
+
+Alors après j&amp;apos;ai aussi eu un soucis avec Syft, le sbom produit ne permet pas a dependency track de créer le graph de dépendance (je pense que c&amp;apos;est parce qu&amp;apos;il n&amp;apos;inclut que des URL purl)
+
+Et avec trivy aucun soucis d&amp;apos;arbre de dépendances ( node et container )
+
+Voilà voilà bon courage et merci pour ton contenu ! 
+
+&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/47</id>
     <title>#47 [Amélioration] L&apos;appliance dsoxlab : une machine virtuelle prête à jouer</title>
@@ -62,7 +77,7 @@ Je ne sais pas si c&amp;apos;est l&amp;apos;impact d&lt;/p&gt;</content>
     <title>#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/45"/>
     <updated>2026-10-02T23:04:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Parcours Formation Linux, Programme et suivi de progression
 
