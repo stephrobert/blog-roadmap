@@ -1,4 +1,4 @@
-// Tests du triage automatique : `node --test .github/triage/`.
+// Tests du triage automatique : `node --test .github/triage/deduire.test.js`.
 "use strict";
 const { test } = require("node:test");
 const assert = require("node:assert/strict");

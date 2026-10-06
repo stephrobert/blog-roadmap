@@ -31,4 +31,4 @@ jobs:
           persist-credentials: false
 
       - name: node --test
-        run: node --test .github/triage/
+        run: node --test .github/triage/deduire.test.js
