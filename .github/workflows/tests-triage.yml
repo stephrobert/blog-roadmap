@@ -1,0 +1,34 @@
+# Rejoue les regles du triage automatique (.github/triage/deduire.js) sur des
+# corps d'issue representatifs : signalement d'un lecteur, issue automatisee
+# du synchroniseur de couverture, avec ou sans domaine.
+#
+# Ne en 2026-10-06 : le triage lisait les URL de fiches de competence des
+# issues de couverture comme des pages du site, et posait `area:site` sur 19
+# d'entre elles.
+name: Tests du triage
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - '.github/triage/**'
+      - '.github/workflows/issue-triage.yml'
+      - '.github/workflows/tests-triage.yml'
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  tester:
+    name: Les regles de triage tiennent
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: node --test
+        run: node --test .github/triage/deduire.test.js
