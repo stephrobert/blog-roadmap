@@ -4,12 +4,12 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-10-05T00:00:00.000Z</updated>
+  <updated>2026-10-06T00:00:00.000Z</updated>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-05</id>
+    <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-06</id>
     <title>1 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-05T18:20:05.059Z</updated>
+    <updated>2026-10-06T00:42:49.553Z</updated>
     <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (7 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -48,7 +48,7 @@ fr
     <title>#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/48"/>
     <updated>2026-10-04T20:12:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;sans label&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;Dependency track ont sorti la version 5 et ça change les configurations. Avec des nouveautés comme KEV. 
+    <content type="html">&lt;p&gt;&lt;strong&gt;sans label&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;Dependency track ont sorti la version 5 et ça change les configurations. Avec des nouveautés comme KEV. 
 
 Alors après j&amp;apos;ai aussi eu un soucis avec Syft, le sbom produit ne permet pas a dependency track de créer le graph de dépendance (je pense que c&amp;apos;est parce qu&amp;apos;il n&amp;apos;inclut que des URL purl)
 
@@ -115,7 +115,7 @@ Je ne sais pas si c&amp;apos;est l&amp;apos;impact d&lt;/p&gt;</content>
     <title>#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/45"/>
     <updated>2026-10-02T23:04:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Parcours Formation Linux, Programme et suivi de progression
 
@@ -201,7 +201,7 @@ Bonjour, il semble que l&amp;apos;image MinIO ne soit plus disponible même sur 
     <title>#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/25"/>
     <updated>2026-09-29T20:29:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
@@ -225,7 +225,7 @@ Préprod : Le programme du cours de KCNA n&amp;apos;est pas  que celui qui est �
     <title>#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/24"/>
     <updated>2026-09-29T20:28:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
