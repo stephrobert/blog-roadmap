@@ -17,73 +17,27 @@ jobs:
   etiqueter:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       issues: write
     steps:
+      # Les regles vivent dans .github/triage/deduire.js, testees a chaque PR
+      # (tests-triage.yml). Le checkout est celui de la branche par defaut :
+      # une issue ne peut pas faire executer le code d'une PR.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/triage
+
       - name: Déduire l'origine et le domaine
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
-            const corps = context.payload.issue.body || "";
-
-            // Le domaine se lit dans le chemin de l'URL, jamais dans le texte :
-            // un lecteur qui ecrit « kubernetes » dans sa phrase ne dit pas sur
-            // quelle page il etait. L'ordre compte, le premier motif qui matche
-            // gagne, et le plus specifique passe donc en premier.
-            const DOMAINES = [
-              [/\/docs\/conteneurs\/orchestrateurs\/kubernetes\//, "area:kubernetes"],
-              [/\/docs\/infra-as-code\/gestion-de-configuration\/ansible\//, "area:ansible"],
-              [/\/docs\/infra-as-code\/provisionnement\/terraform\//, "area:terraform"],
-              [/\/docs\/admin-serveurs\/linux\//, "area:linux"],
-              [/\/docs\/observabilite\//, "area:observability"],
-              [/\/docs\/securiser\//, "area:devsecops"],
-              [/\/docs\/(ia|mlops)\//, "area:ai"],
-              [/\/docs\/cloud\//, "area:cloud"],
-              [/\/docs\/conteneurs\//, "area:containers"],
-            ];
-
-            const labels = new Set();
-
-            // L'origine se lit dans le champ `page-id`, que seul le bouton du
-            // site remplit. Se fier au referer ou au user-agent n'a pas de sens
-            // ici : GitHub cree l'issue, pas le site.
-            //
-            // La premiere version cherchait une phrase-marqueur. Aucun gabarit
-            // ne pouvait la transmettre : un bloc `type: markdown` s'affiche
-            // dans le formulaire mais GitHub ne le recopie PAS dans le corps,
-            // et le site n'envoie que des champs. Resultat mesure le
-            // 2026-09-25 : sept issues venues du site (#9 a #15), aucune
-            // etiquetee. GitHub ecrit chaque champ sous un titre `### <label>`,
-            // les libelles ci-dessous sont donc figes par contrat-formulaires.yml :
-            // « Identifiant de page / Page id » pour les gabarits francais,
-            // « Page id » pour les gabarits anglais (*-en.yml).
-            const pageId = (corps.match(/^### (?:Identifiant de page \/ )?Page id\s*\n+([^\n]+)/m) || [])[1] || "";
-            if (pageId.trim() && pageId.trim() !== "_No response_") {
-              labels.add("source:reader");
-            }
-
-            const url = (corps.match(/https:\/\/blog\.stephane-robert\.info\/\S*/) || [])[0] || "";
-            if (url) {
-              for (const [motif, label] of DOMAINES) {
-                if (motif.test(url)) { labels.add(label); break; }
-              }
-              // Une URL hors /docs/ vise le site lui-meme, pas un contenu.
-              if (![...labels].some((l) => l.startsWith("area:")) && !url.includes("/docs/")) {
-                labels.add("area:site");
-              }
-            }
-
-            if (labels.size === 0) {
-              core.info("Rien a deduire : ni marqueur d'origine, ni URL exploitable.");
-              return;
-            }
-
-            // Ne jamais RETIRER un label : un humain a pu corriger une deduction
-            // fausse, et la reposer a chaque edition de l'issue annulerait son
-            // travail. On ajoute, on ne reecrit pas.
-            const deja = new Set(context.payload.issue.labels.map((l) => l.name));
-            const aPoser = [...labels].filter((l) => !deja.has(l));
+            const { deduire } = require(`${process.env.GITHUB_WORKSPACE}/.github/triage/deduire.js`);
+            // Une issue automatisee (source:automated, ou marqueur coverage-key)
+            // ne recoit rien : son domaine est pose par l'outil qui l'ecrit.
+            const aPoser = deduire(context.payload.issue.body, context.payload.issue.labels.map((l) => l.name));
             if (aPoser.length === 0) {
-              core.info("Les labels deduits sont deja poses.");
+              core.info("Rien a poser : rien a deduire, issue automatisee, ou labels deja poses.");
               return;
             }
 

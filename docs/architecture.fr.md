@@ -224,7 +224,7 @@ fois. Le reste ne l'est pas, par choix.
 |---|---|---|
 | Ajout au projet | Workflow intégré du Project | Toute nouvelle issue arrive en `Inbox` |
 | Passage en Done | Workflow intégré du Project | Une issue fermée passe en `Done` |
-| Origine et domaine | `.github/workflows/issue-triage.yml` | Pose `source:reader` et `area:*` depuis l'URL |
+| Origine et domaine | `.github/workflows/issue-triage.yml` | Pose `source:reader` et `area:*` depuis l'URL ; ne pose **rien** sur une issue `source:automated`, dont le domaine est décidé par l'outil qui l'écrit (règles et tests dans `.github/triage/`) |
 
 **Ce qui n'est pas automatisé, et ne le sera pas** : la priorité, l'effort,
 l'acceptation, le refus, la valeur d'une contribution et la fermeture pour inactivité. Un backlog éditorial

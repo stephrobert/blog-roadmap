@@ -219,7 +219,7 @@ rest is not, by choice.
 |---|---|---|
 | Add to project | Project built-in workflow | Every new issue lands in `Inbox` |
 | Move to Done | Project built-in workflow | A closed issue moves to `Done` |
-| Source and area | `.github/workflows/issue-triage.yml` | Adds `source:reader` and `area:*` from the URL |
+| Source and area | `.github/workflows/issue-triage.yml` | Adds `source:reader` and `area:*` from the URL; adds **nothing** to a `source:automated` issue, whose area is set by the tool that writes it (rules and tests in `.github/triage/`) |
 
 **What is not automated, and will not be**: priority, effort, acceptance,
 refusal, the value of a contribution, and closing for inactivity. An editorial backlog is not a bug queue: an
