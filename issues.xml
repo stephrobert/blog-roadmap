@@ -7,10 +7,34 @@
   <updated>2026-10-07T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-07</id>
-    <title>3 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>5 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-07T06:26:09.192Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (8 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-07T12:24:16.514Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (8 j)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/72</id>
+    <title>#72 [Page] Pipelines dynamiques GitLab CI/CD / l&apos;utilisation d&apos;un fichier dotenv + stage rules n&apos;est pas (plus ?) possible</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/72"/>
+    <updated>2026-10-07T12:16:47.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Pipelines dynamiques GitLab CI/CD
+
+### URL
+
+https://blog.stephane-robert.info/docs/pipeline-cicd/gitlab/industrialisation/dynamique/
+
+### Section
+
+_No response_
+
+### Ce que vous avez constaté / What you found
+
+Plusieurs exemples dans la page parlent d&amp;apos;utiliser un artefact de type dotenv afin de conditionner l&amp;apos;exécution d&amp;apos;un stage enfant un peu plus tard.
+Pour cela, les exemples utilisent des variables (définies dans le fichier dotenv) dans la section rules des stages suivants.
+
+Malheureusement cela ne fonctionne pas (ou plus ?), car comme le mentionne la documentatio&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/70</id>
@@ -429,7 +453,7 @@ Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
     <title>#50 [Page] Vault-id multiples - Problème quiz + typo étape 5</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/50"/>
     <updated>2026-10-06T13:25:32.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Vault-id multiples : isoler dev, staging et prod avec des mots de passe distincts
 
@@ -451,7 +475,7 @@ Contrôle de connaissances
     <title>#49 [Lien] Installer Gitea sur Ubuntu 24.04 LTS</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/49"/>
     <updated>2026-10-05T08:44:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:broken-link, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:broken-link, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Installer Gitea sur Ubuntu 24.04 LTS
 
@@ -575,7 +599,7 @@ Je me demande si on peut la pousser plus loin
     <title>#39 [Amélioration] Modèle C4 : clarifiez vos architectures</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/39"/>
     <updated>2026-09-30T10:44:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Modèle C4 : clarifiez vos architectures
 
@@ -606,7 +630,7 @@ Pédagogie et structure du contenu / Teaching and conte&lt;/p&gt;</content>
     <title>#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/38"/>
     <updated>2026-09-30T08:52:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 MinIO : stockage objet S3 avec chiffrement, WORM et OIDC
 
