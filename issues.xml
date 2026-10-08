@@ -9,8 +9,34 @@
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-08</id>
     <title>5 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-08T06:28:00.936Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (9 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-08T12:24:02.214Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (9 j)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/74</id>
+    <title>#74 [Page] Import vs Include Ansible : import_tasks, include_tasks, import_role, include_role, import_playbook</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/74"/>
+    <updated>2026-10-08T10:44:33.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Import vs Include Ansible : import_tasks, include_tasks, import_role, include_role, import_playbook
+
+### URL
+
+https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/ecrire-code/playbooks/import-include/
+
+### Section
+
+#le-piège-des-tags-avec-include_tasks
+
+### Ce que vous avez constaté / What you found
+
+bonjour,
+cet exemple semble incorrect :
+    # Cas 3 : include_tasks AVEC apply: (tag propagé aux tâches internes)
+    - ansible.builtin.include_tasks: tasks/setup.yml
+      apply:
+        tags: [config]                 # ← propagé à toute&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/73</id>
@@ -35,7 +61,7 @@ D&amp;apos;abord bravo pour tes formations elles sont super. J&amp;apos;ai un so
     <title>#72 [Page] Pipelines dynamiques GitLab CI/CD / l&apos;utilisation d&apos;un fichier dotenv + stage rules n&apos;est pas (plus ?) possible</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/72"/>
     <updated>2026-10-07T12:16:47.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Pipelines dynamiques GitLab CI/CD
 
@@ -471,7 +497,7 @@ Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
     <title>#50 [Page] Vault-id multiples - Problème quiz + typo étape 5</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/50"/>
     <updated>2026-10-06T13:25:32.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Vault-id multiples : isoler dev, staging et prod avec des mots de passe distincts
 
@@ -493,7 +519,7 @@ Contrôle de connaissances
     <title>#49 [Lien] Installer Gitea sur Ubuntu 24.04 LTS</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/49"/>
     <updated>2026-10-05T08:44:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:broken-link, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:broken-link, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Installer Gitea sur Ubuntu 24.04 LTS
 
@@ -617,7 +643,7 @@ Je me demande si on peut la pousser plus loin
     <title>#39 [Amélioration] Modèle C4 : clarifiez vos architectures</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/39"/>
     <updated>2026-09-30T10:44:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Modèle C4 : clarifiez vos architectures
 
@@ -648,7 +674,7 @@ Pédagogie et structure du contenu / Teaching and conte&lt;/p&gt;</content>
     <title>#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/38"/>
     <updated>2026-09-30T08:52:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 MinIO : stockage objet S3 avec chiffrement, WORM et OIDC
 
