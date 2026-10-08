@@ -9,34 +9,30 @@
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-08</id>
     <title>5 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-08T12:24:02.214Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (9 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-08T18:18:51.991Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (10 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/74</id>
-    <title>#74 [Page] Import vs Include Ansible : import_tasks, include_tasks, import_role, include_role, import_playbook</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/74"/>
-    <updated>2026-10-08T10:44:33.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <id>https://github.com/stephrobert/blog-roadmap/issues/75</id>
+    <title>#75 [Amélioration] Lab 01, Mon premier pipeline GitLab CI/CD</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/75"/>
+    <updated>2026-10-08T16:54:31.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
-Import vs Include Ansible : import_tasks, include_tasks, import_role, include_role, import_playbook
+Lab 01, Mon premier pipeline GitLab CI/CD
 
-### URL
+### URL de la page / Page URL
 
-https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/ecrire-code/playbooks/import-include/
+https://blog.stephane-robert.info/docs/pipeline-cicd/gitlab/labs/lab-01-premier-pipeline/
 
-### Section
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
 
-#le-piège-des-tags-avec-include_tasks
+Setup d&amp;apos;un runner sur instance self-hosted de Gitlab.
 
-### Ce que vous avez constaté / What you found
+### Amélioration proposée / Proposed improvement
 
-bonjour,
-cet exemple semble incorrect :
-    # Cas 3 : include_tasks AVEC apply: (tag propagé aux tâches internes)
-    - ansible.builtin.include_tasks: tasks/setup.yml
-      apply:
-        tags: [config]                 # ← propagé à toute&lt;/p&gt;</content>
+Le lab part directement du principe qu&amp;apos;on utilise un runner de Gitlab.com, sans devoir le configurer.
+La CI utilise Docker-in-Docker qui - je pense - fonctionnera en fonction de la manière dont le runner lui-même a été configuré (`etc/gitlab-runner/&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/73</id>
@@ -515,37 +511,6 @@ Contrôle de connaissances
 &amp;lt;img width=&amp;quot;993&amp;quot; height=&amp;quot;441&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/asse&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/49</id>
-    <title>#49 [Lien] Installer Gitea sur Ubuntu 24.04 LTS</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/49"/>
-    <updated>2026-10-05T08:44:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:broken-link, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Installer Gitea sur Ubuntu 24.04 LTS
-
-### Page qui contient le lien / Page URL
-
-https://blog.stephane-robert.info/docs/services/devops/gitea/installation/
-
-### Lien cassé / Broken link
-
-https://raw.githubusercontent.com/go-gitea/gitea/main/contrib/systemd/gitea.service
-
-### Ce que répond le lien / What the link answers
-
-404, la page n&amp;apos;existe pas / 404, the page does not exist
-
-### Adresse de remplacement / Replacement address
-
-https://raw.githubusercontent.com/go-gitea/gitea/main/contrib/service/systemd/gitea.service
-
-### Langue de la page / Page language
-
-fr
-
-### Id&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/48</id>
     <title>#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/48"/>
@@ -565,7 +530,7 @@ Voilà voilà bon courage et merci pour ton contenu !
     <title>#47 [Amélioration] L&apos;appliance dsoxlab : une machine virtuelle prête à jouer</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/47"/>
     <updated>2026-10-04T15:22:13.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 L&amp;apos;appliance dsoxlab : une machine virtuelle prête à jouer
 
@@ -591,7 +556,7 @@ eviter de chercher trop longtemps pourq&lt;/p&gt;</content>
     <title>#46 Suite a un update de Firefox j&apos;ai perdu l&apos;historique</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/46"/>
     <updated>2026-10-03T17:13:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Notions fondamentales Linux
 
@@ -754,7 +719,7 @@ Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</
     <title>#18 [Amélioration] Lab 04, Artifacts et cache</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/18"/>
     <updated>2026-09-28T14:57:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 10 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 04, Artifacts et cache
 
