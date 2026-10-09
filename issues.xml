@@ -4,13 +4,13 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-10-08T00:00:00.000Z</updated>
+  <updated>2026-10-09T00:00:00.000Z</updated>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-08</id>
+    <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-09</id>
     <title>5 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-08T18:18:51.991Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (10 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-09T00:45:21.853Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (10 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/75</id>
@@ -39,7 +39,7 @@ La CI utilise Docker-in-Docker qui - je pense - fonctionnera en fonction de la m
     <title>#73 [Amélioration] Planifier des tâches avec cron et crontab sous Linux</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/73"/>
     <updated>2026-10-07T21:07:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Planifier des tâches avec cron et crontab sous Linux
 
@@ -53,35 +53,11 @@ hola stephane!
 D&amp;apos;abord bravo pour tes formations elles sont super. J&amp;apos;ai un soucis pour faire le lab pratique l3-scheduling-cron, les labs &amp;quot;vm&amp;quot; ne semblent pas pouvoir etre faits avec une configuration de débutant type debian sur virtualbox sur windows11. Le fait que je galère à résoudre ça me fait dire que je ne suis pas le seul potentiellem&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/72</id>
-    <title>#72 [Page] Pipelines dynamiques GitLab CI/CD / l&apos;utilisation d&apos;un fichier dotenv + stage rules n&apos;est pas (plus ?) possible</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/72"/>
-    <updated>2026-10-07T12:16:47.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Pipelines dynamiques GitLab CI/CD
-
-### URL
-
-https://blog.stephane-robert.info/docs/pipeline-cicd/gitlab/industrialisation/dynamique/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Plusieurs exemples dans la page parlent d&amp;apos;utiliser un artefact de type dotenv afin de conditionner l&amp;apos;exécution d&amp;apos;un stage enfant un peu plus tard.
-Pour cela, les exemples utilisent des variables (définies dans le fichier dotenv) dans la section rules des stages suivants.
-
-Malheureusement cela ne fonctionne pas (ou plus ?), car comme le mentionne la documentatio&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/70</id>
     <title>#70 [QUIZ] Évaluer Centraliser les journaux d&apos;un service et les interroger</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/70"/>
     <updated>2026-10-06T19:39:15.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `obs.logs.centralize`.
 
@@ -103,7 +79,7 @@ Créer l’évaluation qui permet de confirmer la compétence `obs.logs.centrali
     <title>#69 [QUIZ] Évaluer Interroger les métriques d&apos;un service pour répondre à une question d&apos;exploitation</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/69"/>
     <updated>2026-10-06T19:39:14.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `obs.metrics.query`.
 
@@ -126,7 +102,7 @@ Créer l’évaluation qui permet de confirmer la compétence `obs.metrics.query
     <title>#68 [QUIZ] Évaluer Collecter les métriques d&apos;un service et en contrôler la qualité</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/68"/>
     <updated>2026-10-06T19:39:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `obs.metrics.collect`.
 
@@ -149,7 +125,7 @@ Créer l’évaluation qui permet de confirmer la compétence `obs.metrics.colle
     <title>#67 [QUIZ] Évaluer Construire un tableau de bord qui répond à une question d&apos;exploitation</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/67"/>
     <updated>2026-10-06T19:39:10.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `obs.dashboard.build`.
 
@@ -171,7 +147,7 @@ Créer l’évaluation qui permet de confirmer la compétence `obs.dashboard.bui
     <title>#66 [QUIZ] Évaluer Définir une alerte actionnable et la router sans bruit</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/66"/>
     <updated>2026-10-06T19:39:09.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `obs.alert.design`.
 
@@ -194,7 +170,7 @@ Créer l’évaluation qui permet de confirmer la compétence `obs.alert.design`
     <title>#65 [QUIZ] Évaluer Construire une image OCI</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/65"/>
     <updated>2026-10-06T19:39:07.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `container.build`.
 
@@ -217,7 +193,7 @@ Créer l’évaluation qui permet de confirmer la compétence `container.build`.
     <title>#64 [QUIZ] Évaluer Sécuriser l&apos;installation et les conteneurs</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/64"/>
     <updated>2026-10-06T19:39:05.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `container.secure`.
 
@@ -238,7 +214,7 @@ Créer l’évaluation qui permet de confirmer la compétence `container.secure`
     <title>#63 [QUIZ] Compléter l’évaluation du parcours Outscale</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/63"/>
     <updated>2026-10-06T19:39:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont évaluées pour une autre option, pas pour celle-ci. La liste est recalculée à chaque synchronisation : une compétence en sort quand son quiz existe, et l’issue se ferme avec la dernière.
 
@@ -253,7 +229,7 @@ Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont é
     <title>#62 [QUIZ] Évaluer Synchroniser et promouvoir entre environnements</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/62"/>
     <updated>2026-10-06T19:39:01.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `gitops.sync.promote`.
 
@@ -274,7 +250,7 @@ Créer l’évaluation qui permet de confirmer la compétence `gitops.sync.promo
     <title>#61 [QUIZ] Évaluer Déployer une application en GitOps</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/61"/>
     <updated>2026-10-06T19:38:59.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `gitops.app.deploy`.
 
@@ -296,7 +272,7 @@ Créer l’évaluation qui permet de confirmer la compétence `gitops.app.deploy
     <title>#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/60"/>
     <updated>2026-10-06T19:38:57.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `scripting.tool`.
 
@@ -317,7 +293,7 @@ Créer l’évaluation qui permet de confirmer la compétence `scripting.tool`.
     <title>#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/59"/>
     <updated>2026-10-06T19:38:55.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `scripting.data`.
 
@@ -338,7 +314,7 @@ Créer l’évaluation qui permet de confirmer la compétence `scripting.data`.
     <title>#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/58"/>
     <updated>2026-10-06T19:38:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:kubernetes, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:kubernetes, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `publier-un-chart-de-reference`, qui mobilise 3 compétences ; 3 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
 
@@ -353,7 +329,7 @@ Construire la preuve de la mission `publier-un-chart-de-reference`, qui mobilise
     <title>#57 [PROOF] Prouver la mission « Mesurer et généraliser la démarche DevSecOps »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/57"/>
     <updated>2026-10-06T19:38:52.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:devsecops, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:devsecops, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `generaliser-devsecops`, qui mobilise 2 compétences ; 1 d’entre elles est attendue au niveau 4 sans preuve qui le mesure.
 
@@ -374,7 +350,7 @@ Construire la preuve de la mission `generaliser-devsecops`, qui mobilise 2 comp�
     <title>#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/56"/>
     <updated>2026-10-06T19:38:50.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Faire pratiquer la compétence `linux.network.basics` en lab guidé.
 
@@ -395,7 +371,7 @@ Faire pratiquer la compétence `linux.network.basics` en lab guidé.
     <title>#55 [PROOF] Prouver la mission « Standardiser la CI d&apos;une équipe »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/55"/>
     <updated>2026-10-06T19:38:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `standardiser-la-ci`, qui mobilise 1 compétence, attendue au niveau 4 sans preuve qui le mesure.
 
@@ -415,7 +391,7 @@ Construire la preuve de la mission `standardiser-la-ci`, qui mobilise 1 compéte
     <title>#54 [QUIZ] Évaluer Acheminer la télémétrie par un pipeline de collecte</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/54"/>
     <updated>2026-10-06T19:38:46.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `obs.telemetry.pipeline`.
 
@@ -436,7 +412,7 @@ Créer l’évaluation qui permet de confirmer la compétence `obs.telemetry.pip
     <title>#53 [QUIZ] Évaluer Instrumenter un service pour qu&apos;il émette une télémétrie utile</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/53"/>
     <updated>2026-10-06T19:38:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `obs.telemetry.instrument`.
 
@@ -457,7 +433,7 @@ Créer l’évaluation qui permet de confirmer la compétence `obs.telemetry.ins
     <title>#52 [PROOF] Prouver la mission « Fournir l&apos;observabilité aux équipes »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/52"/>
     <updated>2026-10-06T19:38:43.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `fournir-l-observabilite-aux-equipes`, qui mobilise 2 compétences ; 2 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
 
@@ -472,7 +448,7 @@ Construire la preuve de la mission `fournir-l-observabilite-aux-equipes`, qui mo
     <title>#51 [LAB] Faire pratiquer Installer et maintenir des logiciels</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/51"/>
     <updated>2026-10-06T19:38:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
 
@@ -489,33 +465,11 @@ Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
 - score : 14 (indispensable (+5),&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/50</id>
-    <title>#50 [Page] Vault-id multiples - Problème quiz + typo étape 5</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/50"/>
-    <updated>2026-10-06T13:25:32.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Vault-id multiples : isoler dev, staging et prod avec des mots de passe distincts
-
-### URL
-
-https://blog.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/secrets-vault/vault-id-multiples/
-
-### Section
-
-Contrôle de connaissances
-
-### Ce que vous avez constaté / What you found
-
-À la question &amp;quot;Combien de mots de passe vault sont au minimum nécessaires pour suivre la séparation dev/staging/prod ?&amp;quot;, seule la réponse &amp;quot;trois&amp;quot; écrite de toutes lettres est acceptée.
-&amp;lt;img width=&amp;quot;993&amp;quot; height=&amp;quot;441&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/asse&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/48</id>
     <title>#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/48"/>
     <updated>2026-10-04T20:12:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;sans label&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;Dependency track ont sorti la version 5 et ça change les configurations. Avec des nouveautés comme KEV. 
+    <content type="html">&lt;p&gt;&lt;strong&gt;sans label&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;Dependency track ont sorti la version 5 et ça change les configurations. Avec des nouveautés comme KEV. 
 
 Alors après j&amp;apos;ai aussi eu un soucis avec Syft, le sbom produit ne permet pas a dependency track de créer le graph de dépendance (je pense que c&amp;apos;est parce qu&amp;apos;il n&amp;apos;inclut que des URL purl)
 
@@ -524,32 +478,6 @@ Et avec trivy aucun soucis d&amp;apos;arbre de dépendances ( node et container 
 Voilà voilà bon courage et merci pour ton contenu ! 
 
 &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/47</id>
-    <title>#47 [Amélioration] L&apos;appliance dsoxlab : une machine virtuelle prête à jouer</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/47"/>
-    <updated>2026-10-04T15:22:13.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-L&amp;apos;appliance dsoxlab : une machine virtuelle prête à jouer
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/dsoxlab/appliance/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Juste préciser que par défaut la machine virtuelle est avec un clavier en qwerty quand on veut s&amp;apos;authentifier et apres sur le bureau xfce
-Bravo Stéphane pour tout ce travail formidable
-
-### Amélioration proposée / Proposed improvement
-
-Expliquer comment passer en clavier azerty
-
-### Ce que cela apporterait / What it would bring
-
-eviter de chercher trop longtemps pourq&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/46</id>
@@ -582,7 +510,7 @@ Je ne sais pas si c&amp;apos;est l&amp;apos;impact d&lt;/p&gt;</content>
     <title>#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/45"/>
     <updated>2026-10-02T23:04:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Parcours Formation Linux, Programme et suivi de progression
 
@@ -668,7 +596,7 @@ Bonjour, il semble que l&amp;apos;image MinIO ne soit plus disponible même sur 
     <title>#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/25"/>
     <updated>2026-09-29T20:29:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
@@ -692,7 +620,7 @@ Préprod : Le programme du cours de KCNA n&amp;apos;est pas  que celui qui est �
     <title>#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/24"/>
     <updated>2026-09-29T20:28:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Parcours Formation Kubernetes, Programme et suivi de progression
 
