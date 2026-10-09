@@ -9,15 +9,83 @@
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-09</id>
     <title>5 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-09T06:27:17.644Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (10 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-09T12:22:01.791Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (10 j)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/79</id>
+    <title>#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/79"/>
+    <updated>2026-10-09T10:30:45.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
+
+## Manque
+
+La leçon « Cache » de la formation Architecture des services cite Redis, Valkey et Memcached. Le site n&amp;apos;a **aucun guide dédié à Redis ou Valkey** : la section « qui prend le relais » renvoie aux données managées et au pilier Performance d&amp;apos;OUTSCALE (constat consigné au §33 de l&amp;apos;audit de la formation).
+
+## Ce que le guide devrait couvrir
+
+- installation de Valkey (fork communautaire) et premières clés ;
+- cache-aside, TTL, politiques d&amp;apos;éviction (`maxmemory-policy`) ;
+- persistance RDB et AOF : qu&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/78</id>
+    <title>#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/78"/>
+    <updated>2026-10-09T10:30:44.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
+
+## Manque
+
+La leçon « Tâches de fond, ordonnanceurs et workflows » présente le moteur de workflow (état persisté de chaque étape, reprise après panne, compensations, saga) et cite Temporal, Argo Workflows et AWS Step Functions. Le site couvre les ordonnanceurs (cron, timers systemd, CronJob, dkron, Rundeck) et Airflow pour la donnée, mais **aucun moteur de workflow applicatif**.
+
+## Ce que le guide devrait couvrir
+
+À choisir après évaluation : Temporal ou Argo Workflows.
+
+- installat&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/77</id>
+    <title>#77 [Guide] RabbitMQ : files durables, acquittement et dead letter</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/77"/>
+    <updated>2026-10-09T10:30:42.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
+
+## Manque
+
+La leçon « Files de messages et brokers » de la formation Architecture des services s&amp;apos;appuie sur RabbitMQ et SQS. Le site n&amp;apos;a **aucun guide dédié à RabbitMQ** : la section « qui prend le relais » ne renvoie qu&amp;apos;aux données managées et aux traces distribuées.
+
+## Ce que le guide devrait couvrir
+
+- installation et première file ;
+- files durables et messages persistants, files quorum ;
+- acquittement manuel, préchargement (prefetch), relivraison ;
+- limite de livraisons et dead letter e&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/76</id>
+    <title>#76 [Guide] Kafka : journal d&apos;événements, partitions, groupes et rétention</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/76"/>
+    <updated>2026-10-09T10:30:41.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
+
+## Manque
+
+La leçon « Publication-abonnement et flux d&amp;apos;événements » de la formation Architecture des services décrit le rôle architectural d&amp;apos;un journal d&amp;apos;événements, avec Kafka comme exemple principal. Le site n&amp;apos;a **aucun guide dédié à Kafka** : la section « qui prend le relais » ne peut renvoyer qu&amp;apos;à des guides cloud généralistes.
+
+## Ce que le guide devrait couvrir
+
+- installation (mode KRaft, sans ZooKeeper) et premier topic ;
+- partitions, clé de message et ordre ; groupes de &lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/75</id>
     <title>#75 [Amélioration] Lab 01, Mon premier pipeline GitLab CI/CD</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/75"/>
-    <updated>2026-10-08T16:54:31.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <updated>2026-10-09T10:54:31.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 01, Mon premier pipeline GitLab CI/CD
 
@@ -536,7 +604,7 @@ Je me demande si on peut la pousser plus loin
     <title>#39 [Amélioration] Modèle C4 : clarifiez vos architectures</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/39"/>
     <updated>2026-09-30T10:44:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Modèle C4 : clarifiez vos architectures
 
@@ -567,7 +635,7 @@ Pédagogie et structure du contenu / Teaching and conte&lt;/p&gt;</content>
     <title>#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/38"/>
     <updated>2026-09-30T08:52:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 MinIO : stockage objet S3 avec chiffrement, WORM et OIDC
 
