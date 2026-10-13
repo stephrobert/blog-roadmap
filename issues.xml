@@ -9,8 +9,45 @@
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-13</id>
     <title>8 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-13T12:24:40.017Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/48&quot;&gt;#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/46&quot;&gt;#46 Suite a un update de Firefox j&amp;apos;ai perdu l&amp;apos;historique&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/45&quot;&gt;#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (14 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-13T18:21:21.687Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/48&quot;&gt;#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/46&quot;&gt;#46 Suite a un update de Firefox j&amp;apos;ai perdu l&amp;apos;historique&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/45&quot;&gt;#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (15 j)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/82</id>
+    <title>#82 [Page] Les bases de l&apos;IAM : identités, authentification et autorisation</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/82"/>
+    <updated>2026-10-13T12:53:29.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Les bases de l&amp;apos;IAM : identités, authentification et autorisation
+
+### URL
+
+https://blog.stephane-robert.info/docs/services/identite/fondamentaux/bases-iam/
+
+### Section
+
+introduction
+
+### Ce que vous avez constaté / What you found
+
+Le glossaire pour IdP pointe vers &amp;quot;Internal Developer Platform&amp;quot; au lieu de &amp;quot;Identity Provider&amp;quot;
+
+### Ce que vous attendiez / What you expected
+
+Idp dans ce contexte est &amp;quot;Identity Provider&amp;quot;
+
+### Informations complémentaires / Anything else
+
+_No response_
+
+### Langue de la page / Page language
+
+fr
+
+### Identifiant de page / Page id
+
+docs/serv&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/81</id>
@@ -128,7 +165,7 @@ La leçon « Publication-abonnement et flux d&amp;apos;événements » de la for
     <title>#75 [Amélioration] Lab 01, Mon premier pipeline GitLab CI/CD</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/75"/>
     <updated>2026-10-09T10:54:31.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 01, Mon premier pipeline GitLab CI/CD
 
@@ -595,7 +632,7 @@ Voilà voilà bon courage et merci pour ton contenu !
     <title>#46 Suite a un update de Firefox j&apos;ai perdu l&apos;historique</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/46"/>
     <updated>2026-10-03T17:13:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 10 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Notions fondamentales Linux
 
@@ -758,7 +795,7 @@ Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</
     <title>#18 [Amélioration] Lab 04, Artifacts et cache</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/18"/>
     <updated>2026-09-28T14:57:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 14 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 15 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Lab 04, Artifacts et cache
 
