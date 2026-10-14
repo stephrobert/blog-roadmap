@@ -7,75 +7,17 @@
   <updated>2026-10-14T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-14</id>
-    <title>28 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>20 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-14T06:25:05.890Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/70&quot;&gt;#70 [QUIZ] Évaluer Centraliser les journaux d&amp;apos;un service et les interroger&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/69&quot;&gt;#69 [QUIZ] Évaluer Interroger les métriques d&amp;apos;un service pour répondre à une question d&amp;apos;exploitation&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/68&quot;&gt;#68 [QUIZ] Évaluer Collecter les métriques d&amp;apos;un service et en contrôler la qualité&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/67&quot;&gt;#67 [QUIZ] Évaluer Construire un tableau de bord qui répond à une question d&amp;apos;exploitation&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/66&quot;&gt;#66 [QUIZ] Évaluer Définir une alerte actionnable et la router sans bruit&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/62&quot;&gt;#62 [QUIZ] Évaluer Synchroniser et promouvoir entre environnements&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/61&quot;&gt;#61 [QUIZ] Évaluer Déployer une application en GitOps&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/57&quot;&gt;#57 [PROOF] Prouver la mission « Mesurer et généraliser la démarche DevSecOps »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/54&quot;&gt;#54 [QUIZ] Évaluer Acheminer la télémétrie par un pipeline de collecte&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/53&quot;&gt;#53 [QUIZ] Évaluer Instrumenter un service pour qu&amp;apos;il émette une télémétrie utile&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/48&quot;&gt;#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/46&quot;&gt;#46 Suite a un update de Firefox j&amp;apos;ai perdu l&amp;apos;historique&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/45&quot;&gt;#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression&lt;/a&gt; (11 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/39&quot;&gt;#39 [Amélioration] Modèle C4 : clarifiez vos architectures&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/38&quot;&gt;#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/25&quot;&gt;#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (14 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/24&quot;&gt;#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression&lt;/a&gt; (14 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/18&quot;&gt;#18 [Amélioration] Lab 04, Artifacts et cache&lt;/a&gt; (15 j)&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/82</id>
-    <title>#82 [Page] Les bases de l&apos;IAM : identités, authentification et autorisation</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/82"/>
-    <updated>2026-10-13T12:53:29.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Les bases de l&amp;apos;IAM : identités, authentification et autorisation
-
-### URL
-
-https://blog.stephane-robert.info/docs/services/identite/fondamentaux/bases-iam/
-
-### Section
-
-introduction
-
-### Ce que vous avez constaté / What you found
-
-Le glossaire pour IdP pointe vers &amp;quot;Internal Developer Platform&amp;quot; au lieu de &amp;quot;Identity Provider&amp;quot;
-
-### Ce que vous attendiez / What you expected
-
-Idp dans ce contexte est &amp;quot;Identity Provider&amp;quot;
-
-### Informations complémentaires / Anything else
-
-_No response_
-
-### Langue de la page / Page language
-
-fr
-
-### Identifiant de page / Page id
-
-docs/serv&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/81</id>
-    <title>#81 [Amélioration] Parcours Formation Kubernetes, Programme et suivi de progression</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/81"/>
-    <updated>2026-10-13T08:48:05.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Parcours Formation Kubernetes, Programme et suivi de progression
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/parcours/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Bonjour, 
-
-Je vous expose un petit détail qui ne bloque en rien la progression mais m&amp;apos;a fait douter quelques secondes.
-
-Je suis la formation kubernetes sous le focus &amp;quot;CKA&amp;quot; et tout semble clair. Cependant il y a une incohérence sur la barre de progression du cours qui considère l&amp;apos;ensemble des cours de chaque modules (tout parcours con&lt;/p&gt;</content>
+    <updated>2026-10-14T12:22:30.311Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/70&quot;&gt;#70 [QUIZ] Évaluer Centraliser les journaux d&amp;apos;un service et les interroger&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/69&quot;&gt;#69 [QUIZ] Évaluer Interroger les métriques d&amp;apos;un service pour répondre à une question d&amp;apos;exploitation&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/68&quot;&gt;#68 [QUIZ] Évaluer Collecter les métriques d&amp;apos;un service et en contrôler la qualité&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/67&quot;&gt;#67 [QUIZ] Évaluer Construire un tableau de bord qui répond à une question d&amp;apos;exploitation&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/66&quot;&gt;#66 [QUIZ] Évaluer Définir une alerte actionnable et la router sans bruit&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/62&quot;&gt;#62 [QUIZ] Évaluer Synchroniser et promouvoir entre environnements&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/61&quot;&gt;#61 [QUIZ] Évaluer Déployer une application en GitOps&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/57&quot;&gt;#57 [PROOF] Prouver la mission « Mesurer et généraliser la démarche DevSecOps »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/54&quot;&gt;#54 [QUIZ] Évaluer Acheminer la télémétrie par un pipeline de collecte&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/53&quot;&gt;#53 [QUIZ] Évaluer Instrumenter un service pour qu&amp;apos;il émette une télémétrie utile&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (7 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/79</id>
     <title>#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/79"/>
     <updated>2026-10-09T10:30:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
 
 ## Manque
 
@@ -92,7 +34,7 @@ La leçon « Cache » de la formation Architecture des services cite Redis, Valk
     <title>#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/78"/>
     <updated>2026-10-09T10:30:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
 
 ## Manque
 
@@ -109,7 +51,7 @@ La leçon « Tâches de fond, ordonnanceurs et workflows » présente le moteur 
     <title>#77 [Guide] RabbitMQ : files durables, acquittement et dead letter</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/77"/>
     <updated>2026-10-09T10:30:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
 
 ## Manque
 
@@ -127,7 +69,7 @@ La leçon « Files de messages et brokers » de la formation Architecture des se
     <title>#76 [Guide] Kafka : journal d&apos;événements, partitions, groupes et rétention</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/76"/>
     <updated>2026-10-09T10:30:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
 
 ## Manque
 
@@ -137,46 +79,6 @@ La leçon « Publication-abonnement et flux d&amp;apos;événements » de la for
 
 - installation (mode KRaft, sans ZooKeeper) et premier topic ;
 - partitions, clé de message et ordre ; groupes de &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/75</id>
-    <title>#75 [Amélioration] Lab 01, Mon premier pipeline GitLab CI/CD</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/75"/>
-    <updated>2026-10-09T10:54:31.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Lab 01, Mon premier pipeline GitLab CI/CD
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/pipeline-cicd/gitlab/labs/lab-01-premier-pipeline/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Setup d&amp;apos;un runner sur instance self-hosted de Gitlab.
-
-### Amélioration proposée / Proposed improvement
-
-Le lab part directement du principe qu&amp;apos;on utilise un runner de Gitlab.com, sans devoir le configurer.
-La CI utilise Docker-in-Docker qui - je pense - fonctionnera en fonction de la manière dont le runner lui-même a été configuré (`etc/gitlab-runner/&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/73</id>
-    <title>#73 [Amélioration] Planifier des tâches avec cron et crontab sous Linux</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/73"/>
-    <updated>2026-10-07T21:07:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Planifier des tâches avec cron et crontab sous Linux
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/admin-serveurs/linux/exploiter/planification/cron/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-hola stephane!
-D&amp;apos;abord bravo pour tes formations elles sont super. J&amp;apos;ai un soucis pour faire le lab pratique l3-scheduling-cron, les labs &amp;quot;vm&amp;quot; ne semblent pas pouvoir etre faits avec une configuration de débutant type debian sur virtualbox sur windows11. Le fait que je galère à résoudre ça me fait dire que je ne suis pas le seul potentiellem&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/70</id>
@@ -589,206 +491,5 @@ Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
 - `linux.packages.manage` · certifications : lfcs, rhcsa-ex200
 - priorité : P0
 - score : 14 (indispensable (+5),&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/48</id>
-    <title>#48 [Obsolète] Dependency-Track : centraliser la gestion des SBOM</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/48"/>
-    <updated>2026-10-04T20:12:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;sans label&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;Dependency track ont sorti la version 5 et ça change les configurations. Avec des nouveautés comme KEV. 
-
-Alors après j&amp;apos;ai aussi eu un soucis avec Syft, le sbom produit ne permet pas a dependency track de créer le graph de dépendance (je pense que c&amp;apos;est parce qu&amp;apos;il n&amp;apos;inclut que des URL purl)
-
-Et avec trivy aucun soucis d&amp;apos;arbre de dépendances ( node et container )
-
-Voilà voilà bon courage et merci pour ton contenu ! 
-
-&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/46</id>
-    <title>#46 Suite a un update de Firefox j&apos;ai perdu l&apos;historique</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/46"/>
-    <updated>2026-10-03T17:13:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 10 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Notions fondamentales Linux
-
-### URL
-
-https://blog.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/notions/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Bonsoir,
-Je travaille sous Fedora 44.
-J&amp;apos;ai mis à jour ma machine et Firefox figurait dans la liste des paquets.
-Comme à mon habitude, j&amp;apos;ai effectué la mise à jour complète.
-En revenant sur le site, j&amp;apos;ai découvert que les deux pages que j&amp;apos;avais lues hier soir et taguées comme finies, n&amp;apos;étaient plus sélectionnées et validées.
-Je ne sais pas si c&amp;apos;est l&amp;apos;impact d&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/45</id>
-    <title>#45 [Préprod][Amélioration] Parcours Formation Linux, Programme et suivi de progression</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/45"/>
-    <updated>2026-10-02T23:04:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 11 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Parcours Formation Linux, Programme et suivi de progression
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/admin-serveurs/linux/parcours/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-L&amp;apos;idée des pistes parcours est vraiment intéressante
-Je me demande si on peut la pousser plus loin
-
-&amp;lt;img width=&amp;quot;1458&amp;quot; height=&amp;quot;862&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/02424b1e-0e40-4a23-8d8a-5cc7e0d22712&amp;quot; /&amp;gt;
-
-
-### Amélioration proposée / Proposed improvement
-
-- avoir un selecteur de parcours dans le menu de gauche
-- adapter filtre&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/39</id>
-    <title>#39 [Amélioration] Modèle C4 : clarifiez vos architectures</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/39"/>
-    <updated>2026-09-30T10:44:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 13 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Modèle C4 : clarifiez vos architectures
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/documenter/schemas/c4model/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-complement d&amp;apos;info
-
-### Amélioration proposée / Proposed improvement
-
-il existe le mcp structurizr !
-par exemple avec claude code:
-claude mcp add --transport http structurizr https://mcp.structurizr.com/mcp
-
-### Ce que cela apporterait / What it would bring
-
-_No response_
-
-### Nature de l&amp;apos;amélioration / Kind of improvement
-
-Pédagogie et structure du contenu / Teaching and conte&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/38</id>
-    <title>#38 [Obsolète] MinIO : stockage objet S3 avec chiffrement, WORM et OIDC</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/38"/>
-    <updated>2026-09-30T08:52:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 13 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-MinIO : stockage objet S3 avec chiffrement, WORM et OIDC
-
-### URL
-
-https://blog.stephane-robert.info/docs/services/stockage/minio/
-
-### Technologie concernée / Technology
-
-Minio / Kubernetes / Docker
-
-### Version présentée par la page / Version shown
-
-_No response_
-
-### Version actuelle / Current version
-
-_No response_
-
-### Ce qui est devenu faux / What is now wrong
-
-Bonjour, il semble que l&amp;apos;image MinIO ne soit plus disponible même sur les dépôts alternatifs (VMware, AWS, etc.). Sur quyy il y a un autre dépot  minio/aistor/minio mais je ne sais pas s&amp;apos;il s&amp;apos;agit de la &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/25</id>
-    <title>#25 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/25"/>
-    <updated>2026-09-29T20:29:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 14 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Parcours Formation Kubernetes, Programme et suivi de progression
-
-### URL
-
-https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/parcours/
-
-### Section
-
-Programme du cours KCNA
-
-### Ce que vous avez constaté / What you found
-
-Préprod : Le programme du cours de KCNA n&amp;apos;est pas  que celui qui est écrit en parcours manquant la section S3 : Delivery + Architecture et quelques sections S2 : Orchestration
-&amp;lt;img width=&amp;quot;679&amp;quot; height=&amp;quot;1028&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/480da606-60b2-4e9e-b2fd-89d912148fb1&amp;quot; /&amp;gt;
-
-&amp;lt;img width=&amp;quot;838&amp;quot;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/24</id>
-    <title>#24 [Page] Parcours Formation Kubernetes, Programme et suivi de progression</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/24"/>
-    <updated>2026-09-29T20:28:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 14 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Parcours Formation Kubernetes, Programme et suivi de progression
-
-### URL
-
-https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/parcours/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Préprod : Dans le plan de préparation pour KCSA , il manque les liens pour chaque blog 
-
-&amp;lt;img width=&amp;quot;946&amp;quot; height=&amp;quot;731&amp;quot; alt=&amp;quot;Image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/b6d9218a-45e4-4a78-85b6-b5bdadb2265e&amp;quot; /&amp;gt;
-
-### Ce que vous attendiez / What you expected
-
-Pour les blogs qui existent  ,un lien qui améne directement vers le&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/18</id>
-    <title>#18 [Amélioration] Lab 04, Artifacts et cache</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/18"/>
-    <updated>2026-09-28T14:57:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 15 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Lab 04, Artifacts et cache
-
-### URL de la page / Page URL
-
-https://blog.stephane-robert.info/docs/pipeline-cicd/gitlab/labs/lab-04-artifacts-et-cache/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Je trouve que le lab 04 manque un peu d&amp;apos;explication sur les étapes, on passe un peu de petit à &amp;quot;tout&amp;quot; directement comparé aux autres lab.
-
-### Amélioration proposée / Proposed improvement
-
-Réduire peut être l&amp;apos;exigence du lab 04, car je trouve cela un peu brouillon dans la recherche, on ne sait pas trop comment s&amp;apos;y prendre parfois 
-
-### Ce que cela apporterait / Wha&lt;/p&gt;</content>
   </entry>
 </feed>
