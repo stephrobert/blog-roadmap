@@ -7,10 +7,10 @@
   <updated>2026-10-29T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-29</id>
-    <title>26 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>16 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-29T12:16:43.540Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/99&quot;&gt;#99 [Amélioration] Quiz GitLab CI/CD Intermédiaire&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/94&quot;&gt;#94 [Amélioration] Quiz Réseaux : Intermédiaire&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/70&quot;&gt;#70 [QUIZ] Évaluer Centraliser les journaux d&amp;apos;un service et les interroger&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/69&quot;&gt;#69 [QUIZ] Évaluer Interroger les métriques d&amp;apos;un service pour répondre à une question d&amp;apos;exploitation&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/68&quot;&gt;#68 [QUIZ] Évaluer Collecter les métriques d&amp;apos;un service et en contrôler la qualité&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/67&quot;&gt;#67 [QUIZ] Évaluer Construire un tableau de bord qui répond à une question d&amp;apos;exploitation&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/66&quot;&gt;#66 [QUIZ] Évaluer Définir une alerte actionnable et la router sans bruit&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/62&quot;&gt;#62 [QUIZ] Évaluer Synchroniser et promouvoir entre environnements&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/61&quot;&gt;#61 [QUIZ] Évaluer Déployer une application en GitOps&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/57&quot;&gt;#57 [PROOF] Prouver la mission « Mesurer et généraliser la démarche DevSecOps »&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/54&quot;&gt;#54 [QUIZ] Évaluer Acheminer la télémétrie par un pipeline de collecte&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/53&quot;&gt;#53 [QUIZ] Évaluer Instrumenter un service pour qu&amp;apos;il émette une télémétrie utile&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (22 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-29T18:13:48.540Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/99&quot;&gt;#99 [Amélioration] Quiz GitLab CI/CD Intermédiaire&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (22 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/139</id>
@@ -67,7 +67,7 @@ https://docs.renovatebot.com/getting-started/private-packages/#looking-up-change
     <title>#137 [Page] Boucles Ansible (loop) : itérer sur listes, dicts et résultats de lookup</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/137"/>
     <updated>2026-10-28T15:29:43.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Boucles Ansible (loop) : itérer sur listes, dicts et résultats de lookup
 
@@ -95,7 +95,7 @@ le code du lab dsoxlab ecrire-code-boucles-loop, exercice 5 :
     <title>#136 [Page] Identité machine et workload identity</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/136"/>
     <updated>2026-10-28T14:39:01.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Identité machine et workload identity
 
@@ -126,7 +126,7 @@ Seul l’API serve&lt;/p&gt;</content>
     <title>#135 [Amélioration] Comprendre authentik : applications, providers, flows et outposts</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/135"/>
     <updated>2026-10-28T14:33:52.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Comprendre authentik : applications, providers, flows et outposts
 
@@ -157,7 +157,7 @@ Pédagogie et structure du con&lt;/p&gt;</content>
     <title>#134 [Page] Comprendre authentik : applications, providers, flows et outposts</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/134"/>
     <updated>2026-10-28T14:30:18.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Comprendre authentik : applications, providers, flows et outposts
 
@@ -183,7 +183,7 @@ La documentation authentik est claire : « The default mode is Any ». Une seule
     <title>#133 [Amélioration] Déployer Keycloak sur Kubernetes avec l&apos;Operator</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/133"/>
     <updated>2026-10-28T13:42:01.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Déployer Keycloak sur Kubernetes avec l&amp;apos;Operator
 
@@ -204,7 +204,7 @@ L&amp;apos;équipe de Keycloak a officiellement fait évoluer ses recommandation
     <title>#132 [Page] Déployer Keycloak sur Kubernetes avec l&apos;Operator</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/132"/>
     <updated>2026-10-28T13:07:02.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Déployer Keycloak sur Kubernetes avec l&amp;apos;Operator
 
@@ -227,7 +227,7 @@ Sauf si je me trompe, mais je ne suis pas d&amp;apos;accord. Car les caches sont
     <title>#131 [Page] SCIM : le provisioning automatique des identités</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/131"/>
     <updated>2026-10-28T12:28:22.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 SCIM : le provisioning automatique des identités
 
@@ -377,7 +377,7 @@ Pourquoi écrivons-nous le dockerfile directement dans le conteneur tandis que l
     <title>#121 [Page] Naviguer et gérer des fichiers sous Linux</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/121"/>
     <updated>2026-10-26T16:56:13.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Naviguer et gérer des fichiers sous Linux
 
@@ -402,7 +402,7 @@ La page &amp;quot;Liens physiques et symboliques sous Linux&amp;quot; (https://w
     <title>#120 [Obsolète] Arborescence Linux : à quoi sert chaque répertoire</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/120"/>
     <updated>2026-10-26T12:29:02.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Arborescence Linux : à quoi sert chaque répertoire
 
@@ -482,58 +482,6 @@ J&amp;apos;ai rencontré des soucis pour faire fonctionner le déploiement de la
 Mon problème était que la VM se déployait sans souci via Terraform, mais après elle ne démarrait pas correctement, à cause d&amp;apos;un blocage au démarrage concernant le disque de la VM. Po&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/110</id>
-    <title>#110 [Amélioration] Choisir ses outils de documentation</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/110"/>
-    <updated>2026-10-23T13:46:35.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Choisir ses outils de documentation
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/documenter/choisir/outils/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-MkDocs is in maintainance since novermber 5 2025 and for 12 months only. That means it will be officially deprecated soon, and so will this doc.
-
-### Amélioration proposée / Proposed improvement
-
-The Material for MkDocs team started a new project to replace MkDocs: Zensical.
-Check https://zensical.org/ to see the project and get more informations.
-
-### Ce que cela apporterait / What&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/106</id>
-    <title>#106 [Amélioration] Redirections et pipes sous Linux</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/106"/>
-    <updated>2026-10-23T09:01:58.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Redirections et pipes sous Linux
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/manipuler-fichiers-texte/redirections-pipes/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Bonjour, 
-
-Je peux me tromper mais, dans cette page, on parle de pipe, puis il est ensuite fait mention de &amp;quot;tube&amp;quot; qui est je pense la traduction de &amp;quot;pipe&amp;quot;. 
-
-
-
-
-### Amélioration proposée / Proposed improvement
-
-Je pense qu&amp;apos;il faudrait modifier &amp;quot;tube&amp;quot; en &amp;quot;pipe&amp;quot; pour avoir une uniformité sur l&amp;apos;ensemble de la leçon. 
-
-### Ce que cela app&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/105</id>
     <title>#105 [Outdated] Identify your Linux system</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/105"/>
@@ -574,7 +522,7 @@ Actually in man hostnamectl they us&lt;/p&gt;</content>
     <title>#104 [Page] Locals Terraform : valeurs locales et leurs pièges</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/104"/>
     <updated>2026-10-22T20:16:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:low, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:low, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Locals Terraform : valeurs locales et leurs pièges
 
@@ -616,44 +564,6 @@ Merci pour votre travail
 ### Amélioration proposée / Proposed improvement
 
 Proposer une version anglaise des quiz GitLab CI/CD, en complément de &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/94</id>
-    <title>#94 [Amélioration] Quiz Réseaux : Intermédiaire</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/94"/>
-    <updated>2026-10-21T13:46:43.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:low, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 3 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Quiz Réseaux : Intermédiaire
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/examen/reseau/intermediaire/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-les garde n&amp;apos;est pas vraiment tape a l&amp;apos;oeil
-
-
-### Amélioration proposée / Proposed improvement
-
-changer la structure et formation
-
-### Ce que cela apporterait / What it would bring
-
-une visibilité facile
-
-### Nature de l&amp;apos;amélioration / Kind of improvement
-
-Navigation et lisibilité / Navigation and readability
-
-### Langue de la page / Page language
-
-fr
-
-### Identifiant de page / Page id
-
-examen&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/79</id>
@@ -724,119 +634,6 @@ La leçon « Publication-abonnement et flux d&amp;apos;événements » de la for
 - partitions, clé de message et ordre ; groupes de &lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/70</id>
-    <title>#70 [QUIZ] Évaluer Centraliser les journaux d&apos;un service et les interroger</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/70"/>
-    <updated>2026-10-06T19:39:15.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `obs.logs.centralize`.
-
-&amp;lt;!-- coverage-key: skill=obs.logs.centralize;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `obs.logs.centralize` : Centraliser les journaux d&amp;apos;un service et les interroger (https://blog.stephane-robert.info/competences/obs-logs-centralize/)
-
-### Pourquoi maintenant
-- `obs.logs.centralize` · sre : cœur, niveau 3
-- priorité : P1
-- score : 7 (cœur (+4), 1 métier (+1), sans quiz (+2))
-
-### Couverture actuelle
-- `obs.logs.centralize` : enseignée oui · quiz non · pratique non · preuve n&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/69</id>
-    <title>#69 [QUIZ] Évaluer Interroger les métriques d&apos;un service pour répondre à une question d&apos;exploitation</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/69"/>
-    <updated>2026-10-06T19:39:14.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `obs.metrics.query`.
-
-&amp;lt;!-- coverage-key: skill=obs.metrics.query;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `obs.metrics.query` : Interroger les métriques d&amp;apos;un service pour répondre à une question d&amp;apos;exploitation (https://blog.stephane-robert.info/competences/obs-metrics-query/)
-
-### Pourquoi maintenant
-- `obs.metrics.query` · platform-engineer : cœur, niveau 3
-- `obs.metrics.query` · sre : cœur, niveau 3
-- priorité : P1
-- score : 8 (cœur (+4), 2 métiers (+2), sans quiz (+2))
-
-### Couverture actuelle
-&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/68</id>
-    <title>#68 [QUIZ] Évaluer Collecter les métriques d&apos;un service et en contrôler la qualité</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/68"/>
-    <updated>2026-10-06T19:39:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `obs.metrics.collect`.
-
-&amp;lt;!-- coverage-key: skill=obs.metrics.collect;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `obs.metrics.collect` : Collecter les métriques d&amp;apos;un service et en contrôler la qualité (https://blog.stephane-robert.info/competences/obs-metrics-collect/)
-
-### Pourquoi maintenant
-- `obs.metrics.collect` · platform-engineer : cœur, niveau 3
-- `obs.metrics.collect` · sre : cœur, niveau 3
-- priorité : P1
-- score : 8 (cœur (+4), 2 métiers (+2), sans quiz (+2))
-
-### Couverture actuelle
-- `obs&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/67</id>
-    <title>#67 [QUIZ] Évaluer Construire un tableau de bord qui répond à une question d&apos;exploitation</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/67"/>
-    <updated>2026-10-06T19:39:10.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `obs.dashboard.build`.
-
-&amp;lt;!-- coverage-key: skill=obs.dashboard.build;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `obs.dashboard.build` : Construire un tableau de bord qui répond à une question d&amp;apos;exploitation (https://blog.stephane-robert.info/competences/obs-dashboard-build/)
-
-### Pourquoi maintenant
-- `obs.dashboard.build` · platform-engineer : cœur, niveau 3
-- `obs.dashboard.build` · sre : cœur, niveau 3
-- priorité : P1
-- score : 8 (cœur (+4), 2 métiers (+2), sans quiz (+2))
-
-### Couverture actuelle&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/66</id>
-    <title>#66 [QUIZ] Évaluer Définir une alerte actionnable et la router sans bruit</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/66"/>
-    <updated>2026-10-06T19:39:09.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `obs.alert.design`.
-
-&amp;lt;!-- coverage-key: skill=obs.alert.design;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `obs.alert.design` : Définir une alerte actionnable et la router sans bruit (https://blog.stephane-robert.info/competences/obs-alert-design/)
-
-### Pourquoi maintenant
-- `obs.alert.design` · platform-engineer : cœur, niveau 3
-- `obs.alert.design` · sre : cœur, niveau 3
-- priorité : P1
-- score : 8 (cœur (+4), 2 métiers (+2), sans quiz (+2))
-
-### Couverture actuelle
-- `obs.alert.design` : enseignée &lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/65</id>
     <title>#65 [QUIZ] Évaluer Construire une image OCI</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/65"/>
@@ -896,49 +693,6 @@ Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont é
 - [ ] `cloud.compute.provision` : Dimensionner, créer et détruir&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/62</id>
-    <title>#62 [QUIZ] Évaluer Synchroniser et promouvoir entre environnements</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/62"/>
-    <updated>2026-10-06T19:39:01.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `gitops.sync.promote`.
-
-&amp;lt;!-- coverage-key: skill=gitops.sync.promote;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `gitops.sync.promote` : Synchroniser et promouvoir entre environnements (https://blog.stephane-robert.info/competences/gitops-sync-promote/)
-
-### Pourquoi maintenant
-- `gitops.sync.promote` · devsecops : cœur, niveau 3
-- `gitops.sync.promote` · ingenieur-cicd : cœur, niveau 3
-- `gitops.sync.promote` · platform-engineer : cœur, niveau 3
-- `gitops.sync.promote` · sre : cœur, niveau 3
-- priori&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/61</id>
-    <title>#61 [QUIZ] Évaluer Déployer une application en GitOps</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/61"/>
-    <updated>2026-10-06T19:38:59.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `gitops.app.deploy`.
-
-&amp;lt;!-- coverage-key: skill=gitops.app.deploy;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `gitops.app.deploy` : Déployer une application en GitOps (https://blog.stephane-robert.info/competences/gitops-app-deploy/)
-
-### Pourquoi maintenant
-- `gitops.app.deploy` · devsecops : cœur, niveau 3
-- `gitops.app.deploy` · ingenieur-cicd : cœur, niveau 3
-- `gitops.app.deploy` · platform-engineer : cœur, niveau 3
-- `gitops.app.deploy` · sre : cœur, niveau 3
-- priorité : P1
-- score : 10 (cœur (+&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/60</id>
     <title>#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/60"/>
@@ -996,27 +750,6 @@ Construire la preuve de la mission `publier-un-chart-de-reference`, qui mobilise
 - `k8s.helm.compose` : Composer et fiabiliser des charts : dépendances, API de values, schéma, tests et documentation (https://blog&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/57</id>
-    <title>#57 [PROOF] Prouver la mission « Mesurer et généraliser la démarche DevSecOps »</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/57"/>
-    <updated>2026-10-06T19:38:52.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:devsecops, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Construire la preuve de la mission `generaliser-devsecops`, qui mobilise 2 compétences ; 1 d’entre elles est attendue au niveau 4 sans preuve qui le mesure.
-
-&amp;lt;!-- coverage-key: bundle=proof-mission-generaliser-devsecops --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `dso.steer` : Mesurer et généraliser DevSecOps à l&amp;apos;échelle (https://blog.stephane-robert.info/competences/dso-steer/)
-
-### Pourquoi maintenant
-- `dso.steer` · devsecops : cœur, niveau 4
-- priorité : P0
-- score : 11 (cœur (+4), 1 métier (+1), niveau attendu 4 (+2), sans preuve de niveau 4 (+4))
-
-### Couverture ac&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/56</id>
     <title>#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/56"/>
@@ -1056,48 +789,6 @@ Construire la preuve de la mission `standardiser-la-ci`, qui mobilise 1 compéte
 - `ci.pipeline.govern` · platform-engineer : cœur, niveau 4
 - priorité : P0
 - score : 12 (cœur (+4), 2 métiers (+2), niv&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/54</id>
-    <title>#54 [QUIZ] Évaluer Acheminer la télémétrie par un pipeline de collecte</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/54"/>
-    <updated>2026-10-06T19:38:46.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `obs.telemetry.pipeline`.
-
-&amp;lt;!-- coverage-key: skill=obs.telemetry.pipeline;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `obs.telemetry.pipeline` : Acheminer la télémétrie par un pipeline de collecte (https://blog.stephane-robert.info/competences/obs-telemetry-pipeline/)
-
-### Pourquoi maintenant
-- `obs.telemetry.pipeline` · platform-engineer : cœur, niveau 4
-- priorité : P0
-- score : 13 (cœur (+4), 1 métier (+1), niveau attendu 4 (+2), sans quiz (+2), sans preuve de niveau 4 (+4))
-
-### Couverture actuel&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/53</id>
-    <title>#53 [QUIZ] Évaluer Instrumenter un service pour qu&apos;il émette une télémétrie utile</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/53"/>
-    <updated>2026-10-06T19:38:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
-
-Créer l’évaluation qui permet de confirmer la compétence `obs.telemetry.instrument`.
-
-&amp;lt;!-- coverage-key: skill=obs.telemetry.instrument;artifact=quiz --&amp;gt;
-&amp;lt;!-- coverage-managed:start --&amp;gt;
-### Compétences
-- `obs.telemetry.instrument` : Instrumenter un service pour qu&amp;apos;il émette une télémétrie utile (https://blog.stephane-robert.info/competences/obs-telemetry-instrument/)
-
-### Pourquoi maintenant
-- `obs.telemetry.instrument` · platform-engineer : cœur, niveau 4
-- priorité : P0
-- score : 13 (cœur (+4), 1 métier (+1), niveau attendu 4 (+2), sans quiz (+2), sans preuve de niveau 4 (+4))
-
-&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/52</id>
