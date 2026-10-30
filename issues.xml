@@ -9,15 +9,44 @@
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-30</id>
     <title>17 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-30T06:18:50.821Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/105&quot;&gt;#105 [Outdated] Identify your Linux system&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/99&quot;&gt;#99 [Amélioration] Quiz GitLab CI/CD Intermédiaire&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (23 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-30T12:16:37.799Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/105&quot;&gt;#105 [Outdated] Identify your Linux system&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/99&quot;&gt;#99 [Amélioration] Quiz GitLab CI/CD Intermédiaire&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (23 j)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/140</id>
+    <title>#140 [Page] Panorama IA : LLM, RAG, agents et MCP</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/140"/>
+    <updated>2026-10-30T08:36:20.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Panorama IA : LLM, RAG, agents et MCP
+
+### URL
+
+https://www.stephane-robert.info/docs/developper/programmation/python/ia-panorama/
+
+### Section
+
+https://www.stephane-robert.info/docs/developper/programmation/python/ia-panorama/#les-3-primitives-mcp
+
+### Ce que vous avez constaté / What you found
+
+Le lien vers les spec MCPest mort.
+L&amp;apos;écosystème évolue rapidement, consultez la [spécification officielle](https://spec.modelcontextprotocol.io/) pour les dernières évolutions.
+
+
+### Ce que vous attendiez / What you expected
+
+le bon lien : https://modelcontextprotocol.io/
+
+#&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/139</id>
     <title>#139 [Amélioration]  Correction de la validation de la réponse quiz Helm</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/139"/>
     <updated>2026-10-29T10:38:18.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 _No response_
 
@@ -35,7 +64,7 @@ Je ne comprends pas ce rejet, car helm est le nom de l&amp;apos;exécutable indi
     <title>#138 [Outdated] Renovate automatiser les mises à jour de dépendances</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/138"/>
     <updated>2026-10-29T09:24:32.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page
 
 Renovate automatiser les mises à jour de dépendances
 
@@ -256,7 +285,7 @@ Le build est automatique au démarrage, sauf avec `--optimized` : il faut alors`
     <title>#130 [Page] Le fichier ansible.cfg : ordre de chargement, sections et paramètres clés</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/130"/>
     <updated>2026-10-28T11:14:02.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Le fichier ansible.cfg : ordre de chargement, sections et paramètres clés
 
@@ -281,7 +310,7 @@ Je ne vois pe&lt;/p&gt;</content>
     <title>#129 [Page] SAML 2.0 : la fédération enterprise</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/129"/>
     <updated>2026-10-28T10:57:34.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 SAML 2.0 : la fédération enterprise
 
@@ -312,7 +341,7 @@ SAML Profiles (référence [4.1.3&lt;/p&gt;</content>
     <title>#127 [Amélioration] Monter un annuaire LDAP léger avec LLDAP</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/127"/>
     <updated>2026-10-28T10:25:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Monter un annuaire LDAP léger avec LLDAP
 
@@ -435,7 +464,7 @@ https://www.thomas-krenn.com/en/wiki/Replacement_of_/var/log/syslog_by_journalct
     <title>#119 [Page] Pourquoi la gestion de version est vitale</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/119"/>
     <updated>2026-10-26T11:17:16.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Pourquoi la gestion de version est vitale
 
@@ -467,7 +496,7 @@ Merci pour ton travail :)
     <title>#116 [Amélioration] Provisionner avec Ansible depuis Terraform</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/116"/>
     <updated>2026-10-24T10:04:17.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Provisionner avec Ansible depuis Terraform
 
@@ -546,7 +575,7 @@ Le quiz sur local regroupe des questions sur les autres parties qui n&amp;apos;o
     <title>#99 [Amélioration] Quiz GitLab CI/CD Intermédiaire</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/99"/>
     <updated>2026-10-22T17:31:08.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Quiz GitLab CI/CD : Intermédiaire
 
@@ -570,7 +599,7 @@ Proposer une version anglaise des quiz GitLab CI/CD, en complément de &lt;/p&gt
     <title>#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/79"/>
     <updated>2026-10-09T10:30:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 20 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 21 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
 
 ## Manque
 
@@ -587,7 +616,7 @@ La leçon « Cache » de la formation Architecture des services cite Redis, Valk
     <title>#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/78"/>
     <updated>2026-10-09T10:30:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 20 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 21 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
 
 ## Manque
 
@@ -604,7 +633,7 @@ La leçon « Tâches de fond, ordonnanceurs et workflows » présente le moteur 
     <title>#77 [Guide] RabbitMQ : files durables, acquittement et dead letter</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/77"/>
     <updated>2026-10-09T10:30:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 20 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 21 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
 
 ## Manque
 
@@ -622,7 +651,7 @@ La leçon « Files de messages et brokers » de la formation Architecture des se
     <title>#76 [Guide] Kafka : journal d&apos;événements, partitions, groupes et rétention</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/76"/>
     <updated>2026-10-09T10:30:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 20 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 21 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
 
 ## Manque
 
