@@ -4,13 +4,13 @@
   <subtitle>Signalements des lecteurs et demandes de contenu, issues ouvertes et rappel de celles qui trainent.</subtitle>
   <id>https://github.com/stephrobert/blog-roadmap/issues</id>
   <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues"/>
-  <updated>2026-10-30T00:00:00.000Z</updated>
+  <updated>2026-10-31T00:00:00.000Z</updated>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-30</id>
+    <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-10-31</id>
     <title>15 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-10-30T18:10:49.209Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (23 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-10-31T00:24:20.592Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (24 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (24 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/116</id>
@@ -128,7 +128,7 @@ La leçon « Publication-abonnement et flux d&amp;apos;événements » de la for
     <title>#65 [QUIZ] Évaluer Construire une image OCI</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/65"/>
     <updated>2026-10-06T19:39:07.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `container.build`.
 
@@ -151,7 +151,7 @@ Créer l’évaluation qui permet de confirmer la compétence `container.build`.
     <title>#64 [QUIZ] Évaluer Sécuriser l&apos;installation et les conteneurs</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/64"/>
     <updated>2026-10-06T19:39:05.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `container.secure`.
 
@@ -172,7 +172,7 @@ Créer l’évaluation qui permet de confirmer la compétence `container.secure`
     <title>#63 [QUIZ] Compléter l’évaluation du parcours Outscale</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/63"/>
     <updated>2026-10-06T19:39:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont évaluées pour une autre option, pas pour celle-ci. La liste est recalculée à chaque synchronisation : une compétence en sort quand son quiz existe, et l’issue se ferme avec la dernière.
 
@@ -187,7 +187,7 @@ Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont é
     <title>#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/60"/>
     <updated>2026-10-06T19:38:57.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `scripting.tool`.
 
@@ -208,7 +208,7 @@ Créer l’évaluation qui permet de confirmer la compétence `scripting.tool`.
     <title>#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/59"/>
     <updated>2026-10-06T19:38:55.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `scripting.data`.
 
@@ -229,7 +229,7 @@ Créer l’évaluation qui permet de confirmer la compétence `scripting.data`.
     <title>#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/58"/>
     <updated>2026-10-06T19:38:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:kubernetes, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:kubernetes, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `publier-un-chart-de-reference`, qui mobilise 3 compétences ; 3 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
 
@@ -244,7 +244,7 @@ Construire la preuve de la mission `publier-un-chart-de-reference`, qui mobilise
     <title>#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/56"/>
     <updated>2026-10-06T19:38:50.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Faire pratiquer la compétence `linux.network.basics` en lab guidé.
 
@@ -265,7 +265,7 @@ Faire pratiquer la compétence `linux.network.basics` en lab guidé.
     <title>#55 [PROOF] Prouver la mission « Standardiser la CI d&apos;une équipe »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/55"/>
     <updated>2026-10-06T19:38:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `standardiser-la-ci`, qui mobilise 1 compétence, attendue au niveau 4 sans preuve qui le mesure.
 
@@ -285,7 +285,7 @@ Construire la preuve de la mission `standardiser-la-ci`, qui mobilise 1 compéte
     <title>#52 [PROOF] Prouver la mission « Fournir l&apos;observabilité aux équipes »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/52"/>
     <updated>2026-10-06T19:38:43.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `fournir-l-observabilite-aux-equipes`, qui mobilise 2 compétences ; 2 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
 
@@ -300,7 +300,7 @@ Construire la preuve de la mission `fournir-l-observabilite-aux-equipes`, qui mo
     <title>#51 [LAB] Faire pratiquer Installer et maintenir des logiciels</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/51"/>
     <updated>2026-10-06T19:38:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 24 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
 
