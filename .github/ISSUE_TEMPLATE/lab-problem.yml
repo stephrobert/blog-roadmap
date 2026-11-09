@@ -1,0 +1,113 @@
+name: Problème avec un lab / Lab problem
+description: "Un énoncé ambigu, une validation contestée, un environnement indisponible / An unclear task, a disputed check, an unavailable environment."
+title: "[Lab] "
+labels: ["type:content-error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Les champs de contexte sont remplis automatiquement si vous arrivez depuis
+        le lien **« Signaler un problème avec ce lab »** du site : ne les modifiez
+        pas, ils permettent de retrouver le lab exact.
+
+        **Ne collez pas votre solution complète** : décrivez ce que vous avez
+        observé et ce que vous attendiez. Une solution publiée dans une issue
+        rendrait le lab inutilisable pour les autres.
+
+        *The context fields are filled in automatically when you come from the
+        "Report a problem with this lab" link. Please do not paste your full
+        solution. Answer in English if you prefer.*
+
+  - type: input
+    id: page-title
+    attributes:
+      label: Page du guide / Guide page
+      description: La page où figure le lab, telle qu'elle s'affiche. The page that hosts the lab.
+      placeholder: "Docker Compose : données persistantes"
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: URL
+      description: L'adresse complète de la page du guide. The full address of the guide page.
+      placeholder: "https://www.stephane-robert.info/docs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: lab-catalogue
+    attributes:
+      label: Catalogue de labs / Lab catalogue
+      description: Rempli automatiquement, à ne pas modifier. Filled in automatically, do not edit.
+      placeholder: "containers-dsoxlab-training"
+    validations:
+      required: true
+
+  - type: input
+    id: lab-id
+    attributes:
+      label: Identifiant du lab / Lab id
+      description: Rempli automatiquement, à ne pas modifier. Filled in automatically, do not edit.
+      placeholder: "compose-persistance"
+    validations:
+      required: true
+
+  - type: input
+    id: lab-revision
+    attributes:
+      label: Révision du catalogue / Catalogue revision
+      description: Rempli automatiquement quand elle est connue. Vous pouvez la retirer. Filled in when known; you may remove it.
+
+  - type: input
+    id: dsoxlab-version
+    attributes:
+      label: Version de DSOXLab / DSOXLab version
+      description: Rempli automatiquement quand elle est connue. Vous pouvez la retirer. Filled in when known; you may remove it.
+
+  - type: dropdown
+    id: motif
+    attributes:
+      label: Motif / Reason
+      description: Ce qui décrit le mieux votre problème. What best describes your problem.
+      options:
+        - Énoncé ambigu
+        - Validation contestée
+        - Environnement indisponible
+        - Indice trop révélateur
+    validations:
+      required: true
+
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Ce que vous avez constaté / What you found
+      description: |
+        Le fait, pas l'impression : l'étape où vous étiez, ce que vous avez lancé,
+        ce que le lab a répondu, ce que vous attendiez. Sans votre solution complète.
+        The fact, not the impression: the step you were on, what you ran, what the
+        lab answered, what you expected. Without your full solution.
+      placeholder: |
+        À l'étape « ... », le contrôle « ... » répond :
+
+            ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Langue de la page / Page language
+      options:
+        - fr
+        - en
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Identifiant de page / Page id
+      description: Rempli automatiquement, à ne pas modifier. Il survit à un changement d'URL. Filled in automatically, do not edit.

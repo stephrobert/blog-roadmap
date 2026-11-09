@@ -63,7 +63,22 @@ jobs:
               "outdated-content-en.yml": ("[Outdated]", EN),
               "broken-link-en.yml": ("[Link]", EN),
               "improvement-en.yml": ("[Improvement]", EN),
+              "lab-problem.yml": ("[Lab]", FR),
+              "lab-problem-en.yml": ("[Lab]", EN),
           }
+
+          # Les gabarits de signalement d'un LAB portent en plus le contexte du
+          # lab que `lienSignalementLab` (site, signalement.ts) pre-remplit,
+          # et leur menu `motif` porte EXACTEMENT les libelles que le site
+          # envoie : un dropdown ne se pre-remplit que si la valeur est
+          # l'une de ses options, et GitHub ignore le reste sans erreur.
+          ATTENDUS_LAB = {"lab-catalogue", "lab-id", "lab-revision", "dsoxlab-version", "motif", "probleme"}
+          MOTIFS = {
+              "lab-problem.yml": ["Énoncé ambigu", "Validation contestée", "Environnement indisponible", "Indice trop révélateur"],
+              "lab-problem-en.yml": ["Ambiguous instructions", "Disputed validation", "Environment unavailable", "Hint gives too much away"],
+          }
+          # Taxonomie fermee : un gabarit ne pose que des labels qui existent.
+          LABELS_LAB = ["type:content-error"]
 
           racine = Path(".github/ISSUE_TEMPLATE")
           ecarts = []
@@ -75,7 +90,8 @@ jobs:
                   continue
               d = yaml.safe_load(f.read_text(encoding="utf-8"))
               ids = {c.get("id") for c in d.get("body", []) if isinstance(c, dict)}
-              manque = ATTENDUS - ids
+              attendus = ATTENDUS | (ATTENDUS_LAB if nom in MOTIFS else set())
+              manque = attendus - ids
               if manque:
                   ecarts.append(f"{nom} : champ(s) manquant(s) {sorted(manque)}")
               # Le prefixe de titre est celui que le composant envoie : s'ils
@@ -88,6 +104,14 @@ jobs:
                       libelle = c.get("attributes", {}).get("label")
                       if libelle != libelle_page_id:
                           ecarts.append(f"{nom} : page-id a pour libelle {libelle!r}, issue-triage.yml cherche {libelle_page_id!r}")
+              if nom in MOTIFS:
+                  for c in d.get("body", []):
+                      if isinstance(c, dict) and c.get("id") == "motif":
+                          options = c.get("attributes", {}).get("options")
+                          if options != MOTIFS[nom]:
+                              ecarts.append(f"{nom} : motif a pour options {options!r}, le site envoie {MOTIFS[nom]!r}")
+                  if d.get("labels") != LABELS_LAB:
+                      ecarts.append(f"{nom} : labels {d.get('labels')!r}, attendu {LABELS_LAB!r}")
               titre = str(d.get("title", ""))
               if not titre.startswith(prefixe):
                   ecarts.append(f"{nom} : title vaut {titre!r}, le site envoie {prefixe!r}")
@@ -105,5 +129,5 @@ jobs:
                   print(f"  {e}")
               sys.exit(1)
 
-          print(f"Contrat tenu : {len(GABARITS)} gabarits portent {sorted(ATTENDUS)}")
+          print(f"Contrat tenu : {len(GABARITS)} gabarits portent {sorted(ATTENDUS)}, dont {len(MOTIFS)} de lab avec {sorted(ATTENDUS_LAB)}")
           PY

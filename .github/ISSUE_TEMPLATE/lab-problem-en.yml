@@ -1,0 +1,107 @@
+name: Lab problem (English pages)
+description: "An unclear task, a disputed check, an unavailable environment, on an English page of the site."
+title: "[Lab] "
+labels: ["type:content-error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The context fields are filled in automatically when you come from the
+        **"Report a problem with this lab"** link on the site: please do not edit
+        them, they identify the exact lab.
+
+        **Do not paste your full solution**: describe what you observed and what
+        you expected. A solution posted in an issue would make the lab useless
+        for everyone else.
+
+  - type: input
+    id: page-title
+    attributes:
+      label: Guide page
+      description: The page that hosts the lab, as displayed.
+      placeholder: "Docker Compose: persistent data"
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: URL
+      description: The full address of the guide page.
+      placeholder: "https://www.stephane-robert.info/en/docs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: lab-catalogue
+    attributes:
+      label: Lab catalogue
+      description: Filled in automatically, do not edit.
+      placeholder: "containers-dsoxlab-training"
+    validations:
+      required: true
+
+  - type: input
+    id: lab-id
+    attributes:
+      label: Lab id
+      description: Filled in automatically, do not edit.
+      placeholder: "compose-persistance"
+    validations:
+      required: true
+
+  - type: input
+    id: lab-revision
+    attributes:
+      label: Catalogue revision
+      description: Filled in automatically when known. You may remove it.
+
+  - type: input
+    id: dsoxlab-version
+    attributes:
+      label: DSOXLab version
+      description: Filled in automatically when known. You may remove it.
+
+  - type: dropdown
+    id: motif
+    attributes:
+      label: Reason
+      description: What best describes your problem.
+      options:
+        - Ambiguous instructions
+        - Disputed validation
+        - Environment unavailable
+        - Hint gives too much away
+    validations:
+      required: true
+
+  - type: textarea
+    id: probleme
+    attributes:
+      label: What you found
+      description: |
+        The fact, not the impression: the step you were on, what you ran, what
+        the lab answered, what you expected. Without your full solution.
+      placeholder: |
+        At step "...", the check "..." answers:
+
+            ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Page language
+      options:
+        - en
+        - fr
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: page-id
+    attributes:
+      label: Page id
+      description: Filled in automatically, do not edit. It survives a change of URL.

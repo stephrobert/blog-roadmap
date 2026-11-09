@@ -262,6 +262,17 @@ and `issue-triage.yml` recognises both (`Identifiant de page / Page id` and
 `/issues/new/choose`, **does not forward query parameters**: that is why each
 kind of problem targets its own form directly.
 
+**A lab has its own form.** The "Report a problem with this lab" link of the
+site opens `lab-problem.yml` (French) or `lab-problem-en.yml` (English, prefix
+`[Lab]`). Besides the four identifiers above, they carry `lab-catalogue`,
+`lab-id`, `lab-revision`, `dsoxlab-version` (the last two are optional and the
+reader can remove them before opening the draft), `motif` (a menu of four
+reasons: ambiguous instructions, disputed validation, environment unavailable,
+hint gives too much away) and `probleme`. The menu is prefilled with the exact
+text of an option, so `contrat-formulaires.yml` also freezes those labels. The
+form pre-sets `type:content-error` only: telling a lab defect from an engine
+defect is a triage decision, and the triage never removes a label.
+
 ## What this repository does not do
 
 It does not measure audience, it does not collect "was this page helpful" votes,

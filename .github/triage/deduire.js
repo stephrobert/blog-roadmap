@@ -55,7 +55,7 @@ function deduire(corps, labelsPoses) {
   const pageId = (corps.match(/^### (?:Identifiant de page \/ )?Page id\s*\n+([^\n]+)/m) || [])[1] || "";
   if (pageId.trim() && pageId.trim() !== "_No response_") labels.add("source:reader");
 
-  const url = (corps.match(/https:\/\/blog\.stephane-robert\.info\/\S*/) || [])[0] || "";
+  const url = (corps.match(/https:\/\/(?:blog|www)\.stephane-robert\.info\/\S*/) || [])[0] || "";
   if (url) {
     for (const [motif, label] of DOMAINES) {
       if (motif.test(url)) { labels.add(label); break; }

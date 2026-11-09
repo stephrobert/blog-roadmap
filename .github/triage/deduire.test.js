@@ -45,3 +45,31 @@ test("issue automatisée sans domaine (CI) : reste sans area:*", () => {
   const corps = automatisee.replace("bundle=quiz-option-outscale", "bundle=proof-mission-standardiser-la-ci");
   assert.ok(!deduire(corps, ["source:automated"]).some((l) => l.startsWith("area:")));
 });
+
+// Le site envoie l'URL canonique d'`Astro.site`, soit www.stephane-robert.info :
+// seule l'adresse en `blog.` etait lue, et aucune issue du bouton ne recevait
+// son area:*.
+test("URL en www : le domaine se déduit comme en blog", () => {
+  assert.deepEqual(deduire(humaine("https://www.stephane-robert.info/docs/admin-serveurs/linux/shell/"), []).sort(), ["area:linux", "source:reader"]);
+  assert.deepEqual(deduire(humaine("https://www.stephane-robert.info/formations/"), []).sort(), ["area:site", "source:reader"]);
+});
+
+// Corps d'un signalement de lab (lab-problem.yml) : `page-url` est le premier
+// champ qui porte une adresse, les identifiants du lab n'en portent aucune.
+const lab = (url) => [
+  "### Page du guide / Guide page", "", "Docker Compose : données persistantes", "",
+  "### URL", "", url, "",
+  "### Catalogue de labs / Lab catalogue", "", "containers-dsoxlab-training", "",
+  "### Identifiant du lab / Lab id", "", "compose-persistance", "",
+  "### Identifiant de page / Page id", "", "docs/conteneurs/orchestrateurs/docker-compose/donnees-persistantes", "",
+].join("\n");
+
+test("signalement de lab : source:reader et area:containers déduits de page-url", () => {
+  const url = "https://www.stephane-robert.info/docs/conteneurs/orchestrateurs/docker-compose/donnees-persistantes/";
+  assert.deepEqual(deduire(lab(url), []).sort(), ["area:containers", "source:reader"]);
+});
+
+test("signalement de lab en anglais : le libellé « Page id » est reconnu", () => {
+  const corps = lab("https://www.stephane-robert.info/en/docs/conteneurs/orchestrateurs/docker-compose/x/").replace("### Identifiant de page / Page id", "### Page id");
+  assert.ok(deduire(corps, []).includes("source:reader"));
+});
