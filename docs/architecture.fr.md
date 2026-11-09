@@ -273,6 +273,18 @@ les deux libellés, `Identifiant de page / Page id` pour les gabarits français 
 `Page id` pour les anglais. **Ne pas renommer ces libellés sans modifier le
 workflow** : `contrat-formulaires.yml` les fige pour cette raison.
 
+**Un lab a son propre formulaire.** Le lien « Signaler un problème avec ce
+lab » du site ouvre `lab-problem.yml` (français) ou `lab-problem-en.yml`
+(anglais, préfixe `[Lab]`). En plus des quatre identifiants ci-dessus, ils
+portent `lab-catalogue`, `lab-id`, `lab-revision`, `dsoxlab-version` (les deux
+derniers sont facultatifs et la personne peut les retirer avant d'ouvrir le
+brouillon), `motif` (un menu de quatre raisons : énoncé ambigu, validation
+contestée, environnement indisponible, indice trop révélateur) et `probleme`.
+Le menu se préremplit avec le texte exact d'une option : `contrat-formulaires.yml`
+fige donc aussi ces libellés. Le formulaire ne pose que `type:content-error` :
+distinguer un défaut du lab d'un défaut du moteur est une décision de triage, et
+le triage ne retire jamais un label.
+
 ## Ce que ce dépôt ne fait pas
 
 Il ne mesure pas l'audience, il ne collecte pas de vote « cette page vous
