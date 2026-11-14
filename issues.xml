@@ -7,10 +7,10 @@
   <updated>2026-11-14T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-11-14</id>
-    <title>25 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>24 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-11-14T12:11:57.565Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/158&quot;&gt;#158 [Page] Filtres Jinja2 avancés Ansible : regex_search, flatten, b64encode, password_hash&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/146&quot;&gt;#146 [Amélioration] Un rapport pédagogique des tentatives de labs, sans nouvelle collecte&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/144&quot;&gt;#144 [Amélioration] Viser une mission précise sans choisir tout un métier&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/143&quot;&gt;#143 [Amélioration] Reprendre depuis la dernière tentative de lab reçue&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/142&quot;&gt;#142 [Amélioration] Joindre le contexte du lab au signalement existant&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/141&quot;&gt;#141 [Amélioration] Faire entrer les labs dans la révision, indépendamment des quiz&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (38 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-11-14T18:09:52.046Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/146&quot;&gt;#146 [Amélioration] Un rapport pédagogique des tentatives de labs, sans nouvelle collecte&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/144&quot;&gt;#144 [Amélioration] Viser une mission précise sans choisir tout un métier&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/143&quot;&gt;#143 [Amélioration] Reprendre depuis la dernière tentative de lab reçue&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/142&quot;&gt;#142 [Amélioration] Joindre le contexte du lab au signalement existant&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/141&quot;&gt;#141 [Amélioration] Faire entrer les labs dans la révision, indépendamment des quiz&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (38 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (38 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/187</id>
@@ -38,7 +38,7 @@ C&amp;apos;est écrit qu&amp;apos;un fichier par défaut n&amp;apos;est pas éx�
     <title>#186 [Page/LAB] Comprendre et utiliser AppArmor</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/186"/>
     <updated>2026-11-13T17:16:28.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:devsecops, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:devsecops, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Comprendre et utiliser AppArmor
 
@@ -65,7 +65,7 @@ host 10.10.30.13 port 22: Connection timed out
     <title>#185 [Page] tar avancé : backups, compression et restauration sélective</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/185"/>
     <updated>2026-11-13T17:02:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 tar avancé : backups, compression et restauration sélective
 
@@ -87,43 +87,6 @@ Dans le terminal il est écrit : &amp;quot;# Archiver localement, extraire sur l
 Ne serait-ce pas plutôt : &amp;quot;# Archiver localement, enregistrer sur le serveur distant&amp;quot;
 
 Et &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/184</id>
-    <title>#184 [Page] Réseau KVM/libvirt : NAT vs Bridge, comprendre et configurer</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/184"/>
-    <updated>2026-11-13T11:01:12.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Réseau KVM/libvirt : NAT vs Bridge, comprendre et configurer
-
-### URL
-
-https://www.stephane-robert.info/docs/virtualiser/type1/kvm/reseau/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-La partie _enable-ra_ comporte un bloc de code dont on ne sait pas quoi faire (erreurs sur la cli bash)
-
-### Ce que vous attendiez / What you expected
-
-L&amp;apos;endroit où taper ces lignes.
-
-### Informations complémentaires / Anything else
-
-Sur Fédora 44
-
-### Langue de la page / Page language
-
-fr
-
-### Identifiant de page / Page id
-
-docs/virtualiser/type1/kvm/res&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/183</id>
@@ -161,7 +124,7 @@ Co&lt;/p&gt;</content>
     <title>#182 [Page] Renovate automatise les maj de conteneurs: typo</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/182"/>
     <updated>2026-11-12T15:08:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:site, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:site, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Renovate automatise les maj de conteneurs
 
@@ -186,64 +149,6 @@ La phrase suivante:
 Je suppose que le nom de fichier est `renovate.json`. Si ce n&amp;apos;est pas le cas, ça mérite une mention dédiée.
 
 ### Informations complémentair&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/181</id>
-    <title>#181 [Page] Inventaire dynamique KVM avec community.libvirt.libvirt</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/181"/>
-    <updated>2026-11-12T14:14:08.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:ansible, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Inventaire dynamique KVM avec community.libvirt.libvirt
-
-### URL
-
-https://www.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/inventaires/dynamiques/plugin-libvirt-kvm/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-bonjour , j&amp;apos;ai trouvé plusieurs points dans cette page.
-
-section installation:
-pour installer les libvirt-python , il a fallu que j&amp;apos;installe les packages supplémentaires suivants : python3-devel libvirt-devel
-
-section: Filtrer les VMs avec groups:
-dans les filtres jnja les noms des vm ne sont pas bons&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/180</id>
-    <title>#180 [Obsolète] Réseau KVM/libvirt : NAT vs Bridge, comprendre et configurer</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/180"/>
-    <updated>2026-11-11T15:39:56.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Réseau KVM/libvirt : NAT vs Bridge, comprendre et configurer
-
-### URL
-
-https://www.stephane-robert.info/docs/virtualiser/type1/kvm/reseau/
-
-### Technologie concernée / Technology
-
-iptable
-
-### Version présentée par la page / Version shown
-
-_No response_
-
-### Version actuelle / Current version
-
-_No response_
-
-### Ce qui est devenu faux / What is now wrong
-
-La commande iptable utilisée pour vérifier les règles NAT ne fonctionne pas sur Fédora 44 workstation. J&amp;apos;ai demandé la commande firewalld équivalente mais la chaîne semble inexistante. 
-Merci pour votre super site.
-&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/161</id>
@@ -281,7 +186,7 @@ Echantillon de logs &lt;/p&gt;</content>
     <title>#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/160"/>
     <updated>2026-11-04T12:23:24.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 10 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Grafana sur Kubernetes : dashboards avec Helm et GitOps
 
@@ -295,30 +200,6 @@ Certains détails perturbent la fluidité du lab. Celui-ci a été suivi point p
 
 - Faire le tour de l&amp;apos;interface &amp;gt; Explore, tester des requêtes : par défaut, c&amp;apos;est Builder qui est sélectionné en haut à droite. Il faut passer sur Code pour que le champ PromQL query apparaisse.
 - Importer un dashboard existant : Node exporter full est dé&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/158</id>
-    <title>#158 [Page] Filtres Jinja2 avancés Ansible : regex_search, flatten, b64encode, password_hash</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/158"/>
-    <updated>2026-11-04T10:02:52.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 10 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Filtres Jinja2 avancés Ansible : regex_search, flatten, b64encode, password_hash
-
-### URL
-
-https://www.stephane-robert.info/docs/infra-as-code/gestion-de-configuration/ansible/ecrire-code/templates-jinja2/filtres-jinja/
-
-### Section
-
-dsoxlab ecrire-code-filtres-jinja-avances , course : Exercise 6 — ipaddr (manipulation of IPs and CIDR)
-
-### Ce que vous avez constaté / What you found
-
-pour que les exercices 5 ( json_query ) et 6 fonctionnent il a été nécessaire que j&amp;apos;installe les librairies python : jmespath et netaddr 
-  --&amp;gt; pip install jmespath  netaddr 
-
-de plus, j&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/146</id>
@@ -457,7 +338,7 @@ Mon problème était que la VM se déployait sans souci via Terraform, mais apr�
     <title>#104 [Page] Locals Terraform : valeurs locales et leurs pièges</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/104"/>
     <updated>2026-11-09T09:25:40.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:low, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:low, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Locals Terraform : valeurs locales et leurs pièges
 
