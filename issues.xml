@@ -7,19 +7,175 @@
   <updated>2026-11-19T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-11-19</id>
-    <title>24 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>19 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-11-19T06:17:07.811Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (13 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (14 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/146&quot;&gt;#146 [Amélioration] Un rapport pédagogique des tentatives de labs, sans nouvelle collecte&lt;/a&gt; (18 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (18 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/144&quot;&gt;#144 [Amélioration] Viser une mission précise sans choisir tout un métier&lt;/a&gt; (18 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/143&quot;&gt;#143 [Amélioration] Reprendre depuis la dernière tentative de lab reçue&lt;/a&gt; (18 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/142&quot;&gt;#142 [Amélioration] Joindre le contexte du lab au signalement existant&lt;/a&gt; (18 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/141&quot;&gt;#141 [Amélioration] Faire entrer les labs dans la révision, indépendamment des quiz&lt;/a&gt; (18 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (25 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (27 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (40 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (40 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (40 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (40 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (43 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-11-19T12:13:54.183Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (14 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (14 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (18 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (26 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (27 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (41 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (41 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (41 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (41 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (43 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (43 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/203</id>
-    <title>#203 [Amélioration] Lire le contenu des fichiers sous Linux
+    <id>https://github.com/stephrobert/blog-roadmap/issues/213</id>
+    <title>#213 [Amélioration] Généraliser l&apos;expérience des labs hors du pilote (reliquat #141, #142, #143, #146)</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/213"/>
+    <updated>2026-11-19T08:13:30.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page / Page
+Expérience des labs (Mon apprentissage, bloc Lab, signalement)
 
-Quand le test de connaissances ne charge pas, plutôt que d&apos;appuyer sur le refresh en haut de page et devoir rescroller la page jusqu&apos;à la zone nécessaire, mettre en place place un bouton refresh directement, et ceci pour l&apos;ensemble des quizz pas seulement où je le signale.</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/203"/>
-    <updated>2026-11-18T17:19:30.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;sans label&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</content>
+### URL
+https://www.stephane-robert.info/docs/
+
+### Contexte
+Reliquat de #141, #142, #143 et #146, livrées le 2026-11-09 (fusions 0f8190d48 et f2d379c4e) et fermées. Elles ne s&amp;apos;activent que pour les catalogues listés dans `src/data/experience-labs.ts` (`CATALOGUES_EXPERIENCE` : conteneurs, linux, kubernetes depuis le 2026-11-16). dsoxlab#336 est fermée : plus rien ne bloque côté moteur.
+
+### Ce qui reste à faire
+- [ ] Étendre « Pratique à reprendre » (#141), le signalement avec contexte (#142) et la reprise depuis &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/212</id>
+    <title>#212 [PROOF] Prouver la mission « Encadrer l&apos;usage du cloud : garde-fous, coûts et souveraineté »</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/212"/>
+    <updated>2026-11-19T08:13:04.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Construire la preuve de la mission `encadrer-l-usage-du-cloud`, qui mobilise 3 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
+
+&amp;lt;!-- coverage-key: bundle=proof-mission-encadrer-l-usage-du-cloud --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.finops.optimize` : Réduire la facture d&amp;apos;une architecture cloud sans dégrader la résilience demandée (https://www.stephane-robert.info/competences/cloud-finops-optimize/)
+- `cloud.governance.design` : Concevoir l&amp;apos;organisation d&amp;apos;un environnement cloud multi-équipes : frontières en comptes, hiérarchie et zone d&amp;apos;a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/211</id>
+    <title>#211 [PROOF] Prouver Relire le code Python d&apos;un autre et faire contrôler le sien</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/211"/>
+    <updated>2026-11-19T08:13:03.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Aucune mission sans preuve ne mobilise `dev.code.review` : créer sa preuve propre, attendue au niveau 4.
+
+&amp;lt;!-- coverage-key: skill=dev.code.review;artifact=proof --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `dev.code.review` : Relire le code Python d&amp;apos;un autre et faire contrôler le sien (https://www.stephane-robert.info/competences/dev-code-review/)
+
+### Pourquoi maintenant
+- `dev.code.review` · platform-engineer : cœur, niveau 4
+- `dev.code.review` · sre : cœur, niveau 3
+- priorité : P0
+- score : 12 (cœur (+4), 2 métiers (+2), niveau attendu 4 (+2), sans preuve de niveau &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/210</id>
+    <title>#210 [PROOF] Prouver la mission « Défendre une architecture cloud en revue »</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/210"/>
+    <updated>2026-11-19T08:13:03.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Construire la preuve de la mission `defendre-une-architecture-cloud`, qui mobilise 3 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
+
+&amp;lt;!-- coverage-key: bundle=proof-mission-defendre-une-architecture-cloud --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.architecture.review` : Défendre une architecture cloud en revue, décisions écrites et mesures à l&amp;apos;appui (https://www.stephane-robert.info/competences/cloud-architecture-review/)
+- `doc.diagram.draw` : Représenter un système en diagrammes as code lisibles sans l&amp;apos;image (https://www.stephane-robert.in&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/209</id>
+    <title>#209 [PROOF] Prouver la mission « Décider d&apos;une architecture cloud cible et écrire la décision »</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/209"/>
+    <updated>2026-11-19T08:13:02.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Construire la preuve de la mission `decider-une-architecture-cloud`, qui mobilise 13 compétences ; 3 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
+
+&amp;lt;!-- coverage-key: bundle=proof-mission-decider-une-architecture-cloud --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.architecture.decide` : Décider d&amp;apos;une architecture cloud cible : comparer au moins deux options complètes sur six axes et écrire la décision en ADR (https://www.stephane-robert.info/competences/cloud-architecture-decide/)
+- `doc.diagram.draw` : Représenter un système en diagrammes as c&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/208</id>
+    <title>#208 [PROOF] Prouver la mission « Concevoir le modèle d&apos;identité et d&apos;accès d&apos;un environnement cloud »</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/208"/>
+    <updated>2026-11-19T08:13:01.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Construire la preuve de la mission `concevoir-les-acces-cloud`, qui mobilise 4 compétences ; 2 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
+
+&amp;lt;!-- coverage-key: bundle=proof-mission-concevoir-les-acces-cloud --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `arch.platform.analyze` : Repérer les dépendances transverses et les frontières de confiance d&amp;apos;une architecture (https://www.stephane-robert.info/competences/arch-platform-analyze/)
+- `cloud.access.design` : Concevoir le modèle d&amp;apos;identité et d&amp;apos;accès d&amp;apos;un environnement cloud sans fournisseur imposé : fé&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/207</id>
+    <title>#207 [PROOF] Prouver la mission « Évaluer une architecture existante et recommander ses évolutions »</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/207"/>
+    <updated>2026-11-19T08:13:00.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Construire la preuve de la mission `analyser-une-architecture`, qui mobilise 6 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
+
+&amp;lt;!-- coverage-key: bundle=proof-mission-analyser-une-architecture --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `arch.diagram.read` : Lire un schéma d&amp;apos;architecture : rôle, flux, état et dépendances de chaque brique (https://www.stephane-robert.info/competences/arch-diagram-read/)
+- `arch.entry.analyze` : Analyser le point d&amp;apos;entrée d&amp;apos;une architecture : proxys, répartition et bordure (https://www.stephane-robert.info/competences&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/206</id>
+    <title>#206 [LAB] Faire pratiquer Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/206"/>
+    <updated>2026-11-19T08:12:59.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Faire pratiquer la compétence `cloud.resilience.design` en lab guidé.
+
+&amp;lt;!-- coverage-key: skill=cloud.resilience.design;artifact=lab --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.resilience.design` : Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver (https://www.stephane-robert.info/competences/cloud-resilience-design/)
+
+### Pourquoi maintenant
+- `cloud.resilience.design` · architecte-cloud : cœur, niveau 4
+- `cloud.resilience.design` · cloud-engineer : indispensable, niveau 3
+- priorité : P0
+- score : 16 (&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/205</id>
+    <title>#205 [PROOF] Prouver la mission « Répartir un service cloud sur plusieurs zones et le restaurer hors du compte »</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/205"/>
+    <updated>2026-11-19T08:12:58.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Construire la preuve de la mission `sauvegarder-hors-compte`, qui mobilise 2 compétences ; 1 d’entre elles est attendue au niveau 4 sans preuve qui le mesure.
+
+&amp;lt;!-- coverage-key: bundle=proof-mission-sauvegarder-hors-compte --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.resilience.design` : Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver (https://www.stephane-robert.info/competences/cloud-resilience-design/)
+
+### Pourquoi maintenant
+- `cloud.resilience.design` · architecte-cloud : cœur, niveau 4
+- `cloud.r&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/204</id>
+    <title>#204 [PROOF] Prouver la mission « Concevoir la continuité d&apos;une architecture cloud »</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/204"/>
+    <updated>2026-11-19T08:12:58.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Construire la preuve de la mission `concevoir-la-continuite-cloud`, qui mobilise 3 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
+
+&amp;lt;!-- coverage-key: bundle=proof-mission-concevoir-la-continuite-cloud --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `arch.data.classify` : Classer les données d&amp;apos;une architecture et dire quoi sauvegarder ou répliquer (https://www.stephane-robert.info/competences/arch-data-classify/)
+- `arch.ops.assess` : Juger l&amp;apos;exploitation d&amp;apos;une architecture : reprise, accès d&amp;apos;administration, détection et impact (https://www.stephane-robe&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/202</id>
@@ -95,7 +251,7 @@ Ce sont les anciennes clés. Le chart 29.x attend `kube-state-metrics`,` prometh
     <title>#199 [Page] Exporters Prometheus</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/199"/>
     <updated>2026-11-18T11:03:32.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Exporters Prometheus
 
@@ -118,80 +274,6 @@ Sauf erreur de ma part il n&amp;apos;est plus valable de nos jours.
 Cette variable a été supprimée en v0.15 (2023). L’exporter démarre sans connexion.
 
 je pense qu&amp;apos;il faut dire : `--mysqld.address, --mysqld.username&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/198</id>
-    <title>#198 [Lab] k8s-premier-deploiement</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/198"/>
-    <updated>2026-11-18T09:23:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page du guide / Guide page
-
-Déployer votre première application sur Kubernetes
-
-### URL
-
-https://www.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/fondamentaux/premier-deploiement/
-
-### Catalogue de labs / Lab catalogue
-
-kubernetes-dsoxlab-training
-
-### Identifiant du lab / Lab id
-
-k8s-premier-deploiement
-
-### Révision du catalogue / Catalogue revision
-
-0.2.3 (git pull tout frais)
-
-### Version de DSOXLab / DSOXLab version
-
-0.9.8
-
-### Motif / Reason
-
-Énoncé ambigu
-
-### Ce que vous avez constaté / What you found
-
-Dans les labs kubernetes, la commande `dsoxlab challenge` ne r&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/197</id>
-    <title>#197 [Lab] &quot;Lab introuvable : k8s-premier-deploiement&quot;</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/197"/>
-    <updated>2026-11-18T09:04:04.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:kubernetes, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page du guide / Guide page
-
-Déployer votre première application sur Kubernetes
-
-### URL
-
-https://www.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/fondamentaux/premier-deploiement/
-
-### Catalogue de labs / Lab catalogue
-
-kubernetes-dsoxlab-training
-
-### Identifiant du lab / Lab id
-
-k8s-premier-deploiement
-
-### Révision du catalogue / Catalogue revision
-
-_No response_
-
-### Version de DSOXLab / DSOXLab version
-
-0.9.8
-
-### Motif / Reason
-
-Environnement indisponible
-
-### Ce que vous avez constaté / What you found
-
-Le lab &amp;quot;k8s-premier-deploiement&amp;quot; est introuvable, malgré le sui&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/196</id>
@@ -222,58 +304,6 @@ pulp python distribution create \
 
 
 la doc de la commande précise que les arguments &amp;quot;repository&amp;quot; et &amp;quot;publication&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/195</id>
-    <title>#195 [Page] Templates HCL2 Packer : syntaxe et structure</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/195"/>
-    <updated>2026-11-17T14:00:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Templates HCL2 Packer : syntaxe et structure
-
-### URL
-
-https://www.stephane-robert.info/docs/infra-as-code/provisionnement/packer/hcl-templates/
-
-### Section
-
-#éléments-syntaxiques
-
-### Ce que vous avez constaté / What you found
-
-Lorsque le glossaire est active, le mot &amp;quot;conteneur&amp;quot; dans la ligne 
-&amp;gt; Un bloc est un conteneur qui regroupe des configurations liées.
-
-Affiche la definition des conteneur de virtualisation, ce qui peut être confusant pour des novices.
-
-### Ce que vous attendiez / What you expected
-
-_No response_
-
-### Informations complémentaires / Anything el&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/194</id>
-    <title>#194 [Amélioration] Suggestion : authentification Google ou/et GitHub</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/194"/>
-    <updated>2026-11-17T11:50:29.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:site&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-_No response_
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/mon-apprentissage/#mapp-compte
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Aujourd&amp;apos;hui, la création d&amp;apos;un compte dédié constitue une petite friction dans le parcours utilisateur. Une connexion via Google ou GitHub simplifierait l&amp;apos;inscription, réduirait le nombre de mots de passe à gérer et améliorerait l&amp;apos;expérience globale des utilisateurs.
-
-### Amélioration proposée / Proposed improvement
-
-Bonjour
-J&amp;apos;aimerais vous suggérer une amélioration concernant l&amp;apos;authentification sur le sit&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/193</id>
@@ -327,28 +357,6 @@ https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/efficace
 Dans le lab l1-bash-script, on nous demande de compter les UP et les DOWN avec boucle + variables. Or, les boucles n&amp;apos;ont pas été vu sur la page. De plus, il est explicitement dis en haut de page &amp;quot;Pour les conditions, les boucles et les fonctions, le [guide complet du script shell Bash](https://www.stephane-robert.info/docs/admi&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/191</id>
-    <title>#191 [Amélioration] Générer des certificats TLS avec openssl : clé, CSR et CA</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/191"/>
-    <updated>2026-11-15T19:40:56.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Générer des certificats TLS avec openssl : clé, CSR et CA
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/reseaux/fondamentaux/generer-certificats/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Hello,
-The join file shows how the site looks like at my home : The menu is always shown :-(
-It&amp;apos;s a bit difficult to read articles... and I can&amp;apos;t close it no matter where I click, even the hamburger.
-It may be because my Firefox version is 115.45.0esr (64 bits)...
-Anyway, I think every browser should be able to access to your site.
-What ever the &lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/190</id>
     <title>#190 [Page] FastAPI : créer une API REST en Python</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/190"/>
@@ -389,62 +397,6 @@ fr
 ### Identifia&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/189</id>
-    <title>#189 [Amélioration] Templates HCL2 Packer : syntaxe et structure</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/189"/>
-    <updated>2026-11-15T12:12:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Templates HCL2 Packer : syntaxe et structure
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/infra-as-code/provisionnement/packer/hcl-templates/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Le contenu est en grande partie spécifique à Packer, pas HCL. D&amp;apos;ailleurs les bases de Packer sont un prérequis explicite de la page.
-
-### Amélioration proposée / Proposed improvement
-
-Déplacer la page dans la formation Packer
-
-### Ce que cela apporterait / What it would bring
-
-_No response_
-
-### Nature de l&amp;apos;amélioration / Kind of improvement
-
-Pédago&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/188</id>
-    <title>#188 [Improvement]</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/188"/>
-    <updated>2026-11-14T23:33:11.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux&lt;/strong&gt; &amp;middot; ouverte depuis 4 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page
-
-_No response_
-
-### Page URL
-
-_No response_
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/references-complementaires/wsl2/#faq-item-6
-
-### What gets in the way
-
-Bonjour, je faisais ma leçon du soir sur mon téléphone, et un tableau à l’intérieur d’une FAQ n’a pas de scroll bad horizontale pour le responsive.
-
-Ce qui fait que le contenu du tableau est tronqué, cf screen.
-
-Au passage, l’issue a été repéré sur mon iPhone X, navigateur Google.
-
-Desole par avance si je n’ai pas respecté les conventions d’issue du site.
-
-&amp;lt;img width=&amp;quot;828&amp;quot; height=&amp;quot;1792&amp;quot; alt=&amp;quot;IMG_2662&amp;quot; src=&amp;quot;https:&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/187</id>
     <title>#187 [Amélioration] Votre premier script Bash : créer et lancer pas à pas</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/187"/>
@@ -470,7 +422,7 @@ C&amp;apos;est écrit qu&amp;apos;un fichier par défaut n&amp;apos;est pas éx�
     <title>#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/161"/>
     <updated>2026-11-05T08:57:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 13 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 14 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Loki : centralisation des logs
 
@@ -517,32 +469,11 @@ Certains détails perturbent la fluidité du lab. Celui-ci a été suivi point p
 - Importer un dashboard existant : Node exporter full est dé&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/146</id>
-    <title>#146 [Amélioration] Un rapport pédagogique des tentatives de labs, sans nouvelle collecte</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/146"/>
-    <updated>2026-10-31T19:36:52.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:medium, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 18 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Le constat, vérifié le 2026-10-31
-
-Deux scripts existent : `scripts/mesurer-apprentissage.py` (agrégats) et
-`scripts/mesurer-usages-apprenants.py` (cohortes depuis la synchronisation, qui
-prévient qu&amp;apos;une révision d&amp;apos;état n&amp;apos;est pas une visite et que les labs non
-transmis ne sont pas observés). Il manque une **analyse pédagogique des
-tentatives**, pas des statistiques.
-
-### Ce qui est attendu
-
-D&amp;apos;abord un rapport privé JSON/Markdown qui aide à choisir les labs à relire :
-
-- tentatives et participants observés, par lab et version ;
-- critères souvent non satisfaits ou non évalués ;
-- réussite à&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/145</id>
     <title>#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/145"/>
-    <updated>2026-10-31T19:36:50.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:medium, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 18 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Le constat, vérifié le 2026-10-31
+    <updated>2026-11-19T08:14:27.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:medium, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 18 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Le constat, vérifié le 2026-10-31
 
 Le site distingue déjà pratique et preuve, et porte des challenges et des
 capstones ; les missions ont leurs preuves. Annoncer « les premières évaluations
@@ -556,85 +487,11 @@ Après une réussite, une action secondaire « Essayer dans un autre contexte »
 quand une variante publiée existe, qui annonce l&amp;apos;objectif et les con&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/144</id>
-    <title>#144 [Amélioration] Viser une mission précise sans choisir tout un métier</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/144"/>
-    <updated>2026-10-31T19:36:49.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:medium, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 18 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Le constat, vérifié le 2026-10-31
-
-Les missions existent : `src/data/competences/missions.yaml` en porte 84, avec
-livrable, compétences requises, options et preuves, et le moteur calcule leur
-prochaine action dans un parcours métier. Mais un objectif ne peut pas être une
-mission : `TypeObjectifCompose = &amp;apos;formation&amp;apos; | &amp;apos;competence&amp;apos; | &amp;apos;certification&amp;apos;`
-(`parcours-competences.ts`), et `commandes.ts` n&amp;apos;a aucune commande de mission.
-Il ne manque ni référentiel ni moteur de prérequis : il manque leur usage comme
-objectif autonome.
-
-### Ce qui est attendu
-
-Depuis une mission de la page métier, « Tr&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/143</id>
-    <title>#143 [Amélioration] Reprendre depuis la dernière tentative de lab reçue</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/143"/>
-    <updated>2026-10-31T19:36:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 18 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Le constat, vérifié le 2026-10-31
-
-`Maintenant.astro` présente déjà une seule action dominante : `calculerParcours`
-avec objectif, `prochainGeste` sans. Le magasin de preuves garde toutes les
-tentatives, la meilleure et la dernière. Il ne faut donc ni nouveau tableau de
-bord ni nouvel historique. Le résultat conservé ne détaille pas les critères, et
-le moteur des compétences ne reçoit que les preuves réussies : il n&amp;apos;a aucune
-reprise structurée de l&amp;apos;échec.
-
-**Partie moteur suivie ailleurs** : le contrat détaillé de la tentative
-(critères stables, verdict, observation, version au moment du `&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/142</id>
-    <title>#142 [Amélioration] Joindre le contexte du lab au signalement existant</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/142"/>
-    <updated>2026-10-31T19:36:46.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 18 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Le constat, vérifié le 2026-10-31
-
-Le signalement existe sur les pages et passe par un générateur partagé
-(`src/components/contribution/signalement.ts`). Il ouvre ce dépôt avec quatre
-champs, `page-title`, `page-url`, `page-id` et `locale`, qui forment un contrat
-avec les formulaires FR/EN et le workflow `contrat-formulaires.yml`. Le bloc
-`Lab.astro` n&amp;apos;a aucun bouton de signalement : rien ne transmet le catalogue, le
-lab, sa version ni le critère en cause. Il ne faut pas créer un second système
-de contribution.
-
-### Ce qui est attendu
-
-« Signaler un problème avec ce lab » sur le bloc Lab e&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/141</id>
-    <title>#141 [Amélioration] Faire entrer les labs dans la révision, indépendamment des quiz</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/141"/>
-    <updated>2026-10-31T19:36:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 18 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Le constat, vérifié le 2026-10-31
-
-La révision de Mon apprentissage se construit depuis les **topics de quiz**
-enregistrés, puis s&amp;apos;enrichit de leurs labs (`MonApprentissage.astro`,
-`file-revision.ts`). Deux conséquences :
-
-- une tentative de lab **sans topic de quiz** n&amp;apos;entre pas dans la file ;
-- **un échec récent après une réussite disparaît** : `signauxDesLabs` calcule
-  `pratique = trouves.some((e) =&amp;gt; e.valide)`, et le détail des essais n&amp;apos;est rendu
-  que si `!pratique`. Avec un quiz réussi, le lab ne revient plus en révision,
-  alors que `derniere.validated` vaut `false`.
-
-Garder la réu&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/116</id>
     <title>#116 [Amélioration] Provisionner avec Ansible depuis Terraform</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/116"/>
     <updated>2026-11-09T09:25:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 25 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 26 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Provisionner avec Ansible depuis Terraform
 
@@ -677,7 +534,7 @@ Le quiz sur local regroupe des questions sur les autres parties qui n&amp;apos;o
     <title>#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/79"/>
     <updated>2026-10-09T10:30:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 40 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 41 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
 
 ## Manque
 
@@ -694,7 +551,7 @@ La leçon « Cache » de la formation Architecture des services cite Redis, Valk
     <title>#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/78"/>
     <updated>2026-10-09T10:30:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 40 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 41 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
 
 ## Manque
 
@@ -711,7 +568,7 @@ La leçon « Tâches de fond, ordonnanceurs et workflows » présente le moteur 
     <title>#77 [Guide] RabbitMQ : files durables, acquittement et dead letter</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/77"/>
     <updated>2026-10-09T10:30:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 40 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 41 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
 
 ## Manque
 
@@ -729,7 +586,7 @@ La leçon « Files de messages et brokers » de la formation Architecture des se
     <title>#76 [Guide] Kafka : journal d&apos;événements, partitions, groupes et rétention</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/76"/>
     <updated>2026-10-09T10:30:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 40 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 41 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
 
 ## Manque
 
@@ -744,7 +601,7 @@ La leçon « Publication-abonnement et flux d&amp;apos;événements » de la for
     <id>https://github.com/stephrobert/blog-roadmap/issues/65</id>
     <title>#65 [QUIZ] Évaluer Construire une image OCI</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/65"/>
-    <updated>2026-10-06T19:39:07.000Z</updated>
+    <updated>2026-11-19T08:13:11.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `container.build`.
@@ -752,22 +609,22 @@ Créer l’évaluation qui permet de confirmer la compétence `container.build`.
 &amp;lt;!-- coverage-key: skill=container.build;artifact=quiz --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `container.build` : Construire une image OCI (https://blog.stephane-robert.info/competences/container-build/)
+- `container.build` : Construire une image OCI (https://www.stephane-robert.info/competences/container-build/)
 
 ### Pourquoi maintenant
 - `container.build` · devsecops : cœur, niveau 3
 - `container.build` · ingenieur-cicd : cœur, niveau 3
 - priorité : P1
-- score : 8 (cœur (+4), 2 métiers (+2), quiz sur une partie des options seulement (+2))
+- score : 10 (cœur (+4), 2 métiers (+2), prérequis de 6 compétences (+2), quiz sur une partie des options seulement (+2))
 
 ### Couverture actuelle
-- `container.build` : enseignée ou&lt;/p&gt;</content>
+-&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/64</id>
     <title>#64 [QUIZ] Évaluer Sécuriser l&apos;installation et les conteneurs</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/64"/>
-    <updated>2026-10-06T19:39:05.000Z</updated>
+    <updated>2026-11-19T08:13:13.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `container.secure`.
@@ -775,20 +632,20 @@ Créer l’évaluation qui permet de confirmer la compétence `container.secure`
 &amp;lt;!-- coverage-key: skill=container.secure;artifact=quiz --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `container.secure` : Sécuriser l&amp;apos;installation et les conteneurs (https://blog.stephane-robert.info/competences/container-secure/)
+- `container.secure` : Sécuriser l&amp;apos;installation et les conteneurs (https://www.stephane-robert.info/competences/container-secure/)
 
 ### Pourquoi maintenant
 - `container.secure` · devsecops : cœur, niveau 3
 - `container.secure` · ingenieur-cicd : cœur, niveau 3
 - `container.secure` · platform-engineer : cœur, niveau 3
 - priorité : P1
-- score : 9 (cœur (+4), 3 métiers (+3), quiz sur une partie des o&lt;/p&gt;</content>
+- score : 9 (cœur (+4), 3 métiers (+3), quiz sur une partie des op&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/63</id>
     <title>#63 [QUIZ] Compléter l’évaluation du parcours Outscale</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/63"/>
-    <updated>2026-10-06T19:39:45.000Z</updated>
+    <updated>2026-11-19T08:13:12.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont évaluées pour une autre option, pas pour celle-ci. La liste est recalculée à chaque synchronisation : une compétence en sort quand son quiz existe, et l’issue se ferme avec la dernière.
@@ -796,14 +653,14 @@ Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont é
 &amp;lt;!-- coverage-key: bundle=quiz-option-outscale --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- [ ] `cloud.account.access` : Accéder à son compte cloud et le piloter en ligne de commande (https://blog.stephane-robert.info/competences/cloud-account-access/)
-- [ ] `cloud.compute.provision` : Dimensionner, créer et détruir&lt;/p&gt;</content>
+- [ ] `cloud.account.access` : Accéder à son compte cloud et le piloter en ligne de commande (https://www.stephane-robert.info/competences/cloud-account-access/)
+- [ ] `cloud.compute.provision` : Dimensionner, créer et détruire&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/60</id>
     <title>#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/60"/>
-    <updated>2026-10-06T19:38:57.000Z</updated>
+    <updated>2026-11-19T08:13:10.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `scripting.tool`.
@@ -811,20 +668,20 @@ Créer l’évaluation qui permet de confirmer la compétence `scripting.tool`.
 &amp;lt;!-- coverage-key: skill=scripting.tool;artifact=quiz --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `scripting.tool` : Écrire un outil en ligne de commande testé (https://blog.stephane-robert.info/competences/scripting-tool/)
+- `scripting.tool` : Écrire un outil en ligne de commande testé (https://www.stephane-robert.info/competences/scripting-tool/)
 
 ### Pourquoi maintenant
 - `scripting.tool` · devsecops : cœur, niveau 3
 - `scripting.tool` · ingenieur-cicd : utile, niveau 3
 - `scripting.tool` · sre : cœur, niveau 3
 - priorité : P1
-- score : 11 (cœur (+4), 3 métiers (+3), prérequis de 7 compétences (+2), quiz sur une parti&lt;/p&gt;</content>
+- score : 11 (cœur (+4), 3 métiers (+3), prérequis de 12 compétences (+2), quiz sur une parti&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/59</id>
     <title>#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/59"/>
-    <updated>2026-10-06T19:38:55.000Z</updated>
+    <updated>2026-11-19T08:13:09.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer l’évaluation qui permet de confirmer la compétence `scripting.data`.
@@ -832,20 +689,20 @@ Créer l’évaluation qui permet de confirmer la compétence `scripting.data`.
 &amp;lt;!-- coverage-key: skill=scripting.data;artifact=quiz --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `scripting.data` : Lire et transformer des données (JSON, YAML, API) (https://blog.stephane-robert.info/competences/scripting-data/)
+- `scripting.data` : Lire et transformer des données (JSON, YAML, API) (https://www.stephane-robert.info/competences/scripting-data/)
 
 ### Pourquoi maintenant
 - `scripting.data` · devsecops : cœur, niveau 3
 - `scripting.data` · ingenieur-cicd : utile, niveau 3
 - `scripting.data` · sre : cœur, niveau 3
 - priorité : P1
-- score : 11 (cœur (+4), 3 métiers (+3), prérequis de 8 compétences (+2), quiz sur un&lt;/p&gt;</content>
+- score : 11 (cœur (+4), 3 métiers (+3), prérequis de 9 compétences (+2), quiz sur une&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/58</id>
     <title>#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/58"/>
-    <updated>2026-10-06T19:38:54.000Z</updated>
+    <updated>2026-11-19T08:13:08.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:kubernetes, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `publier-un-chart-de-reference`, qui mobilise 3 compétences ; 3 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
@@ -853,14 +710,14 @@ Construire la preuve de la mission `publier-un-chart-de-reference`, qui mobilise
 &amp;lt;!-- coverage-key: bundle=proof-mission-publier-un-chart-de-reference --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `k8s.helm.author` : Écrire un chart Helm : structure, templates, helpers et patterns de production (https://blog.stephane-robert.info/competences/k8s-helm-author/)
-- `k8s.helm.compose` : Composer et fiabiliser des charts : dépendances, API de values, schéma, tests et documentation (https://blog&lt;/p&gt;</content>
+- `k8s.helm.author` : Écrire un chart Helm : structure, templates, helpers et patterns de production (https://www.stephane-robert.info/competences/k8s-helm-author/)
+- `k8s.helm.compose` : Composer et fiabiliser des charts : dépendances, API de values, schéma, tests et documentation (https://www.s&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/56</id>
     <title>#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/56"/>
-    <updated>2026-10-06T19:38:50.000Z</updated>
+    <updated>2026-11-19T08:13:06.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Faire pratiquer la compétence `linux.network.basics` en lab guidé.
@@ -868,20 +725,20 @@ Faire pratiquer la compétence `linux.network.basics` en lab guidé.
 &amp;lt;!-- coverage-key: skill=linux.network.basics;artifact=lab --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `linux.network.basics` : Diagnostiquer le réseau et lire les journaux (https://blog.stephane-robert.info/competences/linux-network-basics/)
+- `linux.network.basics` : Diagnostiquer le réseau et lire les journaux (https://www.stephane-robert.info/competences/linux-network-basics/)
 
 ### Pourquoi maintenant
 - `linux.network.basics` · devsecops : indispensable, niveau 3
 - `linux.network.basics` · ingenieur-cicd : indispensable, niveau 3
 - `linux.network.basics` · certifications : lfcs, rhcsa-ex200
 - priorité : P0
-- score : 12 (indispensable (+5)&lt;/p&gt;</content>
+- score : 12 (indispensable (+5),&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/55</id>
     <title>#55 [PROOF] Prouver la mission « Standardiser la CI d&apos;une équipe »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/55"/>
-    <updated>2026-10-06T19:38:48.000Z</updated>
+    <updated>2026-11-19T08:13:05.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `standardiser-la-ci`, qui mobilise 1 compétence, attendue au niveau 4 sans preuve qui le mesure.
@@ -889,19 +746,15 @@ Construire la preuve de la mission `standardiser-la-ci`, qui mobilise 1 compéte
 &amp;lt;!-- coverage-key: bundle=proof-mission-standardiser-la-ci --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `ci.pipeline.govern` : Gouverner et outiller la CI d&amp;apos;une organisation (https://blog.stephane-robert.info/competences/ci-pipeline-govern/)
-
-### Pourquoi maintenant
-- `ci.pipeline.govern` · ingenieur-cicd : utile, niveau 4
-- `ci.pipeline.govern` · platform-engineer : cœur, niveau 4
-- priorité : P0
-- score : 12 (cœur (+4), 2 métiers (+2), niv&lt;/p&gt;</content>
+- `doc.code.document` : Documenter du code : commentaires qui disent pourquoi, docstrings, référence générée (https://www.stephane-robert.info/competences/doc-code-document/)
+- `doc.pipeline.automate` : Construire et publier une documentation contrôlée en CI (https://www.stephane-robert.info/competences/doc-pipeline-automate/)
+- `doc.project&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/52</id>
     <title>#52 [PROOF] Prouver la mission « Fournir l&apos;observabilité aux équipes »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/52"/>
-    <updated>2026-10-06T19:38:43.000Z</updated>
+    <updated>2026-11-19T08:13:07.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:observability, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `fournir-l-observabilite-aux-equipes`, qui mobilise 2 compétences ; 2 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
@@ -909,14 +762,14 @@ Construire la preuve de la mission `fournir-l-observabilite-aux-equipes`, qui mo
 &amp;lt;!-- coverage-key: bundle=proof-mission-fournir-l-observabilite-aux-equipes --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `obs.telemetry.instrument` : Instrumenter un service pour qu&amp;apos;il émette une télémétrie utile (https://blog.stephane-robert.info/competences/obs-telemetry-instrument/)
-- `obs.telemetry.pipeline` : Acheminer la télémétrie par un pipeline de collecte (https://blog.stephane-robert.info/c&lt;/p&gt;</content>
+- `obs.telemetry.instrument` : Instrumenter un service pour qu&amp;apos;il émette une télémétrie utile (https://www.stephane-robert.info/competences/obs-telemetry-instrument/)
+- `obs.telemetry.pipeline` : Acheminer la télémétrie par un pipeline de collecte (https://www.stephane-robert.info/com&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/51</id>
     <title>#51 [LAB] Faire pratiquer Installer et maintenir des logiciels</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/51"/>
-    <updated>2026-10-06T19:38:41.000Z</updated>
+    <updated>2026-11-19T08:13:04.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:linux, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 43 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
@@ -924,13 +777,13 @@ Faire pratiquer la compétence `linux.packages.manage` en lab guidé.
 &amp;lt;!-- coverage-key: skill=linux.packages.manage;artifact=lab --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- `linux.packages.manage` : Installer et maintenir des logiciels (https://blog.stephane-robert.info/competences/linux-packages-manage/)
+- `linux.packages.manage` : Installer et maintenir des logiciels (https://www.stephane-robert.info/competences/linux-packages-manage/)
 
 ### Pourquoi maintenant
 - `linux.packages.manage` · devsecops : indispensable, niveau 3
 - `linux.packages.manage` · ingenieur-cicd : indispensable, niveau 3
 - `linux.packages.manage` · certifications : lfcs, rhcsa-ex200
 - priorité : P0
-- score : 14 (indispensable (+5),&lt;/p&gt;</content>
+- score : 14 (indispensable (+5), &lt;/p&gt;</content>
   </entry>
 </feed>
