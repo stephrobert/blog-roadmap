@@ -7,10 +7,47 @@
   <updated>2026-11-26T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-11-26</id>
-    <title>28 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>26 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-11-26T00:24:32.250Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/202&quot;&gt;#202 [Page] Diagnostiquer un pipeline OpenTelemetry qui ne livre rien&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/201&quot;&gt;#201 [Page] OpenTelemetry : Instrumentation universelle&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/200&quot;&gt;#200 [Page] Prometheus : métriques et PromQL&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/199&quot;&gt;#199 [Page] Exporters Prometheus&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/196&quot;&gt;#196 [Amélioration] Publier et consommer des artefacts avec Pulp&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/193&quot;&gt;#193 [Page] Variables et fonctions Packer&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/192&quot;&gt;#192 [Amélioration] Votre premier script Bash : créer et lancer pas à pas&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/190&quot;&gt;#190 [Page] FastAPI : créer une API REST en Python&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/187&quot;&gt;#187 [Amélioration] Votre premier script Bash : créer et lancer pas à pas&lt;/a&gt; (12 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (25 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (32 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (34 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (50 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-11-26T06:17:10.316Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/202&quot;&gt;#202 [Page] Diagnostiquer un pipeline OpenTelemetry qui ne livre rien&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/201&quot;&gt;#201 [Page] OpenTelemetry : Instrumentation universelle&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/200&quot;&gt;#200 [Page] Prometheus : métriques et PromQL&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/199&quot;&gt;#199 [Page] Exporters Prometheus&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/196&quot;&gt;#196 [Amélioration] Publier et consommer des artefacts avec Pulp&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/193&quot;&gt;#193 [Page] Variables et fonctions Packer&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/190&quot;&gt;#190 [Page] FastAPI : créer une API REST en Python&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (20 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (25 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (32 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (34 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (47 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (50 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (50 j)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/234</id>
+    <title>#234 [Page] GitLab Certified CI/CD Associate: preparation guide</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/234"/>
+    <updated>2026-11-26T01:23:27.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page
+
+GitLab Certified CI/CD Associate: preparation guide
+
+### URL
+
+https://www.stephane-robert.info/en/docs/pipeline-cicd/gitlab/certifications/cicd-associate/
+
+### Section
+
+_No response_
+
+### What you found
+
+Exam states 50 questions, there are 30 questions on the practice exam.
+
+### What you expected
+
+50 question practice exam.
+
+### Anything else
+
+Great quiz and thank you for putting it together. Attempted to buy you a coffee, address is not being accepted no matter what format I try it in.
+
+### Page language
+
+en
+
+### Page id
+
+en/docs/pipeline-cicd/gitlab/certifications/cicd-associate&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/233</id>
@@ -51,27 +88,6 @@ https://www.stephane-robert.info/docs/services/identite/fondamentaux/oidc/
 C&amp;apos;est un point de vue niveau &amp;quot;expert&amp;quot; ne gênant pas la compréhension générale du sujet. Bien que SAML soit effectivement moins utilisé (moins sexy, JSON vs XML), il repose sur SOAP, donc tout passe par le navigateur. **Il permet donc des fédérations d&amp;apos;identités sans flux réseau direct entre les IdP.**
 
 Très concrètement, pas d&amp;apos;échange serveur à serveur.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/231</id>
-    <title>#231 [Amélioration] Permissions Linux : lire et comprendre les droits</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/231"/>
-    <updated>2026-11-24T12:03:11.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Permissions Linux : lire et comprendre les droits
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/utilisateurs-droits-processus/permissions-linux/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Dans le tableau détaillant la [sortie de ls](https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/utilisateurs-droits-processus/permissions-linux/#lire-la-sortie-de-ls--l), la ligne Date n&amp;apos;affiche que `avr 6`, `10:00` n&amp;apos;est pas mentionné.
-
-### Amélioration proposée / Proposed improvement
-
-| Date&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/230</id>
@@ -688,23 +704,6 @@ This was checked by the validation rule at variables.pkr.hcl:17,3-13.
 En effet, la validation de la variable ne prends pas en charge &lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/192</id>
-    <title>#192 [Amélioration] Votre premier script Bash : créer et lancer pas à pas</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/192"/>
-    <updated>2026-11-15T19:46:59.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 10 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Votre premier script Bash : créer et lancer pas à pas
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/efficace-shell/premier-script/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Dans le lab l1-bash-script, on nous demande de compter les UP et les DOWN avec boucle + variables. Or, les boucles n&amp;apos;ont pas été vu sur la page. De plus, il est explicitement dis en haut de page &amp;quot;Pour les conditions, les boucles et les fonctions, le [guide complet du script shell Bash](https://www.stephane-robert.info/docs/admi&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/190</id>
     <title>#190 [Page] FastAPI : créer une API REST en Python</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/190"/>
@@ -743,27 +742,6 @@ _No response_
 fr
 
 ### Identifia&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/187</id>
-    <title>#187 [Amélioration] Votre premier script Bash : créer et lancer pas à pas</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/187"/>
-    <updated>2026-11-14T21:40:55.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 12 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Votre premier script Bash : créer et lancer pas à pas
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/efficace-shell/premier-script/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-C&amp;apos;est écrit qu&amp;apos;un fichier par défaut n&amp;apos;est pas éxécutable. Or après création, j&amp;apos;ai exécuté sans `chmod +x`.
-
-&amp;lt;img width=&amp;quot;1338&amp;quot; height=&amp;quot;610&amp;quot; alt=&amp;quot;image&amp;quot; src=&amp;quot;https://github.com/user-attachments/assets/a8f8616c-6891-4b4d-86a9-39226e27c912&amp;quot; /&amp;gt;
-
-&amp;lt;img width=&amp;quot;866&amp;quot; height=&amp;quot;278&amp;quot; alt=&amp;quot;image&amp;quot; src=&amp;quot;https://github.com/user-attachments/asse&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/161</id>
