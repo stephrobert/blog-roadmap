@@ -7,10 +7,84 @@
   <updated>2026-11-27T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-11-27</id>
-    <title>38 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>31 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-11-27T06:16:50.124Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/216&quot;&gt;#216 [Page] Exécuter des commandes distantes via SSH&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/215&quot;&gt;#215 Verification de l&amp;apos;ISO Debian13  avec sha512sum et non plus sha256sum&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/213&quot;&gt;#213 [Amélioration] Généraliser l&amp;apos;expérience des labs hors du pilote (reliquat #141, #142, #143, #146)&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/212&quot;&gt;#212 [PROOF] Prouver la mission « Encadrer l&amp;apos;usage du cloud : garde-fous, coûts et souveraineté »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/211&quot;&gt;#211 [PROOF] Prouver Relire le code Python d&amp;apos;un autre et faire contrôler le sien&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/210&quot;&gt;#210 [PROOF] Prouver la mission « Défendre une architecture cloud en revue »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/209&quot;&gt;#209 [PROOF] Prouver la mission « Décider d&amp;apos;une architecture cloud cible et écrire la décision »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/208&quot;&gt;#208 [PROOF] Prouver la mission « Concevoir le modèle d&amp;apos;identité et d&amp;apos;accès d&amp;apos;un environnement cloud »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/207&quot;&gt;#207 [PROOF] Prouver la mission « Évaluer une architecture existante et recommander ses évolutions »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/206&quot;&gt;#206 [LAB] Faire pratiquer Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/205&quot;&gt;#205 [PROOF] Prouver la mission « Répartir un service cloud sur plusieurs zones et le restaurer hors du compte »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/204&quot;&gt;#204 [PROOF] Prouver la mission « Concevoir la continuité d&amp;apos;une architecture cloud »&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/202&quot;&gt;#202 [Page] Diagnostiquer un pipeline OpenTelemetry qui ne livre rien&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/201&quot;&gt;#201 [Page] OpenTelemetry : Instrumentation universelle&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/200&quot;&gt;#200 [Page] Prometheus : métriques et PromQL&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/199&quot;&gt;#199 [Page] Exporters Prometheus&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/196&quot;&gt;#196 [Amélioration] Publier et consommer des artefacts avec Pulp&lt;/a&gt; (9 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/193&quot;&gt;#193 [Page] Variables et fonctions Packer&lt;/a&gt; (10 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/190&quot;&gt;#190 [Page] FastAPI : créer une API REST en Python&lt;/a&gt; (11 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (21 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (26 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (33 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (35 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (48 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (48 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (48 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (48 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (51 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-11-27T12:14:37.871Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/221&quot;&gt;#221 [Outdated] Portainer&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/220&quot;&gt;#220 [Obsolète] LLM : comprendre les modèles de langage (Transformer, GPT, Llama)&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/213&quot;&gt;#213 [Amélioration] Généraliser l&amp;apos;expérience des labs hors du pilote (reliquat #141, #142, #143, #146)&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/212&quot;&gt;#212 [PROOF] Prouver la mission « Encadrer l&amp;apos;usage du cloud : garde-fous, coûts et souveraineté »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/211&quot;&gt;#211 [PROOF] Prouver Relire le code Python d&amp;apos;un autre et faire contrôler le sien&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/210&quot;&gt;#210 [PROOF] Prouver la mission « Défendre une architecture cloud en revue »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/209&quot;&gt;#209 [PROOF] Prouver la mission « Décider d&amp;apos;une architecture cloud cible et écrire la décision »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/208&quot;&gt;#208 [PROOF] Prouver la mission « Concevoir le modèle d&amp;apos;identité et d&amp;apos;accès d&amp;apos;un environnement cloud »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/207&quot;&gt;#207 [PROOF] Prouver la mission « Évaluer une architecture existante et recommander ses évolutions »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/206&quot;&gt;#206 [LAB] Faire pratiquer Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/205&quot;&gt;#205 [PROOF] Prouver la mission « Répartir un service cloud sur plusieurs zones et le restaurer hors du compte »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/204&quot;&gt;#204 [PROOF] Prouver la mission « Concevoir la continuité d&amp;apos;une architecture cloud »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (26 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (34 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (35 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (51 j)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/239</id>
+    <title>#239 [Page] Parcours DevSecOps : programme et suivi de progression</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/239"/>
+    <updated>2026-11-27T09:00:27.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Parcours DevSecOps : programme et suivi de progression
+
+### URL
+
+https://www.stephane-robert.info/docs/devops/parcours/
+
+### Section
+
+Le système de livraison
+
+### Ce que vous avez constaté / What you found
+
+Dans la section &amp;lt;&amp;lt;Le système de livraison &amp;gt;&amp;gt;, le titre du chapitre &amp;lt;&amp;lt; Qu&amp;apos;est-ce qu&amp;apos;une pipeline CI/CD &amp;gt;&amp;gt; contient une erreur grammaticale concernant le genre du mot pipeline.
+
+En français, le terme pipeline est masculin dans le contexte informatique. Il convient donc d&amp;apos;écrire &amp;lt;&amp;lt; Qu&amp;apos;est-ce qu&amp;apos;un pipeline CI/CD ? &amp;gt;&amp;gt; au lieu de &amp;lt;&amp;lt; Qu&amp;apos;est-ce qu&amp;apos;une pipeline CI/CD ? &amp;gt;&amp;gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/238</id>
+    <title>#238 [Page] Conteneurs ou machines virtuelles : que choisir ?</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/238"/>
+    <updated>2026-11-27T08:53:21.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:containers, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Conteneurs ou machines virtuelles : que choisir ?
+
+### URL
+
+https://www.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/concepts/
+
+### Section
+
+Répérer les espaces de noms de votre machine
+
+### Ce que vous avez constaté / What you found
+
+La question &amp;quot;Quel programme, sans son chemin, occupe l&amp;apos;espace mnt qui compte le plus de processus (colonne NPROCS) dans la sortie de sudo lsns -t mnt ?&amp;quot; semble attendre init
+
+### Ce que vous attendiez / What you expected
+
+Chez moi c&amp;apos;est systemd qui compte le plus de processus
+
+### Informations complémentaires / Anythin&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/237</id>
+    <title>#237 [Page] Stratégies de déploiement : blue-green, canary, rolling</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/237"/>
+    <updated>2026-11-27T07:38:54.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+
+Stratégies de déploiement : blue-green, canary, rolling
+
+### URL
+
+https://www.stephane-robert.info/docs/devops/delivery/strategies-deploiement/
+
+### Section
+
+https://www.stephane-robert.info/docs/devops/delivery/strategies-deploiement/?formation=kubernetes#le-point-dur--les-migrations-de-base-de-donn%C3%A9es
+
+### Ce que vous avez constaté / What you found
+
+Dans la section &amp;quot;Le point dur : les migrations de base de données&amp;quot;, le deuxième paragraphe indique:
+
+```
+Le schéma montre les trois étapes dans l&amp;apos;ordre, chacune livrée dans un déploiement distinct. Regardez la dern&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/236</id>
@@ -30,38 +104,6 @@ https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvri
 Bonjour. J&amp;apos;ai chargé cachyos. mon shell est fish qui je le comprends n&amp;apos;est pas complètement compatible avec bash. Peut-être devriez vous mentionnee cela au début du cours avant que les étudiants ne chargent ce qu&amp;apos;ils veulent. Personnellement , j&amp;apos;ai chargé plusieurs distors, avant de trouver cchyos dont j&amp;apos;aime l&amp;apos;esthétique et la réactivité.
 
 ### Amélioration p&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/235</id>
-    <title>#235 [Page] Proxmox : installer le qemu-guest-agent dans une VM cloud-init</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/235"/>
-    <updated>2026-11-26T08:16:59.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Proxmox : installer le qemu-guest-agent dans une VM cloud-init
-
-### URL
-
-https://www.stephane-robert.info/docs/virtualiser/type1/proxmox/qemu-guest-agent/
-
-### Section
-
-#le-vrai-problème--trois-pièces-pas-une
-
-### Ce que vous avez constaté / What you found
-
-Dans le tableau, host et VM semblent inversés sur la 2ème colonne.
-apt install [..] et systemctl start [..] devraient se faire sur la VM et non sur le host
-
-### Ce que vous attendiez / What you expected
-
-inverser VM et host (invité)
-
-### Informations complémentaires / Anything else
-
-_No response_
-
-### Langue de la&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/234</id>
@@ -141,37 +183,11 @@ C&amp;apos;est un point de vue niveau &amp;quot;expert&amp;quot; ne gênant pas 
 Très concrètement, pas d&amp;apos;échange serveur à serveur.&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/230</id>
-    <title>#230 [Page] Cloud-init avec KVM : VMs prêtes en 2 minutes</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/230"/>
-    <updated>2026-11-23T16:43:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 3 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Cloud-init avec KVM : VMs prêtes en 2 minutes
-
-### URL
-
-https://www.stephane-robert.info/docs/virtualiser/type1/kvm/cloud-init/
-
-### Section
-
-#contrôle-de-connaissances
-
-### Ce que vous avez constaté / What you found
-
-Dans le quizz, la question suivante : 
-&amp;gt; Q1. Vous détruisez la VM, recréez son disque depuis l&amp;apos;image cloud d&amp;apos;origine et la redémarrez avec le même seed ISO. Rien n&amp;apos;est configuré. Pourquoi ?
-
-Attend la réponse suivante : 
-&amp;gt; Réponse correcte L&amp;apos;instance-id du meta-data n&amp;apos;a pas changé, cloud-init croit reconnaître la même instance
-&amp;gt;Cloud-init mémorise l&amp;apos;ins&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/224</id>
     <title>#224 [Amélioration] Provisionner avec Ansible depuis Terraform</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/224"/>
     <updated>2026-11-21T12:06:20.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 5 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Provisionner avec Ansible depuis Terraform
 
@@ -211,33 +227,11 @@ Les notions manquantes sur l&amp;apos;API REST sont les suivantes:
 Déjà commen&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/222</id>
-    <title>#222 [Amélioration] Bases réseau sous Linux</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/222"/>
-    <updated>2026-11-20T13:43:29.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Bases réseau sous Linux
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/reseau-services-logs/reseau-linux/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Les commandes ip addr show, ip route show et ip link show sont relativement longues à saisir.
-De plus, les débutants ne savent pas forcément que la commande ip accepte des formes abrégées pour désigner ses différents objets (address, route, link).
-
-Cette possibilité n&amp;apos;est pas forcément évidente lorsqu&amp;apos;on découvre les commandes réseau sous Linux.
-
-### Am&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/221</id>
     <title>#221 [Outdated] Portainer</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/221"/>
     <updated>2026-11-20T11:14:46.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, area:containers&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, area:containers&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page
 
 Portainer
 
@@ -269,7 +263,7 @@ Enfin il faut peut-être envisager de le remplacer par Arcane : https://github.c
     <title>#220 [Obsolète] LLM : comprendre les modèles de langage (Transformer, GPT, Llama)</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/220"/>
     <updated>2026-11-20T10:42:20.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 LLM : comprendre les modèles de langage (Transformer, GPT, Llama)
 
@@ -298,141 +292,11 @@ Des questions à propos du mécanisme d&amp;apos;attention (Query, Key, Value) s
 _No respons&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/219</id>
-    <title>#219 [Amélioration] Variables et paramètres Bash</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/219"/>
-    <updated>2026-11-20T10:14:47.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Variables et paramètres Bash
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/exploiter/scripts/variables-bash/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Bonjour,
-Dans la rubrique &amp;quot;Tableaux indexés&amp;quot;
-pour serveurs=(&amp;quot;web01&amp;quot; &amp;quot;web02&amp;quot; &amp;quot;db01&amp;quot; &amp;quot;cache01&amp;quot;)
-_echo &amp;quot;${serveurs[0]}&amp;quot;_ donne : 
-- Sous bash : &amp;quot;web01&amp;quot;
-- Sous zsh : &amp;quot;&amp;quot;    # (vide)
-
-sous zsh: echo &amp;quot;${serveurs[1]}&amp;quot; sort &amp;quot;web01&amp;quot;
-
-### Amélioration proposée / Proposed improvement
-
-Observation peut-être non pertinente. 
-zsh 5.9 (x86_64-ubuntu-linux-gnu)
-
-
-### Ce que cela&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/218</id>
-    <title>#218 [Amélioration] Variables et paramètres Bash</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/218"/>
-    <updated>2026-11-20T09:58:50.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Variables et paramètres Bash
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/exploiter/scripts/variables-bash/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-Bonjour, juste une observation :
-Dans la rubrique &amp;quot;Manipulation de chaînes&amp;quot;
-    _echo &amp;quot;${chemin^^}&amp;quot;_   
-    _echo &amp;quot;${chemin,,}&amp;quot;_   
-	
-ne fonctionnent pas sous **zsh** 5.9 (x86_64-ubuntu-linux-gnu)
-sortie : &amp;quot;zsh: bad substitution&amp;quot;
-Fonctionne sous Bash mais sous zsh !?
-
-### Amélioration proposée / Proposed improvement
-
-Est-il utile de le mentionner ?
-
-### Ce que c&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/216</id>
-    <title>#216 [Page] Exécuter des commandes distantes via SSH</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/216"/>
-    <updated>2026-11-19T16:19:59.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Exécuter des commandes distantes via SSH
-
-### URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/exploiter/ssh/commande-distance-ssh/
-
-### Section
-
-Passer un script local à distance
-
-### Ce que vous avez constaté / What you found
-
-Avec des arguments :
-ssh bob@192.168.1.10 &amp;quot;bash -s&amp;quot; &amp;lt; mon_script.sh -- --env production --dry-run
-
-### Ce que vous attendiez / What you expected
-
-Avec des arguments :
-ssh bob@192.168.1.10 &amp;quot;bash -s -- --env production --dry-run&amp;quot; &amp;lt; mon_script.sh
-
-### Informations complémentaires / Anything else
-
-_No response_
-
-### Langue de la pa&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/215</id>
-    <title>#215 Verification de l&apos;ISO Debian13  avec sha512sum et non plus sha256sum</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/215"/>
-    <updated>2026-11-19T14:42:38.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Installer Linux dans une machine virtuelle
-
-### URL
-
-https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/installer-vm/
-
-### Section
-
-Télécharger l&amp;apos;image ISO
-
-### Ce que vous avez constaté / What you found
-
-La vérification de l&amp;apos;ISO est indiquée avec un sha256 sur la page debian le hash de l&amp;apos;image est désormais un sha512sum
-
-### Ce que vous attendiez / What you expected
-
-utiliser sha512sum pour vérifier l&amp;apos;image
-
-### Informations complémentaires / Anything else
-
-_No response_
-
-### Langue de la page / Page language
-
-fr
-
-### Identifiant&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/213</id>
     <title>#213 [Amélioration] Généraliser l&apos;expérience des labs hors du pilote (reliquat #141, #142, #143, #146)</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/213"/>
     <updated>2026-11-19T08:13:30.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:high, area:site, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page / Page
 Expérience des labs (Mon apprentissage, bloc Lab, signalement)
 
 ### URL
@@ -449,7 +313,7 @@ Reliquat de #141, #142, #143 et #146, livrées le 2026-11-09 (fusions 0f8190d48 
     <title>#212 [PROOF] Prouver la mission « Encadrer l&apos;usage du cloud : garde-fous, coûts et souveraineté »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/212"/>
     <updated>2026-11-19T08:13:04.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `encadrer-l-usage-du-cloud`, qui mobilise 3 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
 
@@ -464,7 +328,7 @@ Construire la preuve de la mission `encadrer-l-usage-du-cloud`, qui mobilise 3 c
     <title>#211 [PROOF] Prouver Relire le code Python d&apos;un autre et faire contrôler le sien</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/211"/>
     <updated>2026-11-19T08:13:03.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Aucune mission sans preuve ne mobilise `dev.code.review` : créer sa preuve propre, attendue au niveau 4.
 
@@ -484,7 +348,7 @@ Aucune mission sans preuve ne mobilise `dev.code.review` : créer sa preuve prop
     <title>#210 [PROOF] Prouver la mission « Défendre une architecture cloud en revue »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/210"/>
     <updated>2026-11-19T08:13:03.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `defendre-une-architecture-cloud`, qui mobilise 3 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
 
@@ -499,7 +363,7 @@ Construire la preuve de la mission `defendre-une-architecture-cloud`, qui mobili
     <title>#209 [PROOF] Prouver la mission « Décider d&apos;une architecture cloud cible et écrire la décision »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/209"/>
     <updated>2026-11-19T08:13:02.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `decider-une-architecture-cloud`, qui mobilise 13 compétences ; 3 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
 
@@ -514,7 +378,7 @@ Construire la preuve de la mission `decider-une-architecture-cloud`, qui mobilis
     <title>#208 [PROOF] Prouver la mission « Concevoir le modèle d&apos;identité et d&apos;accès d&apos;un environnement cloud »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/208"/>
     <updated>2026-11-19T08:13:01.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `concevoir-les-acces-cloud`, qui mobilise 4 compétences ; 2 d’entre elles sont attendues au niveau 4 sans preuve qui le mesure.
 
@@ -529,7 +393,7 @@ Construire la preuve de la mission `concevoir-les-acces-cloud`, qui mobilise 4 c
     <title>#207 [PROOF] Prouver la mission « Évaluer une architecture existante et recommander ses évolutions »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/207"/>
     <updated>2026-11-19T08:13:00.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `analyser-une-architecture`, qui mobilise 6 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
 
@@ -544,7 +408,7 @@ Construire la preuve de la mission `analyser-une-architecture`, qui mobilise 6 c
     <title>#206 [LAB] Faire pratiquer Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/206"/>
     <updated>2026-11-19T08:12:59.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Faire pratiquer la compétence `cloud.resilience.design` en lab guidé.
 
@@ -564,7 +428,7 @@ Faire pratiquer la compétence `cloud.resilience.design` en lab guidé.
     <title>#205 [PROOF] Prouver la mission « Répartir un service cloud sur plusieurs zones et le restaurer hors du compte »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/205"/>
     <updated>2026-11-19T08:12:58.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `sauvegarder-hors-compte`, qui mobilise 2 compétences ; 1 d’entre elles est attendue au niveau 4 sans preuve qui le mesure.
 
@@ -582,7 +446,7 @@ Construire la preuve de la mission `sauvegarder-hors-compte`, qui mobilise 2 com
     <title>#204 [PROOF] Prouver la mission « Concevoir la continuité d&apos;une architecture cloud »</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/204"/>
     <updated>2026-11-19T08:12:58.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:high, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Construire la preuve de la mission `concevoir-la-continuite-cloud`, qui mobilise 3 compétences, toutes attendues au niveau 4 sans preuve qui le mesure.
 
@@ -593,213 +457,11 @@ Construire la preuve de la mission `concevoir-la-continuite-cloud`, qui mobilise
 - `arch.ops.assess` : Juger l&amp;apos;exploitation d&amp;apos;une architecture : reprise, accès d&amp;apos;administration, détection et impact (https://www.stephane-robe&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/202</id>
-    <title>#202 [Page] Diagnostiquer un pipeline OpenTelemetry qui ne livre rien</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/202"/>
-    <updated>2026-11-18T14:07:36.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Diagnostiquer un pipeline OpenTelemetry qui ne livre rien
-
-### URL
-
-https://www.stephane-robert.info/docs/outils/observabilite/collecte-pipeline/diagnostiquer-pipeline-opentelemetry/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Agent et gateway : on déclare `otlp_grpc`, `otlp_grpc/tempo` et `prometheus_remote_write` sans les mettre dans `service.pipelines`
-
-Alors: Le chart fusionne ces valeurs avec sa configuration par défaut, dont les pipelines n’exportent que vers debug. Un exporter déclaré mais absent d’un pipeline ne sert à rien : &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/201</id>
-    <title>#201 [Page] OpenTelemetry : Instrumentation universelle</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/201"/>
-    <updated>2026-11-18T13:50:52.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-OpenTelemetry : Instrumentation universelle
-
-### URL
-
-https://www.stephane-robert.info/docs/outils/observabilite/instrumentation/opentelemetry/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-« gRPC 4317 : par défaut ». Option 2 Java `(-Dotel.exporter.otlp.endpoint=…:4317`) et Node `(--require …/register, …:4317`) ; section Java de la leçon instrumentation.
-
-Pour moi, la spécification fixe `http/protobuf` comme protocole par défaut. L’agent Java 2.x et le SDK JS l’utilisent : ils envoient du HTTP sur le port gRPC et échouent. Python et .N&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/200</id>
-    <title>#200 [Page] Prometheus : métriques et PromQL</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/200"/>
-    <updated>2026-11-18T13:38:37.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:observability, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Prometheus : métriques et PromQL
-
-### URL
-
-https://www.stephane-robert.info/docs/observabilite/labs/02-prometheus/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-`kubeStateMetrics.enabled`, `nodeExporter.enabled`, `pushgateway.enabled: false` « activent ou désactivent » les composants
-
-Ce sont les anciennes clés. Le chart 29.x attend `kube-state-metrics`,` prometheus-node-exporter` et` prometheus-pushgateway` : ces valeurs sont ignorées. KSM et node-exporter tournent par hasard (activés par défaut), et le Pushgateway est installé malgré`&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/199</id>
-    <title>#199 [Page] Exporters Prometheus</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/199"/>
-    <updated>2026-11-18T11:03:32.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 8 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Exporters Prometheus
-
-### URL
-
-https://www.stephane-robert.info/docs/outils/observabilite/metriques/prometheus/exporters/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-Dans la configuration des exporters au niveau de `mysqld-exporter:v0.20.0`, il est lancé avec` -e DATA_SOURCE_NAME=…`
-
-Sauf erreur de ma part il n&amp;apos;est plus valable de nos jours. 
-
-### Ce que vous attendiez / What you expected
-
-Cette variable a été supprimée en v0.15 (2023). L’exporter démarre sans connexion.
-
-je pense qu&amp;apos;il faut dire : `--mysqld.address, --mysqld.username&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/196</id>
-    <title>#196 [Amélioration] Publier et consommer des artefacts avec Pulp</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/196"/>
-    <updated>2026-11-17T15:43:09.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 9 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Publier et consommer des artefacts avec Pulp
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/developper/artefacts/pulp/publier-consommer/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-le code suivant crée une publication mais utilise le lien avec le repository
-&amp;quot;pulp python publication create --repository equipe
-pulp python distribution create \
-  --name equipe \
-  --base-path equipe \
-  --repository equipe
-&amp;quot;
-
-
-
-### Amélioration proposée / Proposed improvement
-
-
-la doc de la commande précise que les arguments &amp;quot;repository&amp;quot; et &amp;quot;publication&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/193</id>
-    <title>#193 [Page] Variables et fonctions Packer</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/193"/>
-    <updated>2026-11-16T18:03:25.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 10 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Variables et fonctions Packer
-
-### URL
-
-https://www.stephane-robert.info/docs/infra-as-code/provisionnement/packer/variables-fonctions/
-
-### Section
-
-Exemple pratique complet
-
-### Ce que vous avez constaté / What you found
-
-La commande `packer validate -var-file=dev.pkvars.hcl .` renvoie une erreur :
-
-```bash
-Error: Invalid value for varfile variable
-
-  on dev.pkvars.hcl line 2:
-  (source code not available)
-
-Format X.Y.Z requis.
-
-This was checked by the validation rule at variables.pkr.hcl:17,3-13.
-```
-
-En effet, la validation de la variable ne prends pas en charge &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/190</id>
-    <title>#190 [Page] FastAPI : créer une API REST en Python</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/190"/>
-    <updated>2026-11-15T16:12:38.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 11 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-FastAPI : créer une API REST en Python
-
-### URL
-
-https://www.stephane-robert.info/docs/developper/programmation/python/fastapi/
-
-### Section
-
-_No response_
-
-### Ce que vous avez constaté / What you found
-
-la commande &amp;quot;uvicorn main:app --reload&amp;quot; pour lancer le serveur doit être remplacée chez moi par &amp;quot;env/bin/uvicorn test:app --reload&amp;quot;
-configuration:
-windows 11
-WSL2  avec Ubuntu 24.04
-
-
-
-### Ce que vous attendiez / What you expected
-
-_No response_
-
-### Informations complémentaires / Anything else
-
-_No response_
-
-### Langue de la page / Page language
-
-fr
-
-### Identifia&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/161</id>
     <title>#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/161"/>
     <updated>2026-11-05T08:57:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 21 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Loki : centralisation des logs
 
@@ -868,7 +530,7 @@ quand une variante publiée existe, qui annonce l&amp;apos;objectif et les con&l
     <title>#116 [Amélioration] Provisionner avec Ansible depuis Terraform</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/116"/>
     <updated>2026-11-09T09:25:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 33 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 34 j &amp;middot; 1 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Provisionner avec Ansible depuis Terraform
 
@@ -911,7 +573,7 @@ Le quiz sur local regroupe des questions sur les autres parties qui n&amp;apos;o
     <title>#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/79"/>
     <updated>2026-10-09T10:30:45.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 48 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 49 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/cache/
 
 ## Manque
 
@@ -928,7 +590,7 @@ La leçon « Cache » de la formation Architecture des services cite Redis, Valk
     <title>#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/78"/>
     <updated>2026-10-09T10:30:44.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 48 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:low, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 49 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/taches-de-fond-et-workflows/
 
 ## Manque
 
@@ -945,7 +607,7 @@ La leçon « Tâches de fond, ordonnanceurs et workflows » présente le moteur 
     <title>#77 [Guide] RabbitMQ : files durables, acquittement et dead letter</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/77"/>
     <updated>2026-10-09T10:30:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 48 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 49 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/files-et-brokers/
 
 ## Manque
 
@@ -963,7 +625,7 @@ La leçon « Files de messages et brokers » de la formation Architecture des se
     <title>#76 [Guide] Kafka : journal d&apos;événements, partitions, groupes et rétention</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/76"/>
     <updated>2026-10-09T10:30:41.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 48 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, source:author&lt;/strong&gt; &amp;middot; ouverte depuis 49 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;**Page concernée** : https://blog.stephane-robert.info/docs/services/architecture/publication-abonnement-et-flux/
 
 ## Manque
 
