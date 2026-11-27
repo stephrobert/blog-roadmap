@@ -7,103 +7,155 @@
   <updated>2026-11-27T00:00:00.000Z</updated>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues?rappel=2026-11-27</id>
-    <title>31 issue(s) ouverte(s) depuis plus de 7 jours</title>
+    <title>30 issue(s) ouverte(s) depuis plus de 7 jours</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc"/>
-    <updated>2026-11-27T12:14:37.871Z</updated>
-    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/221&quot;&gt;#221 [Outdated] Portainer&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/220&quot;&gt;#220 [Obsolète] LLM : comprendre les modèles de langage (Transformer, GPT, Llama)&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/213&quot;&gt;#213 [Amélioration] Généraliser l&amp;apos;expérience des labs hors du pilote (reliquat #141, #142, #143, #146)&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/212&quot;&gt;#212 [PROOF] Prouver la mission « Encadrer l&amp;apos;usage du cloud : garde-fous, coûts et souveraineté »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/211&quot;&gt;#211 [PROOF] Prouver Relire le code Python d&amp;apos;un autre et faire contrôler le sien&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/210&quot;&gt;#210 [PROOF] Prouver la mission « Défendre une architecture cloud en revue »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/209&quot;&gt;#209 [PROOF] Prouver la mission « Décider d&amp;apos;une architecture cloud cible et écrire la décision »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/208&quot;&gt;#208 [PROOF] Prouver la mission « Concevoir le modèle d&amp;apos;identité et d&amp;apos;accès d&amp;apos;un environnement cloud »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/207&quot;&gt;#207 [PROOF] Prouver la mission « Évaluer une architecture existante et recommander ses évolutions »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/206&quot;&gt;#206 [LAB] Faire pratiquer Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/205&quot;&gt;#205 [PROOF] Prouver la mission « Répartir un service cloud sur plusieurs zones et le restaurer hors du compte »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/204&quot;&gt;#204 [PROOF] Prouver la mission « Concevoir la continuité d&amp;apos;une architecture cloud »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (26 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (34 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (35 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (51 j)&lt;/li&gt;&lt;/ul&gt;</content>
+    <updated>2026-11-27T18:11:14.193Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/221&quot;&gt;#221 [Outdated] Portainer&lt;/a&gt; (7 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/213&quot;&gt;#213 [Amélioration] Généraliser l&amp;apos;expérience des labs hors du pilote (reliquat #141, #142, #143, #146)&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/212&quot;&gt;#212 [PROOF] Prouver la mission « Encadrer l&amp;apos;usage du cloud : garde-fous, coûts et souveraineté »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/211&quot;&gt;#211 [PROOF] Prouver Relire le code Python d&amp;apos;un autre et faire contrôler le sien&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/210&quot;&gt;#210 [PROOF] Prouver la mission « Défendre une architecture cloud en revue »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/209&quot;&gt;#209 [PROOF] Prouver la mission « Décider d&amp;apos;une architecture cloud cible et écrire la décision »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/208&quot;&gt;#208 [PROOF] Prouver la mission « Concevoir le modèle d&amp;apos;identité et d&amp;apos;accès d&amp;apos;un environnement cloud »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/207&quot;&gt;#207 [PROOF] Prouver la mission « Évaluer une architecture existante et recommander ses évolutions »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/206&quot;&gt;#206 [LAB] Faire pratiquer Placer un workload en zones et régions pour tenir une cible de disponibilité, de RTO et de RPO, et le prouver&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/205&quot;&gt;#205 [PROOF] Prouver la mission « Répartir un service cloud sur plusieurs zones et le restaurer hors du compte »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/204&quot;&gt;#204 [PROOF] Prouver la mission « Concevoir la continuité d&amp;apos;une architecture cloud »&lt;/a&gt; (8 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/161&quot;&gt;#161 [Obsolète] Loki : centralisation des logs - Incompatibilité de version avec Grafana, lab impossible à suivre.&lt;/a&gt; (22 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/160&quot;&gt;#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps&lt;/a&gt; (23 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/145&quot;&gt;#145 [Amélioration] Relier un lab à des variantes de transfert, résultats distincts&lt;/a&gt; (26 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/116&quot;&gt;#116 [Amélioration] Provisionner avec Ansible depuis Terraform&lt;/a&gt; (34 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/104&quot;&gt;#104 [Page] Locals Terraform : valeurs locales et leurs pièges&lt;/a&gt; (36 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/79&quot;&gt;#79 [Guide] Redis et Valkey : cache, persistance et haute disponibilité&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/78&quot;&gt;#78 [Guide] Moteur de workflow (Temporal ou Argo Workflows) : reprise et compensation&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/77&quot;&gt;#77 [Guide] RabbitMQ : files durables, acquittement et dead letter&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/76&quot;&gt;#76 [Guide] Kafka : journal d&amp;apos;événements, partitions, groupes et rétention&lt;/a&gt; (49 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/65&quot;&gt;#65 [QUIZ] Évaluer Construire une image OCI&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/64&quot;&gt;#64 [QUIZ] Évaluer Sécuriser l&amp;apos;installation et les conteneurs&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/63&quot;&gt;#63 [QUIZ] Compléter l’évaluation du parcours Outscale&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/60&quot;&gt;#60 [QUIZ] Évaluer Écrire un outil en ligne de commande testé&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/59&quot;&gt;#59 [QUIZ] Évaluer Lire et transformer des données (JSON, YAML, API)&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/58&quot;&gt;#58 [PROOF] Prouver la mission « Publier un chart Helm de référence pour les équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/56&quot;&gt;#56 [LAB] Faire pratiquer Diagnostiquer le réseau et lire les journaux&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/55&quot;&gt;#55 [PROOF] Prouver la mission « Standardiser la CI d&amp;apos;une équipe »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/52&quot;&gt;#52 [PROOF] Prouver la mission « Fournir l&amp;apos;observabilité aux équipes »&lt;/a&gt; (51 j)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/stephrobert/blog-roadmap/issues/51&quot;&gt;#51 [LAB] Faire pratiquer Installer et maintenir des logiciels&lt;/a&gt; (51 j)&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/239</id>
-    <title>#239 [Page] Parcours DevSecOps : programme et suivi de progression</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/239"/>
-    <updated>2026-11-27T09:00:27.000Z</updated>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/246</id>
+    <title>#246 [Page] Claude Code CLI : mode plan, diff et validations disciplinées</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/246"/>
+    <updated>2026-11-27T16:33:20.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
-Parcours DevSecOps : programme et suivi de progression
+Claude Code CLI : mode plan, diff et validations disciplinées
 
 ### URL
 
-https://www.stephane-robert.info/docs/devops/parcours/
+https://www.stephane-robert.info/docs/developper/autres-outils/claude-code/mode-plan-diff-validations/
 
 ### Section
 
-Le système de livraison
+https://www.stephane-robert.info/docs/developper/autres-outils/claude-code/mode-plan-diff-validations/#%C3%A9tape-4--relire-un-diff-en-30-secondes
 
 ### Ce que vous avez constaté / What you found
 
-Dans la section &amp;lt;&amp;lt;Le système de livraison &amp;gt;&amp;gt;, le titre du chapitre &amp;lt;&amp;lt; Qu&amp;apos;est-ce qu&amp;apos;une pipeline CI/CD &amp;gt;&amp;gt; contient une erreur grammaticale concernant le genre du mot pipeline.
+si la réponse est &amp;quot;non&amp;quot; à la première des 3 questions (&amp;quot;_Les fichiers touchés sont-ils dans le périmètre annoncé ?_&amp;quot;) alors il ne faut bien évidemment pas accepter les modifications
 
-En français, le terme pipeline est masculin dans le contexte informatique. Il convient donc d&amp;apos;écrire &amp;lt;&amp;lt; Qu&amp;apos;est-ce qu&amp;apos;un pipeline CI/CD ? &amp;gt;&amp;gt; au lieu de &amp;lt;&amp;lt; Qu&amp;apos;est-ce qu&amp;apos;une pipeline CI/CD ? &amp;gt;&amp;gt;&lt;/p&gt;</content>
+### C&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/238</id>
-    <title>#238 [Page] Conteneurs ou machines virtuelles : que choisir ?</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/238"/>
-    <updated>2026-11-27T08:53:21.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, area:containers, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <id>https://github.com/stephrobert/blog-roadmap/issues/245</id>
+    <title>#245 [Amélioration] Le bloc removed Terraform : léguer une ressource sans la détruire</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/245"/>
+    <updated>2026-11-27T14:39:14.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
-Conteneurs ou machines virtuelles : que choisir ?
-
-### URL
-
-https://www.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/concepts/
-
-### Section
-
-Répérer les espaces de noms de votre machine
-
-### Ce que vous avez constaté / What you found
-
-La question &amp;quot;Quel programme, sans son chemin, occupe l&amp;apos;espace mnt qui compte le plus de processus (colonne NPROCS) dans la sortie de sudo lsns -t mnt ?&amp;quot; semble attendre init
-
-### Ce que vous attendiez / What you expected
-
-Chez moi c&amp;apos;est systemd qui compte le plus de processus
-
-### Informations complémentaires / Anythin&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/237</id>
-    <title>#237 [Page] Stratégies de déploiement : blue-green, canary, rolling</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/237"/>
-    <updated>2026-11-27T07:38:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-error, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-Stratégies de déploiement : blue-green, canary, rolling
-
-### URL
-
-https://www.stephane-robert.info/docs/devops/delivery/strategies-deploiement/
-
-### Section
-
-https://www.stephane-robert.info/docs/devops/delivery/strategies-deploiement/?formation=kubernetes#le-point-dur--les-migrations-de-base-de-donn%C3%A9es
-
-### Ce que vous avez constaté / What you found
-
-Dans la section &amp;quot;Le point dur : les migrations de base de données&amp;quot;, le deuxième paragraphe indique:
-
-```
-Le schéma montre les trois étapes dans l&amp;apos;ordre, chacune livrée dans un déploiement distinct. Regardez la dern&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/236</id>
-    <title>#236 [Amélioration] Notions fondamentales Linux</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/236"/>
-    <updated>2026-11-26T14:28:21.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, area:linux, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Notions fondamentales Linux
+Le bloc removed Terraform : léguer une ressource sans la détruire
 
 ### URL de la page / Page URL
 
-https://www.stephane-robert.info/docs/admin-serveurs/linux/fondamentaux/decouvrir-linux/notions/
+https://www.stephane-robert.info/docs/infra-as-code/provisionnement/terraform/state/bloc-removed/
 
 ### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
 
-Bonjour. J&amp;apos;ai chargé cachyos. mon shell est fish qui je le comprends n&amp;apos;est pas complètement compatible avec bash. Peut-être devriez vous mentionnee cela au début du cours avant que les étudiants ne chargent ce qu&amp;apos;ils veulent. Personnellement , j&amp;apos;ai chargé plusieurs distors, avant de trouver cchyos dont j&amp;apos;aime l&amp;apos;esthétique et la réactivité.
+Cette leçon apporte peu de nouvelles informations par rapport à la leçon précédente &amp;quot;terraform state rm et le bloc removed : cesser de gérer sans détruire&amp;quot; (notamment le paragraphe Comment désenregistrer un objet avant qu&amp;apos;il quitte Terraform)
 
-### Amélioration p&lt;/p&gt;</content>
+### Amélioration proposée / Proposed improvement
+
+Fusionner les deux leçons
+
+#&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/244</id>
+    <title>#244 [Amélioration] GitLab CI : durcir vos pipelines en 10 mesures</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/244"/>
+    <updated>2026-11-27T14:30:27.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+
+GitLab CI : durcir vos pipelines en 10 mesures
+
+### URL de la page / Page URL
+
+https://www.stephane-robert.info/docs/pipeline-cicd/gitlab/securite/durcissement/
+
+### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
+
+La question (un peu un point de détail) concerne la mesure 2 (Mesure 2, Désactiver le mode privileged sur les runners).
+
+La doc officielle de gitlab propose également comme solution pour le build d&amp;apos;image docker la possibiliité d&amp;apos;utiliser le service docker-in-docker en mode rootless, en filtrant les services privilégiés uniquement sur des images rootless, &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/243</id>
+    <title>#243 [QUIZ] Évaluer Publier une image sur un registre : jeton d&apos;accès, tag et digest</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/243"/>
+    <updated>2026-11-27T13:09:41.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:containers, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Créer l’évaluation qui permet de confirmer la compétence `container.image.publish`.
+
+&amp;lt;!-- coverage-key: skill=container.image.publish;artifact=quiz --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `container.image.publish` : Publier une image sur un registre : jeton d&amp;apos;accès, tag et digest (https://www.stephane-robert.info/competences/container-image-publish/)
+
+### Pourquoi maintenant
+- `container.image.publish` · devsecops : cœur, niveau 3
+- `container.image.publish` · ingenieur-cicd : cœur, niveau 3
+- `container.image.publish` · platform-engineer : cœur, niveau 3
+- priorité &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/242</id>
+    <title>#242 [LAB] Faire pratiquer Faire accéder un workload à un service cloud sans identifiant de longue durée sur disque</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/242"/>
+    <updated>2026-11-27T13:09:40.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Faire pratiquer la compétence `cloud.workload.identity` en lab guidé.
+
+&amp;lt;!-- coverage-key: skill=cloud.workload.identity;artifact=lab --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.workload.identity` : Faire accéder un workload à un service cloud sans identifiant de longue durée sur disque (https://www.stephane-robert.info/competences/cloud-workload-identity/)
+
+### Pourquoi maintenant
+- `cloud.workload.identity` · architecte-cloud : cœur, niveau 3
+- `cloud.workload.identity` · cloud-engineer : indispensable, niveau 3
+- priorité : P1
+- score : 10 (indispensable (+5), 2&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/241</id>
+    <title>#241 [LAB] Faire pratiquer Exposer une application privée par répartiteur, sonde de santé, DNS, TLS et bordure</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/241"/>
+    <updated>2026-11-27T13:09:39.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Faire pratiquer la compétence `cloud.exposure.design` en lab guidé.
+
+&amp;lt;!-- coverage-key: skill=cloud.exposure.design;artifact=lab --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.exposure.design` : Exposer une application privée par répartiteur, sonde de santé, DNS, TLS et bordure (https://www.stephane-robert.info/competences/cloud-exposure-design/)
+
+### Pourquoi maintenant
+- `cloud.exposure.design` · architecte-cloud : cœur, niveau 3
+- `cloud.exposure.design` · cloud-engineer : indispensable, niveau 3
+- priorité : P1
+- score : 10 (indispensable (+5), 2 métiers (+2), sa&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/stephrobert/blog-roadmap/issues/240</id>
+    <title>#240 [LAB] Faire pratiquer Estimer le coût mensuel d&apos;une architecture cloud à partir de grilles tarifaires datées</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/240"/>
+    <updated>2026-11-27T13:09:38.000Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 0 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
+
+Faire pratiquer la compétence `cloud.cost.estimate` en lab guidé.
+
+&amp;lt;!-- coverage-key: skill=cloud.cost.estimate;artifact=lab --&amp;gt;
+&amp;lt;!-- coverage-managed:start --&amp;gt;
+### Compétences
+- `cloud.cost.estimate` : Estimer le coût mensuel d&amp;apos;une architecture cloud à partir de grilles tarifaires datées (https://www.stephane-robert.info/competences/cloud-cost-estimate/)
+
+### Pourquoi maintenant
+- `cloud.cost.estimate` · architecte-cloud : cœur, niveau 3
+- `cloud.cost.estimate` · cloud-engineer : indispensable, niveau 3
+- priorité : P1
+- score : 10 (indispensable (+5), 2 métiers (+2), sans pratiq&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/234</id>
@@ -147,7 +199,7 @@ en/docs/pipeline-cicd/gitlab/certifications/cicd-associate&lt;/p&gt;</content>
     <title>#233 [Amélioration] Protéger une API par jetons d&apos;accès avec Keycloak</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/233"/>
     <updated>2026-11-25T14:31:54.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Protéger une API par jetons d&amp;apos;accès avec Keycloak
 
@@ -168,7 +220,7 @@ Ajouter un par&lt;/p&gt;</content>
     <title>#232 [Amélioration] OpenID Connect (OIDC) : authentification moderne et SSO</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/232"/>
     <updated>2026-11-25T14:22:48.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 1 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 2 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 OpenID Connect (OIDC) : authentification moderne et SSO
 
@@ -204,29 +256,6 @@ Ce n&amp;apos;est pas très clair pourquoi on utilise cloud-init dans cette leç
 Expliquer les raisons d&amp;apos;utiliser cloud-ini&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/223</id>
-    <title>#223 [Amélioration] Appeler une API REST avec Python et requests</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/223"/>
-    <updated>2026-11-20T23:32:42.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 6 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
-
-Appeler une API REST avec Python et requests
-
-### URL de la page / Page URL
-
-https://www.stephane-robert.info/docs/developper/api-rest/
-
-### Ce qui gêne aujourd&amp;apos;hui / What gets in the way
-
-L&amp;apos;API REST ici est vraiment traité du point de vu d&amp;apos;un ops si je ne m&amp;apos;abuse. Je pense qu&amp;apos;il manque des notions importantes sur les API REST. Après c&amp;apos;est un choix éditorial, est-ce qu&amp;apos;on ne pourrait pas mettre une page exclusivement sur ce qu&amp;apos;est une API REST ?
-
-### Amélioration proposée / Proposed improvement
-
-Les notions manquantes sur l&amp;apos;API REST sont les suivantes:
-
-Déjà commen&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/221</id>
     <title>#221 [Outdated] Portainer</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/221"/>
@@ -257,39 +286,6 @@ D&amp;apos;une part, la version de portainer : 2.45.4 =&amp;gt; https://github.c
 D&amp;apos;autre part, je pense qu&amp;apos;il faut envisager un changement d&amp;apos;outil car la version 3 CE n&amp;apos;existera pas...
 
 Enfin il faut peut-être envisager de le remplacer par Arcane : https://github.com/getarcaneapp/arcane En effet, couplé avec ArgoCD par exemple, c&amp;apos;est le couple pour à la fois gér&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/stephrobert/blog-roadmap/issues/220</id>
-    <title>#220 [Obsolète] LLM : comprendre les modèles de langage (Transformer, GPT, Llama)</title>
-    <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/220"/>
-    <updated>2026-11-20T10:42:20.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:outdated, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 7 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
-
-LLM : comprendre les modèles de langage (Transformer, GPT, Llama)
-
-### URL
-
-https://www.stephane-robert.info/docs/developper/programmation/python/llm/
-
-### Technologie concernée / Technology
-
-Mécanisme d&amp;apos;attention : (Query, Key, Value)
-
-### Version présentée par la page / Version shown
-
-_No response_
-
-### Version actuelle / Current version
-
-_No response_
-
-### Ce qui est devenu faux / What is now wrong
-
-Des questions à propos du mécanisme d&amp;apos;attention (Query, Key, Value) sont dans le quiz, mais ces concepts ne sont jamais expliqués sur la page.
-
-### Source
-
-_No respons&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/213</id>
@@ -492,7 +488,7 @@ Echantillon de logs &lt;/p&gt;</content>
     <title>#160 [Amélioration] Grafana sur Kubernetes : dashboards avec Helm et GitOps</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/160"/>
     <updated>2026-11-04T12:23:24.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 22 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 23 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;### Titre de la page / Page
 
 Grafana sur Kubernetes : dashboards avec Helm et GitOps
 
@@ -549,7 +545,7 @@ Mon problème était que la VM se déployait sans souci via Terraform, mais apr�
     <title>#104 [Page] Locals Terraform : valeurs locales et leurs pièges</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/104"/>
     <updated>2026-11-09T09:25:40.000Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:low, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 35 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
+    <content type="html">&lt;p&gt;&lt;strong&gt;type:enhancement, priority:low, area:terraform, source:reader&lt;/strong&gt; &amp;middot; ouverte depuis 36 j &amp;middot; 2 commentaire(s)&lt;/p&gt;&lt;p&gt;### Page concernée / Page
 
 Locals Terraform : valeurs locales et leurs pièges
 
@@ -684,7 +680,7 @@ Créer l’évaluation qui permet de confirmer la compétence `container.secure`
     <id>https://github.com/stephrobert/blog-roadmap/issues/63</id>
     <title>#63 [QUIZ] Compléter l’évaluation du parcours Outscale</title>
     <link rel="alternate" type="text/html" href="https://github.com/stephrobert/blog-roadmap/issues/63"/>
-    <updated>2026-11-19T08:13:12.000Z</updated>
+    <updated>2026-11-27T13:09:42.000Z</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;type:content-request, priority:medium, area:cloud, source:automated&lt;/strong&gt; &amp;middot; ouverte depuis 51 j &amp;middot; 0 commentaire(s)&lt;/p&gt;&lt;p&gt;## Objectif
 
 Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont évaluées pour une autre option, pas pour celle-ci. La liste est recalculée à chaque synchronisation : une compétence en sort quand son quiz existe, et l’issue se ferme avec la dernière.
@@ -692,8 +688,8 @@ Créer les quiz de l’option `outscale` : les 7 compétences ci-dessous sont é
 &amp;lt;!-- coverage-key: bundle=quiz-option-outscale --&amp;gt;
 &amp;lt;!-- coverage-managed:start --&amp;gt;
 ### Compétences
-- [ ] `cloud.account.access` : Accéder à son compte cloud et le piloter en ligne de commande (https://www.stephane-robert.info/competences/cloud-account-access/)
-- [ ] `cloud.compute.provision` : Dimensionner, créer et détruire&lt;/p&gt;</content>
+- [ ] `cloud.compute.provision` : Dimensionner, créer et détruire des instances cloud, GPU compris (https://www.stephane-robert.info/competences/cloud-compute-provision/)
+- [ ] `cloud.fleet.configure` : Configurer une flotte cl&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/stephrobert/blog-roadmap/issues/60</id>
